@@ -62,7 +62,8 @@ python exp_mqt_qubit_sweep.py # scaling sweep (9 -> 49 qubits)
 | `exp_lightsabre_comparison.py` | `lightsabre_comparison_perrun.json` | vs basic/lookahead/decay (672/800) |
 | `exp_mqt_qubit_sweep.py` | `mqt_qubit_sweep.json` | scaling figure (to 49 qubits) |
 | `exp_mapping_routing_misalignment.py` | `mapping_routing_misalignment.json` | initial-mapping gap (§5.1) |
-| `exp_ibm_hardware.py` | `ibm_hw_*.json` | §5.4 hardware (1.7× / 3.6×) |
+| `exp_ibm_lambda_sweep.py` | `ibm_lambda_sweep_bestregion.json` (low-error subgraph), `ibm_lambda_sweep_cap15.json` (noisy control) | §5.4 hardware headline (1.7× / 3.6×; noisy 0.9×) |
+| `exp_ibm_hardware.py` | `ibm_hw_*.json` | §5.4 supporting hardware runs |
 | `eval_rl_capped35.py` | `rl_capped35.json` | §5.6 RL ablation (8/9) |
 | `paper_numbers.py` | (reads the above) | prints all headline tables |
 
@@ -81,10 +82,15 @@ python exp_mqt_qubit_sweep.py # scaling sweep (9 -> 49 qubits)
 ## 6. Hardware runs
 
 The on-device results were run on `ibm_marrakesh` (156-qubit IBM Heron r2). The
-IBM job identifiers are recorded in the `ibm_hw_*.json` / `ibm_lambda_sweep_*.json`
-result files (the `job_id` field), so the original device jobs can be inspected via
-the IBM Quantum platform. Re-running `exp_ibm_hardware.py` requires an IBM Quantum
-account and will submit new jobs.
+headline fidelity result (1.7×/3.6× on the low-error subgraph, 0.9× on the noisy
+control) is produced by `exp_ibm_lambda_sweep.py` and stored in
+`ibm_lambda_sweep_bestregion.json` and `ibm_lambda_sweep_cap15.json`; supporting
+runs use `exp_ibm_hardware.py` (`ibm_hw_*.json`). The IBM job identifier of each run
+is recorded in the result file (the `job_id` field), so the **original** device jobs
+can be inspected on the IBM Quantum platform. Note that re-running these scripts
+submits **new** jobs on whatever qubits are calibrated that day; because device
+performance drifts, fresh runs confirm the pipeline works but will not reproduce the
+exact historical fidelities — those are pinned by the recorded job IDs.
 
 ## 7. RL-router ablation
 
