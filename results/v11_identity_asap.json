@@ -1,0 +1,82 @@
+{
+  "linear5/random": {
+    "topology": "linear5",
+    "family": "random",
+    "n_circuits": 100,
+    "length": 10,
+    "sabre_K1": 38.9,
+    "sabre_K20": 37.36,
+    "v11_det": 32.92,
+    "v11_K20": 26.24
+  },
+  "linear5/qft": {
+    "topology": "linear5",
+    "family": "qft",
+    "n_circuits": 100,
+    "length": 10,
+    "sabre_K1": 56.46,
+    "sabre_K20": 47.52,
+    "v11_det": 38.48,
+    "v11_K20": 30.98
+  },
+  "linear5/parallel": {
+    "topology": "linear5",
+    "family": "parallel",
+    "n_circuits": 100,
+    "length": 10,
+    "sabre_K1": 36.84,
+    "sabre_K20": 35.88,
+    "v11_det": 33.36,
+    "v11_K20": 26.64
+  },
+  "linear5/trotter": {
+    "topology": "linear5",
+    "family": "trotter",
+    "n_circuits": 100,
+    "length": 10,
+    "sabre_K1": 37.18,
+    "sabre_K20": 34.44,
+    "v11_det": 36.92,
+    "v11_K20": 29.7
+  },
+  "tshape5/random": {
+    "topology": "tshape5",
+    "family": "random",
+    "n_circuits": 100,
+    "length": 10,
+    "sabre_K1": 35.84,
+    "sabre_K20": 34.88,
+    "v11_det": 39.22,
+    "v11_K20": 32.58
+  },
+  "tshape5/qft": {
+    "topology": "tshape5",
+    "family": "qft",
+    "n_circuits": 100,
+    "length": 10,
+    "sabre_K1": 52.06,
+    "sabre_K20": 46.18,
+    "v11_det": 40.16,
+    "v11_K20": 34.68
+  },
+  "tshape5/parallel": {
+    "topology": "tshape5",
+    "family": "parallel",
+    "n_circuits": 100,
+    "length": 10,
+    "sabre_K1": 36.46,
+    "sabre_K20": 35.34,
+    "v11_det": 35.1,
+    "v11_K20": 29.86
+  },
+  "tshape5/trotter": {
+    "topology": "tshape5",
+    "family": "trotter",
+    "n_circuits": 100,
+    "length": 10,
+    "sabre_K1": 55.52,
+    "sabre_K20": 55.16,
+    "v11_det": 52.0,
+    "v11_K20": 47.02
+  }
+}

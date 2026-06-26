@@ -1,0 +1,242 @@
+{
+  "topology": "linear5",
+  "K": 20,
+  "by_family": {
+    "qft": {
+      "n": 6,
+      "lambda": 0.1,
+      "per_circuit": [
+        {
+          "ci": 0,
+          "sabre": 80.0,
+          "ms": 82.0,
+          "baseline_rl": 76.0,
+          "v19_rl": 76.0,
+          "sabre_shaped_rl": 67.0
+        },
+        {
+          "ci": 1,
+          "sabre": 88.0,
+          "ms": 82.0,
+          "baseline_rl": 83.0,
+          "v19_rl": 76.0,
+          "sabre_shaped_rl": 87.0
+        },
+        {
+          "ci": 2,
+          "sabre": 88.0,
+          "ms": 82.0,
+          "baseline_rl": 83.0,
+          "v19_rl": 76.0,
+          "sabre_shaped_rl": 87.0
+        },
+        {
+          "ci": 3,
+          "sabre": 86.0,
+          "ms": 79.0,
+          "baseline_rl": 67.0,
+          "v19_rl": 67.0,
+          "sabre_shaped_rl": 67.0
+        },
+        {
+          "ci": 4,
+          "sabre": 86.0,
+          "ms": 82.0,
+          "baseline_rl": 67.0,
+          "v19_rl": 67.0,
+          "sabre_shaped_rl": 67.0
+        },
+        {
+          "ci": 5,
+          "sabre": 80.0,
+          "ms": 79.0,
+          "baseline_rl": 67.0,
+          "v19_rl": 67.0,
+          "sabre_shaped_rl": 67.0
+        }
+      ],
+      "sabre": 84.66666666666667,
+      "ms": 81.0,
+      "baseline_rl": 73.83333333333333,
+      "v19_rl": 71.5,
+      "sabre_shaped": 73.66666666666667
+    },
+    "qv": {
+      "n": 6,
+      "lambda": 0.005,
+      "per_circuit": [
+        {
+          "ci": 0,
+          "sabre": 66.0,
+          "ms": 66.0,
+          "baseline_rl": 72.0,
+          "v19_rl": 66.0,
+          "sabre_shaped_rl": 72.0
+        },
+        {
+          "ci": 1,
+          "sabre": 46.0,
+          "ms": 46.0,
+          "baseline_rl": 46.0,
+          "v19_rl": 46.0,
+          "sabre_shaped_rl": 46.0
+        },
+        {
+          "ci": 2,
+          "sabre": 46.0,
+          "ms": 46.0,
+          "baseline_rl": 52.0,
+          "v19_rl": 57.0,
+          "sabre_shaped_rl": 68.0
+        },
+        {
+          "ci": 3,
+          "sabre": 82.0,
+          "ms": 82.0,
+          "baseline_rl": 66.0,
+          "v19_rl": 66.0,
+          "sabre_shaped_rl": 66.0
+        },
+        {
+          "ci": 4,
+          "sabre": 66.0,
+          "ms": 66.0,
+          "baseline_rl": 56.0,
+          "v19_rl": 60.0,
+          "sabre_shaped_rl": 66.0
+        },
+        {
+          "ci": 5,
+          "sabre": 66.0,
+          "ms": 66.0,
+          "baseline_rl": 66.0,
+          "v19_rl": 66.0,
+          "sabre_shaped_rl": 66.0
+        }
+      ],
+      "sabre": 62.0,
+      "ms": 62.0,
+      "baseline_rl": 59.666666666666664,
+      "v19_rl": 60.166666666666664,
+      "sabre_shaped": 64.0
+    },
+    "vqe": {
+      "n": 6,
+      "lambda": 0.1,
+      "per_circuit": [
+        {
+          "ci": 0,
+          "sabre": 89.0,
+          "ms": 81.0,
+          "baseline_rl": 96.0,
+          "v19_rl": 87.0,
+          "sabre_shaped_rl": 89.0
+        },
+        {
+          "ci": 1,
+          "sabre": 105.0,
+          "ms": 81.0,
+          "baseline_rl": 96.0,
+          "v19_rl": 70.0,
+          "sabre_shaped_rl": 86.0
+        },
+        {
+          "ci": 2,
+          "sabre": 103.0,
+          "ms": 81.0,
+          "baseline_rl": 96.0,
+          "v19_rl": 103.0,
+          "sabre_shaped_rl": 89.0
+        },
+        {
+          "ci": 3,
+          "sabre": 92.0,
+          "ms": 81.0,
+          "baseline_rl": 96.0,
+          "v19_rl": 87.0,
+          "sabre_shaped_rl": 87.0
+        },
+        {
+          "ci": 4,
+          "sabre": 87.0,
+          "ms": 81.0,
+          "baseline_rl": 96.0,
+          "v19_rl": 87.0,
+          "sabre_shaped_rl": 87.0
+        },
+        {
+          "ci": 5,
+          "sabre": 91.0,
+          "ms": 81.0,
+          "baseline_rl": 94.0,
+          "v19_rl": 87.0,
+          "sabre_shaped_rl": 87.0
+        }
+      ],
+      "sabre": 94.5,
+      "ms": 81.0,
+      "baseline_rl": 95.66666666666667,
+      "v19_rl": 86.83333333333333,
+      "sabre_shaped": 87.5
+    },
+    "qaoa": {
+      "n": 6,
+      "lambda": 0.005,
+      "per_circuit": [
+        {
+          "ci": 0,
+          "sabre": 24.0,
+          "ms": 24.0,
+          "baseline_rl": 24.0,
+          "v19_rl": 24.0,
+          "sabre_shaped_rl": 24.0
+        },
+        {
+          "ci": 1,
+          "sabre": 44.0,
+          "ms": 44.0,
+          "baseline_rl": 51.0,
+          "v19_rl": 38.0,
+          "sabre_shaped_rl": 50.0
+        },
+        {
+          "ci": 2,
+          "sabre": 41.0,
+          "ms": 44.0,
+          "baseline_rl": 41.0,
+          "v19_rl": 41.0,
+          "sabre_shaped_rl": 41.0
+        },
+        {
+          "ci": 3,
+          "sabre": 34.0,
+          "ms": 34.0,
+          "baseline_rl": 47.0,
+          "v19_rl": 52.0,
+          "sabre_shaped_rl": 57.0
+        },
+        {
+          "ci": 4,
+          "sabre": 48.0,
+          "ms": 51.0,
+          "baseline_rl": 54.0,
+          "v19_rl": 48.0,
+          "sabre_shaped_rl": 54.0
+        },
+        {
+          "ci": 5,
+          "sabre": 34.0,
+          "ms": 34.0,
+          "baseline_rl": 34.0,
+          "v19_rl": 34.0,
+          "sabre_shaped_rl": 34.0
+        }
+      ],
+      "sabre": 37.5,
+      "ms": 38.5,
+      "baseline_rl": 41.833333333333336,
+      "v19_rl": 39.5,
+      "sabre_shaped": 43.333333333333336
+    }
+  }
+}

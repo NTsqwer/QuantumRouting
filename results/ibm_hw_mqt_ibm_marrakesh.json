@@ -1,0 +1,303 @@
+{
+  "backend": "ibm_marrakesh",
+  "sizes": [
+    4,
+    5,
+    6
+  ],
+  "shots": 4096,
+  "k": 20,
+  "job_id": "d8okploq90bc73e6ml7g",
+  "by_cell": {
+    "qft@4q": {
+      "sabre": 0.720703125,
+      "sabre_ms": 0.716552734375
+    },
+    "qpeexact@4q": {
+      "sabre": 0.876220703125,
+      "sabre_ms": 0.820556640625
+    },
+    "qpeinexact@4q": {
+      "sabre": 0.6806640625,
+      "sabre_ms": 0.727783203125
+    },
+    "ae@4q": {
+      "sabre": 0.664306640625,
+      "sabre_ms": 0.69091796875
+    },
+    "qaoa@4q": {
+      "sabre": 0.902587890625,
+      "sabre_ms": 0.88818359375
+    },
+    "qft@5q": {
+      "sabre": 0.637939453125,
+      "sabre_ms": 0.572021484375
+    },
+    "qpeexact@5q": {
+      "sabre": 0.587890625,
+      "sabre_ms": 0.56201171875
+    },
+    "qpeinexact@5q": {
+      "sabre": 0.527099609375,
+      "sabre_ms": 0.532470703125
+    },
+    "ae@5q": {
+      "sabre": 0.420654296875,
+      "sabre_ms": 0.47265625
+    },
+    "qaoa@5q": {
+      "sabre": 0.569091796875,
+      "sabre_ms": 0.550537109375
+    },
+    "qft@6q": {
+      "sabre": 0.391357421875,
+      "sabre_ms": 0.405517578125
+    },
+    "qaoa@6q": {
+      "sabre": 0.5009765625,
+      "sabre_ms": 0.532470703125
+    }
+  },
+  "circuits": [
+    {
+      "family": "qft",
+      "n_qubits": 4,
+      "method": "sabre",
+      "post_opt_2q": 17,
+      "isa_depth": 321,
+      "lam": 0.25,
+      "fidelity": 0.720703125,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "n_qubits": 4,
+      "method": "sabre_ms",
+      "post_opt_2q": 16,
+      "isa_depth": 327,
+      "lam": 0.25,
+      "fidelity": 0.716552734375,
+      "shots": 4096
+    },
+    {
+      "family": "qpeexact",
+      "n_qubits": 4,
+      "method": "sabre",
+      "post_opt_2q": 8,
+      "isa_depth": 187,
+      "lam": 0.25,
+      "fidelity": 0.876220703125,
+      "shots": 4096
+    },
+    {
+      "family": "qpeexact",
+      "n_qubits": 4,
+      "method": "sabre_ms",
+      "post_opt_2q": 8,
+      "isa_depth": 175,
+      "lam": 0.25,
+      "fidelity": 0.820556640625,
+      "shots": 4096
+    },
+    {
+      "family": "qpeinexact",
+      "n_qubits": 4,
+      "method": "sabre",
+      "post_opt_2q": 17,
+      "isa_depth": 367,
+      "lam": 0.25,
+      "fidelity": 0.6806640625,
+      "shots": 4096
+    },
+    {
+      "family": "qpeinexact",
+      "n_qubits": 4,
+      "method": "sabre_ms",
+      "post_opt_2q": 17,
+      "isa_depth": 391,
+      "lam": 0.25,
+      "fidelity": 0.727783203125,
+      "shots": 4096
+    },
+    {
+      "family": "ae",
+      "n_qubits": 4,
+      "method": "sabre",
+      "post_opt_2q": 27,
+      "isa_depth": 443,
+      "lam": 0.25,
+      "fidelity": 0.664306640625,
+      "shots": 4096
+    },
+    {
+      "family": "ae",
+      "n_qubits": 4,
+      "method": "sabre_ms",
+      "post_opt_2q": 19,
+      "isa_depth": 379,
+      "lam": 0.25,
+      "fidelity": 0.69091796875,
+      "shots": 4096
+    },
+    {
+      "family": "qaoa",
+      "n_qubits": 4,
+      "method": "sabre",
+      "post_opt_2q": 8,
+      "isa_depth": 215,
+      "lam": 0.25,
+      "fidelity": 0.902587890625,
+      "shots": 4096
+    },
+    {
+      "family": "qaoa",
+      "n_qubits": 4,
+      "method": "sabre_ms",
+      "post_opt_2q": 8,
+      "isa_depth": 215,
+      "lam": 0.25,
+      "fidelity": 0.88818359375,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "n_qubits": 5,
+      "method": "sabre",
+      "post_opt_2q": 30,
+      "isa_depth": 491,
+      "lam": 0.25,
+      "fidelity": 0.637939453125,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "n_qubits": 5,
+      "method": "sabre_ms",
+      "post_opt_2q": 29,
+      "isa_depth": 473,
+      "lam": 0.25,
+      "fidelity": 0.572021484375,
+      "shots": 4096
+    },
+    {
+      "family": "qpeexact",
+      "n_qubits": 5,
+      "method": "sabre",
+      "post_opt_2q": 34,
+      "isa_depth": 607,
+      "lam": 0.25,
+      "fidelity": 0.587890625,
+      "shots": 4096
+    },
+    {
+      "family": "qpeexact",
+      "n_qubits": 5,
+      "method": "sabre_ms",
+      "post_opt_2q": 36,
+      "isa_depth": 577,
+      "lam": 0.25,
+      "fidelity": 0.56201171875,
+      "shots": 4096
+    },
+    {
+      "family": "qpeinexact",
+      "n_qubits": 5,
+      "method": "sabre",
+      "post_opt_2q": 37,
+      "isa_depth": 623,
+      "lam": 0.25,
+      "fidelity": 0.527099609375,
+      "shots": 4096
+    },
+    {
+      "family": "qpeinexact",
+      "n_qubits": 5,
+      "method": "sabre_ms",
+      "post_opt_2q": 37,
+      "isa_depth": 601,
+      "lam": 0.25,
+      "fidelity": 0.532470703125,
+      "shots": 4096
+    },
+    {
+      "family": "ae",
+      "n_qubits": 5,
+      "method": "sabre",
+      "post_opt_2q": 43,
+      "isa_depth": 651,
+      "lam": 0.25,
+      "fidelity": 0.420654296875,
+      "shots": 4096
+    },
+    {
+      "family": "ae",
+      "n_qubits": 5,
+      "method": "sabre_ms",
+      "post_opt_2q": 42,
+      "isa_depth": 619,
+      "lam": 0.25,
+      "fidelity": 0.47265625,
+      "shots": 4096
+    },
+    {
+      "family": "qaoa",
+      "n_qubits": 5,
+      "method": "sabre",
+      "post_opt_2q": 30,
+      "isa_depth": 443,
+      "lam": 0.25,
+      "fidelity": 0.569091796875,
+      "shots": 4096
+    },
+    {
+      "family": "qaoa",
+      "n_qubits": 5,
+      "method": "sabre_ms",
+      "post_opt_2q": 30,
+      "isa_depth": 479,
+      "lam": 0.25,
+      "fidelity": 0.550537109375,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "n_qubits": 6,
+      "method": "sabre",
+      "post_opt_2q": 48,
+      "isa_depth": 697,
+      "lam": 0.25,
+      "fidelity": 0.391357421875,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "n_qubits": 6,
+      "method": "sabre_ms",
+      "post_opt_2q": 44,
+      "isa_depth": 679,
+      "lam": 0.25,
+      "fidelity": 0.405517578125,
+      "shots": 4096
+    },
+    {
+      "family": "qaoa",
+      "n_qubits": 6,
+      "method": "sabre",
+      "post_opt_2q": 41,
+      "isa_depth": 511,
+      "lam": 0.25,
+      "fidelity": 0.5009765625,
+      "shots": 4096
+    },
+    {
+      "family": "qaoa",
+      "n_qubits": 6,
+      "method": "sabre_ms",
+      "post_opt_2q": 42,
+      "isa_depth": 477,
+      "lam": 0.25,
+      "fidelity": 0.532470703125,
+      "shots": 4096
+    }
+  ]
+}

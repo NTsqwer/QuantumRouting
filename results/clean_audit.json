@@ -1,0 +1,41 @@
+{
+  "linear7/qft": {
+    "topology": "linear7",
+    "family": "qft",
+    "n_qubits": 7,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 122.0,
+      "0.01": 122.0,
+      "0.02": 122.0,
+      "0.05": 122.0,
+      "0.1": 116.0,
+      "0.25": 128.0
+    },
+    "best_lambda_from_train": 0.1,
+    "attempt_limit_mult": 10,
+    "K_per_method": 20,
+    "test_ms_mean": 117.0,
+    "test_strongest_sabre_mean": 134.66666666666666,
+    "gain_vs_strongest_pct": 13.118811881188112,
+    "p_ms_vs_strongest": 0.015625,
+    "test_sabre_lookahead_mean": 156.66666666666666,
+    "gain_vs_lookahead_pct": 25.31914893617021,
+    "p_ms_vs_lookahead": 0.015625,
+    "test_sabre_decay_mean": 156.66666666666666,
+    "gain_vs_decay_pct": 25.31914893617021,
+    "p_ms_vs_decay": 0.015625,
+    "test_sabre_basic_mean": 134.66666666666666,
+    "gain_vs_basic_pct": 13.118811881188112,
+    "p_ms_vs_basic": 0.015625
+  }
+}

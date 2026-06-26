@@ -1,0 +1,46 @@
+{
+  "grid5x5/qft/lam0.1/alim1250": {
+    "mean_sabre": 494.7,
+    "mean_ms": 390.65,
+    "pct": 21.032949262179102,
+    "p": 4.1871431950392606e-08,
+    "success_rate": 1.0,
+    "n_better": 37,
+    "n_worse": 1,
+    "n_same": 2,
+    "attempt_limit": 1250
+  },
+  "grid5x5/random/lam0.1/alim250": {
+    "mean_sabre": 46.7,
+    "mean_ms": 38.0,
+    "pct": 18.629550321199147,
+    "p": 1.9300711666533197e-06,
+    "success_rate": 1.0,
+    "n_better": 31,
+    "n_worse": 8,
+    "n_same": 1,
+    "attempt_limit": 250
+  },
+  "grid5x5/trotter/lam0.05/alim250": {
+    "mean_sabre": 48.2,
+    "mean_ms": 43.1,
+    "pct": 10.580912863070541,
+    "p": 4.08382248465448e-05,
+    "success_rate": 1.0,
+    "n_better": 27,
+    "n_worse": 4,
+    "n_same": 9,
+    "attempt_limit": 250
+  },
+  "grid5x5/parallel/lam0.05/alim250": {
+    "mean_sabre": 97.25,
+    "mean_ms": 65.65,
+    "pct": 32.49357326478149,
+    "p": 1.901231402263798e-08,
+    "success_rate": 1.0,
+    "n_better": 39,
+    "n_worse": 1,
+    "n_same": 0,
+    "attempt_limit": 250
+  }
+}

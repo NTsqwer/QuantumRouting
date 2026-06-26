@@ -1,0 +1,904 @@
+{
+  "linear7/qft": {
+    "topology": "linear7",
+    "family": "qft",
+    "n_qubits": 7,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.1,
+    "A_sabre_by_swap_mean": 156.0,
+    "B_sabre_by_makespan_mean": 156.0,
+    "C_ms_by_makespan_mean": 116.0,
+    "rescore_gain_pct": 0.0,
+    "algo_gain_pct": 25.641025641025642,
+    "total_gain_pct": 25.641025641025642,
+    "rescore_fraction_of_total": 0.0,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 156.0,
+        "B_sabre_by_makespan": 156.0,
+        "C_ms_by_makespan": 116.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 156.0,
+        "B_sabre_by_makespan": 156.0,
+        "C_ms_by_makespan": 116.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 156.0,
+        "B_sabre_by_makespan": 156.0,
+        "C_ms_by_makespan": 116.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 156.0,
+        "B_sabre_by_makespan": 156.0,
+        "C_ms_by_makespan": 116.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 156.0,
+        "B_sabre_by_makespan": 156.0,
+        "C_ms_by_makespan": 116.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 156.0,
+        "B_sabre_by_makespan": 156.0,
+        "C_ms_by_makespan": 116.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "ring8/qft": {
+    "topology": "ring8",
+    "family": "qft",
+    "n_qubits": 8,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.25,
+    "A_sabre_by_swap_mean": 160.0,
+    "B_sabre_by_makespan_mean": 158.0,
+    "C_ms_by_makespan_mean": 142.0,
+    "rescore_gain_pct": 1.25,
+    "algo_gain_pct": 10.0,
+    "total_gain_pct": 11.25,
+    "rescore_fraction_of_total": 0.1111111111111111,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 160.0,
+        "B_sabre_by_makespan": 157.0,
+        "C_ms_by_makespan": 142.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 160.0,
+        "B_sabre_by_makespan": 160.0,
+        "C_ms_by_makespan": 142.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 160.0,
+        "B_sabre_by_makespan": 157.0,
+        "C_ms_by_makespan": 142.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 160.0,
+        "B_sabre_by_makespan": 160.0,
+        "C_ms_by_makespan": 142.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 160.0,
+        "B_sabre_by_makespan": 157.0,
+        "C_ms_by_makespan": 142.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 160.0,
+        "B_sabre_by_makespan": 157.0,
+        "C_ms_by_makespan": 142.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "ring12/qft": {
+    "topology": "ring12",
+    "family": "qft",
+    "n_qubits": 12,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.005,
+    "A_sabre_by_swap_mean": 368.6666666666667,
+    "B_sabre_by_makespan_mean": 341.8333333333333,
+    "C_ms_by_makespan_mean": 225.0,
+    "rescore_gain_pct": 7.278481012658237,
+    "algo_gain_pct": 31.69077757685352,
+    "total_gain_pct": 38.96925858951175,
+    "rescore_fraction_of_total": 0.18677494199535988,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 371.0,
+        "B_sabre_by_makespan": 328.0,
+        "C_ms_by_makespan": 231.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 367.0,
+        "B_sabre_by_makespan": 348.0,
+        "C_ms_by_makespan": 222.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 381.0,
+        "B_sabre_by_makespan": 346.0,
+        "C_ms_by_makespan": 222.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 371.0,
+        "B_sabre_by_makespan": 347.0,
+        "C_ms_by_makespan": 222.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 364.0,
+        "B_sabre_by_makespan": 344.0,
+        "C_ms_by_makespan": 231.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 358.0,
+        "B_sabre_by_makespan": 338.0,
+        "C_ms_by_makespan": 222.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "grid3x3/qft": {
+    "topology": "grid3x3",
+    "family": "qft",
+    "n_qubits": 9,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.25,
+    "A_sabre_by_swap_mean": 215.83333333333334,
+    "B_sabre_by_makespan_mean": 201.33333333333334,
+    "C_ms_by_makespan_mean": 171.0,
+    "rescore_gain_pct": 6.718146718146718,
+    "algo_gain_pct": 14.054054054054058,
+    "total_gain_pct": 20.772200772200772,
+    "rescore_fraction_of_total": 0.32342007434944237,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 209.0,
+        "B_sabre_by_makespan": 207.0,
+        "C_ms_by_makespan": 161.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 219.0,
+        "B_sabre_by_makespan": 195.0,
+        "C_ms_by_makespan": 167.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 218.0,
+        "B_sabre_by_makespan": 206.0,
+        "C_ms_by_makespan": 177.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 222.0,
+        "B_sabre_by_makespan": 211.0,
+        "C_ms_by_makespan": 174.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 209.0,
+        "B_sabre_by_makespan": 209.0,
+        "C_ms_by_makespan": 167.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 218.0,
+        "B_sabre_by_makespan": 180.0,
+        "C_ms_by_makespan": 180.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "linear7/qv": {
+    "topology": "linear7",
+    "family": "qv",
+    "n_qubits": 7,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.005,
+    "A_sabre_by_swap_mean": 124.33333333333333,
+    "B_sabre_by_makespan_mean": 119.33333333333333,
+    "C_ms_by_makespan_mean": 115.33333333333333,
+    "rescore_gain_pct": 4.021447721179625,
+    "algo_gain_pct": 3.2171581769436997,
+    "total_gain_pct": 7.238605898123325,
+    "rescore_fraction_of_total": 0.5555555555555556,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 146.0,
+        "B_sabre_by_makespan": 142.0,
+        "C_ms_by_makespan": 124.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 114.0,
+        "B_sabre_by_makespan": 92.0,
+        "C_ms_by_makespan": 88.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 98.0,
+        "B_sabre_by_makespan": 98.0,
+        "C_ms_by_makespan": 108.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 132.0,
+        "B_sabre_by_makespan": 132.0,
+        "C_ms_by_makespan": 120.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 132.0,
+        "B_sabre_by_makespan": 128.0,
+        "C_ms_by_makespan": 128.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 124.0,
+        "B_sabre_by_makespan": 124.0,
+        "C_ms_by_makespan": 124.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "ring8/qv": {
+    "topology": "ring8",
+    "family": "qv",
+    "n_qubits": 8,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.005,
+    "A_sabre_by_swap_mean": 119.66666666666667,
+    "B_sabre_by_makespan_mean": 118.33333333333333,
+    "C_ms_by_makespan_mean": 113.0,
+    "rescore_gain_pct": 1.1142061281337126,
+    "algo_gain_pct": 4.456824512534815,
+    "total_gain_pct": 5.5710306406685275,
+    "rescore_fraction_of_total": 0.20000000000000126,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 106.0,
+        "B_sabre_by_makespan": 104.0,
+        "C_ms_by_makespan": 104.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 120.0,
+        "B_sabre_by_makespan": 120.0,
+        "C_ms_by_makespan": 114.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 126.0,
+        "B_sabre_by_makespan": 120.0,
+        "C_ms_by_makespan": 124.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 120.0,
+        "B_sabre_by_makespan": 120.0,
+        "C_ms_by_makespan": 116.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 132.0,
+        "B_sabre_by_makespan": 132.0,
+        "C_ms_by_makespan": 110.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 114.0,
+        "B_sabre_by_makespan": 114.0,
+        "C_ms_by_makespan": 110.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "ring12/qv": {
+    "topology": "ring12",
+    "family": "qv",
+    "n_qubits": 12,
+    "n_circuits": 5,
+    "K": 60,
+    "lam": 0.02,
+    "A_sabre_by_swap_mean": 258.8,
+    "B_sabre_by_makespan_mean": 246.8,
+    "C_ms_by_makespan_mean": 244.4,
+    "rescore_gain_pct": 4.63678516228748,
+    "algo_gain_pct": 0.9273570324574983,
+    "total_gain_pct": 5.564142194744979,
+    "rescore_fraction_of_total": 0.8333333333333329,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 260.0,
+        "B_sabre_by_makespan": 260.0,
+        "C_ms_by_makespan": 242.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 286.0,
+        "B_sabre_by_makespan": 240.0,
+        "C_ms_by_makespan": 258.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 258.0,
+        "B_sabre_by_makespan": 252.0,
+        "C_ms_by_makespan": 250.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 232.0,
+        "B_sabre_by_makespan": 228.0,
+        "C_ms_by_makespan": 232.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 258.0,
+        "B_sabre_by_makespan": 254.0,
+        "C_ms_by_makespan": 240.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "grid3x3/qv": {
+    "topology": "grid3x3",
+    "family": "qv",
+    "n_qubits": 9,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.1,
+    "A_sabre_by_swap_mean": 150.33333333333334,
+    "B_sabre_by_makespan_mean": 136.0,
+    "C_ms_by_makespan_mean": 128.66666666666666,
+    "rescore_gain_pct": 9.534368070953443,
+    "algo_gain_pct": 4.878048780487811,
+    "total_gain_pct": 14.412416851441256,
+    "rescore_fraction_of_total": 0.6615384615384613,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 120.0,
+        "B_sabre_by_makespan": 120.0,
+        "C_ms_by_makespan": 114.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 134.0,
+        "B_sabre_by_makespan": 134.0,
+        "C_ms_by_makespan": 142.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 182.0,
+        "B_sabre_by_makespan": 140.0,
+        "C_ms_by_makespan": 136.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 140.0,
+        "B_sabre_by_makespan": 130.0,
+        "C_ms_by_makespan": 130.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 166.0,
+        "B_sabre_by_makespan": 140.0,
+        "C_ms_by_makespan": 120.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 160.0,
+        "B_sabre_by_makespan": 152.0,
+        "C_ms_by_makespan": 130.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "ring8/vqe": {
+    "topology": "ring8",
+    "family": "vqe",
+    "n_qubits": 8,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.25,
+    "A_sabre_by_swap_mean": 211.16666666666666,
+    "B_sabre_by_makespan_mean": 198.16666666666666,
+    "C_ms_by_makespan_mean": 144.0,
+    "rescore_gain_pct": 6.156274664561957,
+    "algo_gain_pct": 25.65114443567482,
+    "total_gain_pct": 31.80741910023678,
+    "rescore_fraction_of_total": 0.1935483870967742,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 215.0,
+        "B_sabre_by_makespan": 198.0,
+        "C_ms_by_makespan": 144.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 206.0,
+        "B_sabre_by_makespan": 198.0,
+        "C_ms_by_makespan": 144.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 212.0,
+        "B_sabre_by_makespan": 195.0,
+        "C_ms_by_makespan": 144.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 210.0,
+        "B_sabre_by_makespan": 192.0,
+        "C_ms_by_makespan": 144.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 212.0,
+        "B_sabre_by_makespan": 204.0,
+        "C_ms_by_makespan": 144.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 212.0,
+        "B_sabre_by_makespan": 202.0,
+        "C_ms_by_makespan": 144.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "grid3x3/vqe": {
+    "topology": "grid3x3",
+    "family": "vqe",
+    "n_qubits": 9,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.05,
+    "A_sabre_by_swap_mean": 246.16666666666666,
+    "B_sabre_by_makespan_mean": 212.83333333333334,
+    "C_ms_by_makespan_mean": 182.16666666666666,
+    "rescore_gain_pct": 13.540961408259978,
+    "algo_gain_pct": 12.457684495599196,
+    "total_gain_pct": 25.998645903859174,
+    "rescore_fraction_of_total": 0.520833333333333,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 237.0,
+        "B_sabre_by_makespan": 219.0,
+        "C_ms_by_makespan": 189.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 224.0,
+        "B_sabre_by_makespan": 224.0,
+        "C_ms_by_makespan": 176.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 296.0,
+        "B_sabre_by_makespan": 205.0,
+        "C_ms_by_makespan": 178.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 240.0,
+        "B_sabre_by_makespan": 209.0,
+        "C_ms_by_makespan": 185.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 273.0,
+        "B_sabre_by_makespan": 213.0,
+        "C_ms_by_makespan": 176.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 207.0,
+        "B_sabre_by_makespan": 207.0,
+        "C_ms_by_makespan": 189.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "linear7/qaoa": {
+    "topology": "linear7",
+    "family": "qaoa",
+    "n_qubits": 7,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.25,
+    "A_sabre_by_swap_mean": 70.66666666666667,
+    "B_sabre_by_makespan_mean": 70.66666666666667,
+    "C_ms_by_makespan_mean": 71.0,
+    "rescore_gain_pct": 0.0,
+    "algo_gain_pct": -0.47169811320754046,
+    "total_gain_pct": -0.47169811320754046,
+    "rescore_fraction_of_total": -0.0,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 87.0,
+        "B_sabre_by_makespan": 87.0,
+        "C_ms_by_makespan": 84.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 94.0,
+        "B_sabre_by_makespan": 94.0,
+        "C_ms_by_makespan": 90.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 58.0,
+        "B_sabre_by_makespan": 58.0,
+        "C_ms_by_makespan": 58.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 57.0,
+        "B_sabre_by_makespan": 57.0,
+        "C_ms_by_makespan": 57.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 71.0,
+        "B_sabre_by_makespan": 71.0,
+        "C_ms_by_makespan": 77.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 57.0,
+        "B_sabre_by_makespan": 57.0,
+        "C_ms_by_makespan": 60.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "ring8/qaoa": {
+    "topology": "ring8",
+    "family": "qaoa",
+    "n_qubits": 8,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.25,
+    "A_sabre_by_swap_mean": 76.33333333333333,
+    "B_sabre_by_makespan_mean": 75.33333333333333,
+    "C_ms_by_makespan_mean": 70.5,
+    "rescore_gain_pct": 1.310043668122271,
+    "algo_gain_pct": 6.331877729257636,
+    "total_gain_pct": 7.641921397379906,
+    "rescore_fraction_of_total": 0.1714285714285716,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 80.0,
+        "B_sabre_by_makespan": 80.0,
+        "C_ms_by_makespan": 77.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 87.0,
+        "B_sabre_by_makespan": 87.0,
+        "C_ms_by_makespan": 83.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 58.0,
+        "B_sabre_by_makespan": 58.0,
+        "C_ms_by_makespan": 54.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 80.0,
+        "B_sabre_by_makespan": 74.0,
+        "C_ms_by_makespan": 74.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 93.0,
+        "B_sabre_by_makespan": 93.0,
+        "C_ms_by_makespan": 84.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 60.0,
+        "B_sabre_by_makespan": 60.0,
+        "C_ms_by_makespan": 51.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "ring12/qaoa": {
+    "topology": "ring12",
+    "family": "qaoa",
+    "n_qubits": 12,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.02,
+    "A_sabre_by_swap_mean": 191.83333333333334,
+    "B_sabre_by_makespan_mean": 183.83333333333334,
+    "C_ms_by_makespan_mean": 162.5,
+    "rescore_gain_pct": 4.170286707211121,
+    "algo_gain_pct": 11.120764552562994,
+    "total_gain_pct": 15.291051259774115,
+    "rescore_fraction_of_total": 0.27272727272727265,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 207.0,
+        "B_sabre_by_makespan": 203.0,
+        "C_ms_by_makespan": 189.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 190.0,
+        "B_sabre_by_makespan": 190.0,
+        "C_ms_by_makespan": 170.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 195.0,
+        "B_sabre_by_makespan": 191.0,
+        "C_ms_by_makespan": 161.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 201.0,
+        "B_sabre_by_makespan": 189.0,
+        "C_ms_by_makespan": 164.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 203.0,
+        "B_sabre_by_makespan": 191.0,
+        "C_ms_by_makespan": 156.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 155.0,
+        "B_sabre_by_makespan": 139.0,
+        "C_ms_by_makespan": 135.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  },
+  "grid3x3/qaoa": {
+    "topology": "grid3x3",
+    "family": "qaoa",
+    "n_qubits": 9,
+    "n_circuits": 6,
+    "K": 60,
+    "lam": 0.005,
+    "A_sabre_by_swap_mean": 96.5,
+    "B_sabre_by_makespan_mean": 92.66666666666667,
+    "C_ms_by_makespan_mean": 86.5,
+    "rescore_gain_pct": 3.972366148531947,
+    "algo_gain_pct": 6.390328151986188,
+    "total_gain_pct": 10.362694300518134,
+    "rescore_fraction_of_total": 0.38333333333333286,
+    "per_circuit": [
+      {
+        "ci": 0,
+        "A_sabre_by_swap": 108.0,
+        "B_sabre_by_makespan": 108.0,
+        "C_ms_by_makespan": 106.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 1,
+        "A_sabre_by_swap": 99.0,
+        "B_sabre_by_makespan": 99.0,
+        "C_ms_by_makespan": 95.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 2,
+        "A_sabre_by_swap": 71.0,
+        "B_sabre_by_makespan": 71.0,
+        "C_ms_by_makespan": 65.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 3,
+        "A_sabre_by_swap": 111.0,
+        "B_sabre_by_makespan": 101.0,
+        "C_ms_by_makespan": 98.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 4,
+        "A_sabre_by_swap": 105.0,
+        "B_sabre_by_makespan": 101.0,
+        "C_ms_by_makespan": 89.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      },
+      {
+        "ci": 5,
+        "A_sabre_by_swap": 85.0,
+        "B_sabre_by_makespan": 76.0,
+        "C_ms_by_makespan": 66.0,
+        "sabre_pool_size": 60,
+        "ms_pool_size": 60
+      }
+    ]
+  }
+}

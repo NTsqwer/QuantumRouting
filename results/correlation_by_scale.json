@@ -1,0 +1,98 @@
+{
+  "linear5/random": {
+    "topology": "linear5",
+    "family": "random",
+    "n_qubits": 5,
+    "n_circuits": 30,
+    "K": 20,
+    "length": 10,
+    "r_pre": 0.8200358631276029,
+    "r_post": 0.7126752503324361,
+    "inv_pre_pct": 0.0,
+    "inv_post_pct": 0.0
+  },
+  "linear5/qft": {
+    "topology": "linear5",
+    "family": "qft",
+    "n_qubits": 5,
+    "n_circuits": 30,
+    "K": 20,
+    "length": 10,
+    "r_pre": NaN,
+    "r_post": NaN,
+    "inv_pre_pct": 0.0,
+    "inv_post_pct": 0.0
+  },
+  "linear9/random": {
+    "topology": "linear9",
+    "family": "random",
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "K": 20,
+    "length": 30,
+    "r_pre": 0.7540469503805296,
+    "r_post": 0.7648976017694092,
+    "inv_pre_pct": 7.052631578947368,
+    "inv_post_pct": 7.421052631578948
+  },
+  "linear9/qft": {
+    "topology": "linear9",
+    "family": "qft",
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "K": 20,
+    "length": 30,
+    "r_pre": 0.9789056182226479,
+    "r_post": 0.9693930194567478,
+    "inv_pre_pct": 0.0,
+    "inv_post_pct": 0.0
+  },
+  "ring12/qft": {
+    "topology": "ring12",
+    "family": "qft",
+    "n_qubits": 12,
+    "n_circuits": 20,
+    "K": 20,
+    "length": 30,
+    "r_pre": 0.8793459179275402,
+    "r_post": 0.8531993426558032,
+    "inv_pre_pct": 12.552631578947368,
+    "inv_post_pct": 15.552631578947368
+  },
+  "grid3x3/qft": {
+    "topology": "grid3x3",
+    "family": "qft",
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "K": 20,
+    "length": 30,
+    "r_pre": 0.5924420252249906,
+    "r_post": 0.5225674009046418,
+    "inv_pre_pct": 17.228070175438596,
+    "inv_post_pct": 19.859649122807017
+  },
+  "grid4x4/qft": {
+    "topology": "grid4x4",
+    "family": "qft",
+    "n_qubits": 16,
+    "n_circuits": 15,
+    "K": 20,
+    "length": 30,
+    "r_pre": 0.8115436669215911,
+    "r_post": 0.7959471448185295,
+    "inv_pre_pct": 24.0,
+    "inv_post_pct": 24.24561403508772
+  },
+  "grid4x4/random": {
+    "topology": "grid4x4",
+    "family": "random",
+    "n_qubits": 16,
+    "n_circuits": 20,
+    "K": 20,
+    "length": 30,
+    "r_pre": 0.6969902128175942,
+    "r_post": 0.6697744458175181,
+    "inv_pre_pct": 11.131578947368421,
+    "inv_post_pct": 12.026315789473685
+  }
+}

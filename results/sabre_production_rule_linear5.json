@@ -1,0 +1,81 @@
+{
+  "topology": "linear5",
+  "n_qubits": 5,
+  "K": 20,
+  "selection_rule": "fewest_swaps_tiebreak_makespan",
+  "n_circuits_target": 12,
+  "by_family": {
+    "qft": {
+      "n_circuits": 12,
+      "sabre_production_mean": 83.33333333333333,
+      "per_circuit": [
+        80.0,
+        88.0,
+        88.0,
+        86.0,
+        86.0,
+        80.0,
+        86.0,
+        80.0,
+        80.0,
+        86.0,
+        80.0,
+        80.0
+      ]
+    },
+    "qv": {
+      "n_circuits": 12,
+      "sabre_production_mean": 59.333333333333336,
+      "per_circuit": [
+        66.0,
+        46.0,
+        46.0,
+        82.0,
+        66.0,
+        66.0,
+        52.0,
+        62.0,
+        30.0,
+        50.0,
+        52.0,
+        94.0
+      ]
+    },
+    "vqe": {
+      "n_circuits": 12,
+      "sabre_production_mean": 95.16666666666667,
+      "per_circuit": [
+        89.0,
+        105.0,
+        103.0,
+        92.0,
+        87.0,
+        91.0,
+        105.0,
+        89.0,
+        103.0,
+        103.0,
+        91.0,
+        84.0
+      ]
+    },
+    "qaoa": {
+      "n_circuits": 12,
+      "sabre_production_mean": 36.416666666666664,
+      "per_circuit": [
+        24.0,
+        44.0,
+        41.0,
+        34.0,
+        48.0,
+        34.0,
+        38.0,
+        24.0,
+        38.0,
+        47.0,
+        34.0,
+        31.0
+      ]
+    }
+  }
+}

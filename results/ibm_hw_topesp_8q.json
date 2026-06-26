@@ -1,0 +1,61 @@
+{
+  "backend": "ibm_marrakesh",
+  "sizes": [
+    8
+  ],
+  "shots": 2048,
+  "k": 20,
+  "job_id": "d8rjjh201fac73d4du6g",
+  "by_cell": {
+    "qftentangled@8q": {
+      "sabre": 0.0068359375,
+      "sabre_ms": 0.0498046875
+    },
+    "qft@8q": {
+      "sabre": 0.0537109375,
+      "sabre_ms": 0.0390625
+    }
+  },
+  "circuits": [
+    {
+      "family": "qftentangled",
+      "n_qubits": 8,
+      "method": "sabre",
+      "post_opt_2q": 132,
+      "isa_depth": 1485,
+      "lam": 0.5,
+      "fidelity": 0.0068359375,
+      "shots": 2048
+    },
+    {
+      "family": "qftentangled",
+      "n_qubits": 8,
+      "method": "sabre_ms",
+      "post_opt_2q": 99,
+      "isa_depth": 1137,
+      "lam": 0.5,
+      "fidelity": 0.0498046875,
+      "shots": 2048
+    },
+    {
+      "family": "qft",
+      "n_qubits": 8,
+      "method": "sabre",
+      "post_opt_2q": 99,
+      "isa_depth": 1213,
+      "lam": 0.5,
+      "fidelity": 0.0537109375,
+      "shots": 2048
+    },
+    {
+      "family": "qft",
+      "n_qubits": 8,
+      "method": "sabre_ms",
+      "post_opt_2q": 89,
+      "isa_depth": 1067,
+      "lam": 0.5,
+      "fidelity": 0.0390625,
+      "shots": 2048
+    }
+  ]
+}

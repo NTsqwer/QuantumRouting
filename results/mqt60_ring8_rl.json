@@ -1,0 +1,73 @@
+{
+  "topology": "ring8",
+  "n_qubits": 8,
+  "K": 20,
+  "max_2q_gates": 60,
+  "trained_on": "MQT Bench",
+  "note": "MQT-trained (cap 60) baseline vs schedule-aware (v19) MaskedPPO, evaluated in-distribution on MQT at ring8.",
+  "by_family": {
+    "ghz": {
+      "n_cx": 7,
+      "sabre": 16.0,
+      "baseline_rl": 16.0,
+      "v19_rl": 16.0,
+      "routing": false
+    },
+    "graphstate": {
+      "n_cx": 8,
+      "sabre": 16.0,
+      "baseline_rl": 16.0,
+      "v19_rl": 16.0,
+      "routing": false
+    },
+    "qaoa": {
+      "n_cx": 56,
+      "sabre": 167.0,
+      "baseline_rl": 210.0,
+      "v19_rl": 162.0,
+      "routing": true
+    },
+    "qft": {
+      "n_cx": 56,
+      "sabre": 167.0,
+      "baseline_rl": 256.0,
+      "v19_rl": 181.0,
+      "routing": true
+    },
+    "qpeexact": {
+      "n_cx": 56,
+      "sabre": 261.0,
+      "baseline_rl": 267.0,
+      "v19_rl": 224.0,
+      "routing": true
+    },
+    "vqe_su2": {
+      "n_cx": 21,
+      "sabre": 44.0,
+      "baseline_rl": 44.0,
+      "v19_rl": 44.0,
+      "routing": false
+    },
+    "wstate": {
+      "n_cx": 14,
+      "sabre": 32.0,
+      "baseline_rl": 32.0,
+      "v19_rl": 32.0,
+      "routing": false
+    }
+  },
+  "summary_all_7": {
+    "baseline_rl_vs_sabre_pct": -11.62,
+    "v19_rl_vs_sabre_pct": 1.26,
+    "v19_rl_vs_baseline_pct": 9.75
+  },
+  "summary_nontrivial_3": {
+    "baseline_rl_vs_sabre_pct": -27.11,
+    "v19_rl_vs_sabre_pct": 2.93,
+    "v19_rl_vs_baseline_pct": 22.75
+  },
+  "skipped_over_cap": [
+    "ae(65)",
+    "qftentangled(63)"
+  ]
+}

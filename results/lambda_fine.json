@@ -1,0 +1,222 @@
+{
+  "ring12/qft": {
+    "topology": "ring12",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 12,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.1": {
+        "mean_mk": 162.0,
+        "gain_vs_oracle_pct": -1.25,
+        "p_vs_oracle": 0.9992252549095217
+      },
+      "0.15": {
+        "mean_mk": 163.46666666666667,
+        "gain_vs_oracle_pct": -2.166666666666668,
+        "p_vs_oracle": 0.9998245388296797
+      },
+      "0.2": {
+        "mean_mk": 177.33333333333334,
+        "gain_vs_oracle_pct": -10.83333333333334,
+        "p_vs_oracle": 0.9999074959127865
+      },
+      "0.25": {
+        "mean_mk": 160.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_vs_oracle": 1.0
+      },
+      "0.3": {
+        "mean_mk": 495.1333333333333,
+        "gain_vs_oracle_pct": -209.45833333333334,
+        "p_vs_oracle": 0.9999875223363986
+      },
+      "0.4": {
+        "mean_mk": 782.2666666666667,
+        "gain_vs_oracle_pct": -388.91666666666663,
+        "p_vs_oracle": 0.9999992845770345
+      },
+      "0.5": {
+        "mean_mk": 650.1333333333333,
+        "gain_vs_oracle_pct": -306.33333333333337,
+        "p_vs_oracle": 0.9999992114873381
+      }
+    }
+  },
+  "linear9/qft": {
+    "topology": "linear9",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.1": {
+        "mean_mk": 114.0,
+        "gain_vs_oracle_pct": -5.555555555555555,
+        "p_vs_oracle": 0.9999999783976847
+      },
+      "0.15": {
+        "mean_mk": 116.0,
+        "gain_vs_oracle_pct": -7.407407407407407,
+        "p_vs_oracle": 0.9999999783976847
+      },
+      "0.2": {
+        "mean_mk": 126.0,
+        "gain_vs_oracle_pct": -16.666666666666668,
+        "p_vs_oracle": 0.9999999783976847
+      },
+      "0.25": {
+        "mean_mk": 108.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_vs_oracle": 1.0
+      },
+      "0.3": {
+        "mean_mk": 108.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_vs_oracle": 1.0
+      },
+      "0.4": {
+        "mean_mk": 188.53333333333333,
+        "gain_vs_oracle_pct": -74.5679012345679,
+        "p_vs_oracle": 0.9999995939878817
+      },
+      "0.5": {
+        "mean_mk": 156.4,
+        "gain_vs_oracle_pct": -44.814814814814824,
+        "p_vs_oracle": 0.9999994940814491
+      }
+    }
+  },
+  "grid4x4/qft": {
+    "topology": "grid4x4",
+    "family": "qft",
+    "oracle_lam": 0.05,
+    "n_qubits": 16,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.01": {
+        "mean_mk": 242.8,
+        "gain_vs_oracle_pct": -9.996979764421637,
+        "p_vs_oracle": 0.9999982620173373
+      },
+      "0.025": {
+        "mean_mk": 229.8,
+        "gain_vs_oracle_pct": -4.107520386590165,
+        "p_vs_oracle": 0.9990144759377629
+      },
+      "0.04": {
+        "mean_mk": 227.93333333333334,
+        "gain_vs_oracle_pct": -3.26185442464513,
+        "p_vs_oracle": 0.9980439908257517
+      },
+      "0.05": {
+        "mean_mk": 220.73333333333332,
+        "gain_vs_oracle_pct": 0.0,
+        "p_vs_oracle": 1.0
+      },
+      "0.075": {
+        "mean_mk": 228.8,
+        "gain_vs_oracle_pct": -3.6544850498338985,
+        "p_vs_oracle": 0.9927859834819747
+      },
+      "0.1": {
+        "mean_mk": 225.2,
+        "gain_vs_oracle_pct": -2.023557837511327,
+        "p_vs_oracle": 0.9083981366841953
+      },
+      "0.15": {
+        "mean_mk": 311.26666666666665,
+        "gain_vs_oracle_pct": -41.01479915433404,
+        "p_vs_oracle": 0.9997660374982115
+      }
+    }
+  },
+  "grid4x4/parallel": {
+    "topology": "grid4x4",
+    "family": "parallel",
+    "oracle_lam": 0.05,
+    "n_qubits": 16,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.01": {
+        "mean_mk": 57.333333333333336,
+        "gain_vs_oracle_pct": -10.53984575835476,
+        "p_vs_oracle": 0.9999210473813364
+      },
+      "0.025": {
+        "mean_mk": 53.06666666666667,
+        "gain_vs_oracle_pct": -2.3136246786632446,
+        "p_vs_oracle": 0.9351973405981399
+      },
+      "0.04": {
+        "mean_mk": 53.13333333333333,
+        "gain_vs_oracle_pct": -2.442159383033417,
+        "p_vs_oracle": 0.9468701239389034
+      },
+      "0.05": {
+        "mean_mk": 51.86666666666667,
+        "gain_vs_oracle_pct": 0.0,
+        "p_vs_oracle": 1.0
+      },
+      "0.075": {
+        "mean_mk": 51.2,
+        "gain_vs_oracle_pct": 1.2853470437017949,
+        "p_vs_oracle": 0.3000687135868391
+      },
+      "0.1": {
+        "mean_mk": 52.333333333333336,
+        "gain_vs_oracle_pct": -0.8997429305912633,
+        "p_vs_oracle": 0.7549885668232333
+      },
+      "0.15": {
+        "mean_mk": 54.266666666666666,
+        "gain_vs_oracle_pct": -4.627249357326475,
+        "p_vs_oracle": 0.9688246417499207
+      }
+    }
+  },
+  "heavy_hex2/qft": {
+    "topology": "heavy_hex2",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 14,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.1": {
+        "mean_mk": 222.2,
+        "gain_vs_oracle_pct": 48.52509652509654,
+        "p_vs_oracle": 0.001414160536019609
+      },
+      "0.15": {
+        "mean_mk": 272.53333333333336,
+        "gain_vs_oracle_pct": 36.86486486486486,
+        "p_vs_oracle": 0.0012188968721578966
+      },
+      "0.2": {
+        "mean_mk": 276.8666666666667,
+        "gain_vs_oracle_pct": 35.861003861003866,
+        "p_vs_oracle": 0.006473418627364924
+      },
+      "0.25": {
+        "mean_mk": 431.6666666666667,
+        "gain_vs_oracle_pct": 0.0,
+        "p_vs_oracle": 1.0
+      },
+      "0.3": {
+        "mean_mk": 720.2,
+        "gain_vs_oracle_pct": -66.84169884169884,
+        "p_vs_oracle": 0.9999194869893014
+      },
+      "0.4": {
+        "mean_mk": 873.5333333333333,
+        "gain_vs_oracle_pct": -102.36293436293435,
+        "p_vs_oracle": 0.9999802535418149
+      },
+      "0.5": {
+        "mean_mk": 922.8,
+        "gain_vs_oracle_pct": -113.77606177606177,
+        "p_vs_oracle": 0.99998036926222
+      }
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "linear9/qft": {
+    "topology": "linear9",
+    "family": "qft",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.25,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 43.96,
+      "mean_mks": 77.88
+    },
+    "K20_by_swap": {
+      "mean_swap": 40.36,
+      "mean_mks": 63.68
+    },
+    "K20_by_mks": {
+      "mean_swap": 40.36,
+      "mean_mks": 63.6
+    }
+  },
+  "linear9/random": {
+    "topology": "linear9",
+    "family": "random",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.25,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 55.72,
+      "mean_mks": 113.2
+    },
+    "K20_by_swap": {
+      "mean_swap": 51.5,
+      "mean_mks": 108.8
+    },
+    "K20_by_mks": {
+      "mean_swap": 53.22,
+      "mean_mks": 105.6
+    }
+  },
+  "ring8/qft": {
+    "topology": "ring8",
+    "family": "qft",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.25,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 34.64,
+      "mean_mks": 72.08
+    },
+    "K20_by_swap": {
+      "mean_swap": 31.22,
+      "mean_mks": 56.48
+    },
+    "K20_by_mks": {
+      "mean_swap": 31.98,
+      "mean_mks": 53.4
+    }
+  },
+  "ring12/qft": {
+    "topology": "ring12",
+    "family": "qft",
+    "n_circuits": 30,
+    "K": 20,
+    "lam": 0.25,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 91.26666666666667,
+      "mean_mks": 113.13333333333334
+    },
+    "K20_by_swap": {
+      "mean_swap": 84.43333333333334,
+      "mean_mks": 97.66666666666667
+    },
+    "K20_by_mks": {
+      "mean_swap": 85.1,
+      "mean_mks": 91.93333333333334
+    }
+  },
+  "grid3x3/qft": {
+    "topology": "grid3x3",
+    "family": "qft",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.1,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 25.86,
+      "mean_mks": 88.44
+    },
+    "K20_by_swap": {
+      "mean_swap": 23.54,
+      "mean_mks": 87.64
+    },
+    "K20_by_mks": {
+      "mean_swap": 25.08,
+      "mean_mks": 81.76
+    }
+  },
+  "grid3x3/random": {
+    "topology": "grid3x3",
+    "family": "random",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.1,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 16.78,
+      "mean_mks": 63.96
+    },
+    "K20_by_swap": {
+      "mean_swap": 15.26,
+      "mean_mks": 63.04
+    },
+    "K20_by_mks": {
+      "mean_swap": 16.38,
+      "mean_mks": 59.96
+    }
+  },
+  "grid4x4/qft": {
+    "topology": "grid4x4",
+    "family": "qft",
+    "n_circuits": 20,
+    "K": 20,
+    "lam": 0.1,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 139.8,
+      "mean_mks": 222.5
+    },
+    "K20_by_swap": {
+      "mean_swap": 121.55,
+      "mean_mks": 196.8
+    },
+    "K20_by_mks": {
+      "mean_swap": 124.0,
+      "mean_mks": 191.8
+    }
+  },
+  "grid4x4/random": {
+    "topology": "grid4x4",
+    "family": "random",
+    "n_circuits": 30,
+    "K": 20,
+    "lam": 0.1,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 24.266666666666666,
+      "mean_mks": 52.733333333333334
+    },
+    "K20_by_swap": {
+      "mean_swap": 21.866666666666667,
+      "mean_mks": 50.6
+    },
+    "K20_by_mks": {
+      "mean_swap": 23.433333333333334,
+      "mean_mks": 48.06666666666667
+    }
+  },
+  "linear5/qft": {
+    "topology": "linear5",
+    "family": "qft",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.25,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 7.0,
+      "mean_mks": 28.32
+    },
+    "K20_by_swap": {
+      "mean_swap": 7.0,
+      "mean_mks": 28.32
+    },
+    "K20_by_mks": {
+      "mean_swap": 7.0,
+      "mean_mks": 26.16
+    }
+  },
+  "linear5/random": {
+    "topology": "linear5",
+    "family": "random",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.25,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 4.78,
+      "mean_mks": 26.8
+    },
+    "K20_by_swap": {
+      "mean_swap": 4.2,
+      "mean_mks": 25.08
+    },
+    "K20_by_mks": {
+      "mean_swap": 4.24,
+      "mean_mks": 24.4
+    }
+  },
+  "tshape5/qft": {
+    "topology": "tshape5",
+    "family": "qft",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.1,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 4.08,
+      "mean_mks": 31.12
+    },
+    "K20_by_swap": {
+      "mean_swap": 4.0,
+      "mean_mks": 30.96
+    },
+    "K20_by_mks": {
+      "mean_swap": 4.2,
+      "mean_mks": 30.56
+    }
+  },
+  "ring5/qft": {
+    "topology": "ring5",
+    "family": "qft",
+    "n_circuits": 50,
+    "K": 20,
+    "lam": 0.25,
+    "n_failed": 0,
+    "K1": {
+      "mean_swap": 6.28,
+      "mean_mks": 32.6
+    },
+    "K20_by_swap": {
+      "mean_swap": 5.68,
+      "mean_mks": 30.6
+    },
+    "K20_by_mks": {
+      "mean_swap": 5.72,
+      "mean_mks": 30.2
+    }
+  }
+}

@@ -1,0 +1,2180 @@
+{
+  "ae/linear7": {
+    "family": "ae",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "prod_makespan": 224,
+    "ms_makespan": 166,
+    "makespan_red_pct": 25.892857142857142,
+    "prod_2q": 102,
+    "ms_2q": 112,
+    "n2q_delta": 10,
+    "prod_esp": {
+      "marrakesh": 0.4686942816809418,
+      "heron_good": 0.7033792593711223,
+      "garnet": 0.0663318753946037
+    },
+    "ms_esp": {
+      "marrakesh": 0.5506956459057367,
+      "heron_good": 0.7596746426333238,
+      "garnet": 0.16449642597692213
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1749570400788811,
+      "heron_good": 1.0800356031432234,
+      "garnet": 2.4799001234074023
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "ae/ring8": {
+    "family": "ae",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.25,
+    "prod_makespan": 247,
+    "ms_makespan": 176,
+    "makespan_red_pct": 28.74493927125506,
+    "prod_2q": 124,
+    "ms_2q": 148,
+    "n2q_delta": 24,
+    "prod_esp": {
+      "marrakesh": 0.38687788456129973,
+      "heron_good": 0.6424462499479601,
+      "garnet": 0.032383128502074754
+    },
+    "ms_esp": {
+      "marrakesh": 0.47740617288003534,
+      "heron_good": 0.7161366907276149,
+      "garnet": 0.11217988916817696
+    },
+    "esp_ratio": {
+      "marrakesh": 1.2339970619447276,
+      "heron_good": 1.1147028888185182,
+      "garnet": 3.464146126616201
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "ae/grid3x3": {
+    "family": "ae",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.25,
+    "prod_makespan": 248,
+    "ms_makespan": 213,
+    "makespan_red_pct": 14.112903225806452,
+    "prod_2q": 133,
+    "ms_2q": 215,
+    "n2q_delta": 82,
+    "prod_esp": {
+      "marrakesh": 0.3449248015243753,
+      "heron_good": 0.6075760741706804,
+      "garnet": 0.020390592667630204
+    },
+    "ms_esp": {
+      "marrakesh": 0.35861317365618195,
+      "heron_good": 0.6344985010276704,
+      "garnet": 0.05031183208506919
+    },
+    "esp_ratio": {
+      "marrakesh": 1.039685090985953,
+      "heron_good": 1.0443112031587782,
+      "garnet": 2.4674041066466184
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "ae/ring12": {
+    "family": "ae",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.05,
+    "prod_makespan": 514,
+    "ms_makespan": 316,
+    "makespan_red_pct": 38.521400778210115,
+    "prod_2q": 389,
+    "ms_2q": 383,
+    "n2q_delta": -6,
+    "prod_esp": {
+      "marrakesh": 0.05024139480863241,
+      "heron_good": 0.2563486225129863,
+      "garnet": 1.5652929670433476e-05
+    },
+    "ms_esp": {
+      "marrakesh": 0.13878519221800006,
+      "heron_good": 0.4088453658270035,
+      "garnet": 0.002586244783240788
+    },
+    "esp_ratio": {
+      "marrakesh": 2.7623674212594547,
+      "heron_good": 1.594880291608713,
+      "garnet": 165.2243278218963
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "ae/heavy_hex2": {
+    "family": "ae",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.005,
+    "prod_makespan": 615,
+    "ms_makespan": 415,
+    "makespan_red_pct": 32.520325203252035,
+    "prod_2q": 447,
+    "ms_2q": 387,
+    "n2q_delta": -60,
+    "prod_esp": {
+      "marrakesh": 0.017201001029466857,
+      "heron_good": 0.15264287210873362,
+      "garnet": 1.5344214155092634e-07
+    },
+    "ms_esp": {
+      "marrakesh": 0.0603212795982972,
+      "heron_good": 0.26862812364046806,
+      "garnet": 5.148289249414902e-05
+    },
+    "esp_ratio": {
+      "marrakesh": 3.5068470430855414,
+      "heron_good": 1.7598471512584848,
+      "garnet": 335.51990329242255
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "ae/grid4x4": {
+    "family": "ae",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.005,
+    "prod_makespan": 654,
+    "ms_makespan": 519,
+    "makespan_red_pct": 20.642201834862384,
+    "prod_2q": 472,
+    "ms_2q": 535,
+    "n2q_delta": 63,
+    "prod_esp": {
+      "marrakesh": 0.007810381105022153,
+      "heron_good": 0.10322195617197504,
+      "garnet": 4.496644694004947e-09
+    },
+    "ms_esp": {
+      "marrakesh": 0.018184057666822386,
+      "heron_good": 0.15531342966366254,
+      "garnet": 5.678106938101274e-07
+    },
+    "esp_ratio": {
+      "marrakesh": 2.328190829910957,
+      "heron_good": 1.5046549728712704,
+      "garnet": 126.27430727785733
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "ghz/linear7": {
+    "family": "ghz",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.0,
+    "prod_makespan": 14,
+    "ms_makespan": 14,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 6,
+    "ms_2q": 6,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.9533512832656754,
+      "heron_good": 0.9790200250762209,
+      "garnet": 0.8326499549162816
+    },
+    "ms_esp": {
+      "marrakesh": 0.9533512832656754,
+      "heron_good": 0.9790200250762209,
+      "garnet": 0.8326499549162816
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "ghz/ring8": {
+    "family": "ghz",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.0,
+    "prod_makespan": 16,
+    "ms_makespan": 16,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 7,
+    "ms_2q": 7,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.9403048664017465,
+      "heron_good": 0.9729683920489672,
+      "garnet": 0.7840153448465221
+    },
+    "ms_esp": {
+      "marrakesh": 0.9403048664017465,
+      "heron_good": 0.9729683920489672,
+      "garnet": 0.7840153448465221
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "ghz/grid3x3": {
+    "family": "ghz",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.0,
+    "prod_makespan": 18,
+    "ms_makespan": 18,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 8,
+    "ms_2q": 8,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.925880885115995,
+      "heron_good": 0.9661809120931921,
+      "garnet": 0.7320951708566646
+    },
+    "ms_esp": {
+      "marrakesh": 0.925880885115995,
+      "heron_good": 0.9661809120931921,
+      "garnet": 0.7320951708566646
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "ghz/ring12": {
+    "family": "ghz",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.0,
+    "prod_makespan": 24,
+    "ms_makespan": 24,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 11,
+    "ms_2q": 11,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8750616645786994,
+      "heron_good": 0.9415708478850205,
+      "garnet": 0.5669982987968353
+    },
+    "ms_esp": {
+      "marrakesh": 0.8750616645786994,
+      "heron_good": 0.9415708478850205,
+      "garnet": 0.5669982987968353
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "ghz/heavy_hex2": {
+    "family": "ghz",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.0,
+    "prod_makespan": 28,
+    "ms_makespan": 28,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 13,
+    "ms_2q": 13,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8356951516499298,
+      "heron_good": 0.9218187259332677,
+      "garnet": 0.45866502871984316
+    },
+    "ms_esp": {
+      "marrakesh": 0.8356951516499298,
+      "heron_good": 0.9218187259332677,
+      "garnet": 0.45866502871984316
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "ghz/grid4x4": {
+    "family": "ghz",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.1,
+    "prod_makespan": 38,
+    "ms_makespan": 37,
+    "makespan_red_pct": 2.6315789473684212,
+    "prod_2q": 18,
+    "ms_2q": 34,
+    "n2q_delta": 16,
+    "prod_esp": {
+      "marrakesh": 0.7587403410751601,
+      "heron_good": 0.8819594615081675,
+      "garnet": 0.2958629865112902
+    },
+    "ms_esp": {
+      "marrakesh": 0.7500485175800766,
+      "heron_good": 0.8814231504005258,
+      "garnet": 0.32084999324924646
+    },
+    "esp_ratio": {
+      "marrakesh": 0.9885444031053273,
+      "heron_good": 0.9993919095706228,
+      "garnet": 1.0844546559628632
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "graphstate/linear7": {
+    "family": "graphstate",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.0,
+    "prod_makespan": 25,
+    "ms_makespan": 25,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 17,
+    "ms_2q": 17,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.9156688821559598,
+      "heron_good": 0.9579012591683084,
+      "garnet": 0.7841204515261576
+    },
+    "ms_esp": {
+      "marrakesh": 0.9156688821559598,
+      "heron_good": 0.9579012591683084,
+      "garnet": 0.7841204515261576
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "graphstate/ring8": {
+    "family": "graphstate",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.0,
+    "prod_makespan": 20,
+    "ms_makespan": 20,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 8,
+    "ms_2q": 8,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.9297714383940014,
+      "heron_good": 0.9638636435685458,
+      "garnet": 0.7727914816203547
+    },
+    "ms_esp": {
+      "marrakesh": 0.9297714383940014,
+      "heron_good": 0.9638636435685458,
+      "garnet": 0.7727914816203547
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "graphstate/grid3x3": {
+    "family": "graphstate",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.0,
+    "prod_makespan": 26,
+    "ms_makespan": 26,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 12,
+    "ms_2q": 12,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8974991695691178,
+      "heron_good": 0.9485624752755275,
+      "garnet": 0.673330834614243
+    },
+    "ms_esp": {
+      "marrakesh": 0.8974991695691178,
+      "heron_good": 0.9485624752755275,
+      "garnet": 0.673330834614243
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "graphstate/ring12": {
+    "family": "graphstate",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.0,
+    "prod_makespan": 24,
+    "ms_makespan": 24,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 12,
+    "ms_2q": 12,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.878643651362268,
+      "heron_good": 0.9372472434871498,
+      "garnet": 0.614701172068246
+    },
+    "ms_esp": {
+      "marrakesh": 0.878643651362268,
+      "heron_good": 0.9372472434871498,
+      "garnet": 0.614701172068246
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "graphstate/heavy_hex2": {
+    "family": "graphstate",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.005,
+    "prod_makespan": 33,
+    "ms_makespan": 36,
+    "makespan_red_pct": -9.090909090909092,
+    "prod_2q": 21,
+    "ms_2q": 24,
+    "n2q_delta": 3,
+    "prod_esp": {
+      "marrakesh": 0.8098296287951137,
+      "heron_good": 0.9019344101355883,
+      "garnet": 0.45104756047945854
+    },
+    "ms_esp": {
+      "marrakesh": 0.7936124958442013,
+      "heron_good": 0.8931369604759248,
+      "garnet": 0.42211799297877456
+    },
+    "esp_ratio": {
+      "marrakesh": 0.9799746361774382,
+      "heron_good": 0.9902460205966186,
+      "garnet": 0.9358613812921809
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "graphstate/grid4x4": {
+    "family": "graphstate",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.0,
+    "prod_makespan": 28,
+    "ms_makespan": 28,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 19,
+    "ms_2q": 19,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8163404100029923,
+      "heron_good": 0.905007193301624,
+      "garnet": 0.4606056977341891
+    },
+    "ms_esp": {
+      "marrakesh": 0.8163404100029923,
+      "heron_good": 0.905007193301624,
+      "garnet": 0.4606056977341891
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qnn/linear7": {
+    "family": "qnn",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.0,
+    "prod_makespan": 24,
+    "ms_makespan": 24,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 6,
+    "ms_2q": 6,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.9279629239287065,
+      "heron_good": 0.9634794862533267,
+      "garnet": 0.7457912720043791
+    },
+    "ms_esp": {
+      "marrakesh": 0.9279629239287065,
+      "heron_good": 0.9634794862533267,
+      "garnet": 0.7457912720043791
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "qnn/ring8": {
+    "family": "qnn",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.0,
+    "prod_makespan": 28,
+    "ms_makespan": 28,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 7,
+    "ms_2q": 7,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.9057618096059192,
+      "heron_good": 0.9521765948636999,
+      "garnet": 0.6699663668885031
+    },
+    "ms_esp": {
+      "marrakesh": 0.9057618096059192,
+      "heron_good": 0.9521765948636999,
+      "garnet": 0.6699663668885031
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "qnn/grid3x3": {
+    "family": "qnn",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.0,
+    "prod_makespan": 32,
+    "ms_makespan": 32,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 8,
+    "ms_2q": 8,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8811275858210263,
+      "heron_good": 0.9395018951348973,
+      "garnet": 0.5919028954198332
+    },
+    "ms_esp": {
+      "marrakesh": 0.8811275858210263,
+      "heron_good": 0.9395018951348973,
+      "garnet": 0.5919028954198332
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "qnn/ring12": {
+    "family": "qnn",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.0,
+    "prod_makespan": 44,
+    "ms_makespan": 44,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 11,
+    "ms_2q": 11,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.7949899722584148,
+      "heron_good": 0.893858776805878,
+      "garnet": 0.36932899653565193
+    },
+    "ms_esp": {
+      "marrakesh": 0.7949899722584148,
+      "heron_good": 0.893858776805878,
+      "garnet": 0.36932899653565193
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "qnn/heavy_hex2": {
+    "family": "qnn",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.0,
+    "prod_makespan": 55,
+    "ms_makespan": 55,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 14,
+    "ms_2q": 14,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.7164993902447044,
+      "heron_good": 0.8502631109038409,
+      "garnet": 0.2286745550893739
+    },
+    "ms_esp": {
+      "marrakesh": 0.7164993902447044,
+      "heron_good": 0.8502631109038409,
+      "garnet": 0.2286745550893739
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qnn/grid4x4": {
+    "family": "qnn",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.1,
+    "prod_makespan": 80,
+    "ms_makespan": 59,
+    "makespan_red_pct": 26.25,
+    "prod_2q": 21,
+    "ms_2q": 45,
+    "n2q_delta": 24,
+    "prod_esp": {
+      "marrakesh": 0.5751395421535133,
+      "heron_good": 0.7650501225035714,
+      "garnet": 0.0835327696801994
+    },
+    "ms_esp": {
+      "marrakesh": 0.645476799918084,
+      "heron_good": 0.8124288231418877,
+      "garnet": 0.1852712378322853
+    },
+    "esp_ratio": {
+      "marrakesh": 1.122295986642137,
+      "heron_good": 1.0619288844543582,
+      "garnet": 2.2179467835387956
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "wstate/linear7": {
+    "family": "wstate",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.0,
+    "prod_makespan": 28,
+    "ms_makespan": 28,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 12,
+    "ms_2q": 12,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.9106220455389533,
+      "heron_good": 0.9569471782256038,
+      "garnet": 0.7133726948530632
+    },
+    "ms_esp": {
+      "marrakesh": 0.9106220455389533,
+      "heron_good": 0.9569471782256038,
+      "garnet": 0.7133726948530632
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "wstate/ring8": {
+    "family": "wstate",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.0,
+    "prod_makespan": 32,
+    "ms_makespan": 32,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 14,
+    "ms_2q": 14,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8862937338821382,
+      "heron_good": 0.9447751985477328,
+      "garnet": 0.6369987370001414
+    },
+    "ms_esp": {
+      "marrakesh": 0.8862937338821382,
+      "heron_good": 0.9447751985477328,
+      "garnet": 0.6369987370001414
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "wstate/grid3x3": {
+    "family": "wstate",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.0,
+    "prod_makespan": 36,
+    "ms_makespan": 36,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 16,
+    "ms_2q": 16,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8597231275721476,
+      "heron_good": 0.931266821938071,
+      "garnet": 0.5593999444612076
+    },
+    "ms_esp": {
+      "marrakesh": 0.8597231275721476,
+      "heron_good": 0.931266821938071,
+      "garnet": 0.5593999444612076
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "wstate/ring12": {
+    "family": "wstate",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.0,
+    "prod_makespan": 48,
+    "ms_makespan": 48,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 22,
+    "ms_2q": 22,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.7690416783697513,
+      "heron_good": 0.8833683678540435,
+      "garnet": 0.34280292090841713
+    },
+    "ms_esp": {
+      "marrakesh": 0.7690416783697513,
+      "heron_good": 0.8833683678540435,
+      "garnet": 0.34280292090841713
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "wstate/heavy_hex2": {
+    "family": "wstate",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.0,
+    "prod_makespan": 56,
+    "ms_makespan": 56,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 26,
+    "ms_2q": 26,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.7020765220761928,
+      "heron_good": 0.8460174025974911,
+      "garnet": 0.22754538766590918
+    },
+    "ms_esp": {
+      "marrakesh": 0.7020765220761928,
+      "heron_good": 0.8460174025974911,
+      "garnet": 0.22754538766590918
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "wstate/grid4x4": {
+    "family": "wstate",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.0,
+    "prod_makespan": 69,
+    "ms_makespan": 69,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 36,
+    "ms_2q": 36,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.6070987971887699,
+      "heron_good": 0.7914245990654288,
+      "garnet": 0.1210639219152818
+    },
+    "ms_esp": {
+      "marrakesh": 0.6070987971887699,
+      "heron_good": 0.7914245990654288,
+      "garnet": 0.1210639219152818
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "vqe_su2/linear7": {
+    "family": "vqe_su2",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.0,
+    "prod_makespan": 40,
+    "ms_makespan": 40,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 18,
+    "ms_2q": 18,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8778742876376804,
+      "heron_good": 0.93537080385072,
+      "garnet": 0.6614890321467445
+    },
+    "ms_esp": {
+      "marrakesh": 0.8778742876376804,
+      "heron_good": 0.93537080385072,
+      "garnet": 0.6614890321467445
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "vqe_su2/ring8": {
+    "family": "vqe_su2",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.0,
+    "prod_makespan": 44,
+    "ms_makespan": 44,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 21,
+    "ms_2q": 21,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8498328357255652,
+      "heron_good": 0.9204300773856863,
+      "garnet": 0.5846745442070453
+    },
+    "ms_esp": {
+      "marrakesh": 0.8498328357255652,
+      "heron_good": 0.9204300773856863,
+      "garnet": 0.5846745442070453
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "vqe_su2/grid3x3": {
+    "family": "vqe_su2",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.0,
+    "prod_makespan": 48,
+    "ms_makespan": 48,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 24,
+    "ms_2q": 24,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.8201251477824408,
+      "heron_good": 0.9040990745353432,
+      "garnet": 0.5100543161510824
+    },
+    "ms_esp": {
+      "marrakesh": 0.8201251477824408,
+      "heron_good": 0.9040990745353432,
+      "garnet": 0.5100543161510824
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "vqe_su2/ring12": {
+    "family": "vqe_su2",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.0,
+    "prod_makespan": 60,
+    "ms_makespan": 60,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 33,
+    "ms_2q": 33,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.7221250679859239,
+      "heron_good": 0.8488927275402466,
+      "garnet": 0.3047686459948466
+    },
+    "ms_esp": {
+      "marrakesh": 0.7221250679859239,
+      "heron_good": 0.8488927275402466,
+      "garnet": 0.3047686459948466
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "vqe_su2/heavy_hex2": {
+    "family": "vqe_su2",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.0,
+    "prod_makespan": 68,
+    "ms_makespan": 68,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 39,
+    "ms_2q": 39,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.6523405037305314,
+      "heron_good": 0.8074884443307239,
+      "garnet": 0.19892146598632435
+    },
+    "ms_esp": {
+      "marrakesh": 0.6523405037305314,
+      "heron_good": 0.8074884443307239,
+      "garnet": 0.19892146598632435
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": false
+  },
+  "vqe_su2/grid4x4": {
+    "family": "vqe_su2",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.0,
+    "prod_makespan": 90,
+    "ms_makespan": 90,
+    "makespan_red_pct": 0.0,
+    "prod_2q": 51,
+    "ms_2q": 51,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.525501614165016,
+      "heron_good": 0.7288891481890455,
+      "garnet": 0.07723289665636224
+    },
+    "ms_esp": {
+      "marrakesh": 0.525501614165016,
+      "heron_good": 0.7288891481890455,
+      "garnet": 0.07723289665636224
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0,
+      "heron_good": 1.0,
+      "garnet": 1.0
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qaoa/linear7": {
+    "family": "qaoa",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.1,
+    "prod_makespan": 185,
+    "ms_makespan": 161,
+    "makespan_red_pct": 12.972972972972974,
+    "prod_2q": 118,
+    "ms_2q": 113,
+    "n2q_delta": -5,
+    "prod_esp": {
+      "marrakesh": 0.5151227334787697,
+      "heron_good": 0.7412134778778211,
+      "garnet": 0.11941822765330522
+    },
+    "ms_esp": {
+      "marrakesh": 0.5565831088342911,
+      "heron_good": 0.7666963421888285,
+      "garnet": 0.16991899972166954
+    },
+    "esp_ratio": {
+      "marrakesh": 1.080486401901791,
+      "heron_good": 1.0343799257185229,
+      "garnet": 1.4228899813768638
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qaoa/ring8": {
+    "family": "qaoa",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.1,
+    "prod_makespan": 174,
+    "ms_makespan": 170,
+    "makespan_red_pct": 2.2988505747126435,
+    "prod_2q": 115,
+    "ms_2q": 139,
+    "n2q_delta": 24,
+    "prod_esp": {
+      "marrakesh": 0.4975186395532428,
+      "heron_good": 0.7259559070777013,
+      "garnet": 0.10041067234346066
+    },
+    "ms_esp": {
+      "marrakesh": 0.49093307713901224,
+      "heron_good": 0.7260919362754575,
+      "garnet": 0.11633424465843949
+    },
+    "esp_ratio": {
+      "marrakesh": 0.9867631845509462,
+      "heron_good": 1.0001873794212983,
+      "garnet": 1.158584460628959
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qaoa/grid3x3": {
+    "family": "qaoa",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.005,
+    "prod_makespan": 222,
+    "ms_makespan": 182,
+    "makespan_red_pct": 18.01801801801802,
+    "prod_2q": 118,
+    "ms_2q": 145,
+    "n2q_delta": 27,
+    "prod_esp": {
+      "marrakesh": 0.386889083929042,
+      "heron_good": 0.6392434370262191,
+      "garnet": 0.031500765665807534
+    },
+    "ms_esp": {
+      "marrakesh": 0.4364693723696245,
+      "heron_good": 0.6824377392296903,
+      "garnet": 0.07252442194045078
+    },
+    "esp_ratio": {
+      "marrakesh": 1.128151169159572,
+      "heron_good": 1.0675709748455338,
+      "garnet": 2.3023066394596343
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qaoa/ring12": {
+    "family": "qaoa",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "prod_makespan": 378,
+    "ms_makespan": 302,
+    "makespan_red_pct": 20.105820105820104,
+    "prod_2q": 383,
+    "ms_2q": 374,
+    "n2q_delta": -9,
+    "prod_esp": {
+      "marrakesh": 0.10041648461875798,
+      "heron_good": 0.3556479143170086,
+      "garnet": 0.0004642081772414197
+    },
+    "ms_esp": {
+      "marrakesh": 0.1495890398131237,
+      "heron_good": 0.4257889706034819,
+      "garnet": 0.003276050532808734
+    },
+    "esp_ratio": {
+      "marrakesh": 1.4896860847205977,
+      "heron_good": 1.197220491004912,
+      "garnet": 7.057287427112612
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qaoa/heavy_hex2": {
+    "family": "qaoa",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.01,
+    "prod_makespan": 479,
+    "ms_makespan": 426,
+    "makespan_red_pct": 11.064718162839249,
+    "prod_2q": 460,
+    "ms_2q": 476,
+    "n2q_delta": 16,
+    "prod_esp": {
+      "marrakesh": 0.03785199980863355,
+      "heron_good": 0.22191462127602035,
+      "garnet": 8.968019693336905e-06
+    },
+    "ms_esp": {
+      "marrakesh": 0.050958938417007583,
+      "heron_good": 0.25556656736833,
+      "garnet": 4.6893258548705706e-05
+    },
+    "esp_ratio": {
+      "marrakesh": 1.3462680617837397,
+      "heron_good": 1.151643663219707,
+      "garnet": 5.228942414516178
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qaoa/grid4x4": {
+    "family": "qaoa",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.25,
+    "prod_makespan": 514,
+    "ms_makespan": 426,
+    "makespan_red_pct": 17.120622568093385,
+    "prod_2q": 435,
+    "ms_2q": 643,
+    "n2q_delta": 208,
+    "prod_esp": {
+      "marrakesh": 0.020629946844854263,
+      "heron_good": 0.16453197979141213,
+      "garnet": 3.620340852193575e-07
+    },
+    "ms_esp": {
+      "marrakesh": 0.029406591180280252,
+      "heron_good": 0.20743067702280416,
+      "garnet": 1.2744761851604801e-05
+    },
+    "esp_ratio": {
+      "marrakesh": 1.4254322321540616,
+      "heron_good": 1.260731666182936,
+      "garnet": 35.203209785848514
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qft/linear7": {
+    "family": "qft",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "prod_makespan": 138,
+    "ms_makespan": 116,
+    "makespan_red_pct": 15.942028985507246,
+    "prod_2q": 75,
+    "ms_2q": 68,
+    "n2q_delta": -7,
+    "prod_esp": {
+      "marrakesh": 0.620544860741209,
+      "heron_good": 0.8003997358340319,
+      "garnet": 0.20555083451922357
+    },
+    "ms_esp": {
+      "marrakesh": 0.6683025640781912,
+      "heron_good": 0.8257683819291088,
+      "garnet": 0.2837667967932864
+    },
+    "esp_ratio": {
+      "marrakesh": 1.076960919924368,
+      "heron_good": 1.0316949705994622,
+      "garnet": 1.3805188261921064
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qft/ring8": {
+    "family": "qft",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "prod_makespan": 165,
+    "ms_makespan": 127,
+    "makespan_red_pct": 23.03030303030303,
+    "prod_2q": 107,
+    "ms_2q": 83,
+    "n2q_delta": -24,
+    "prod_esp": {
+      "marrakesh": 0.5175462400798888,
+      "heron_good": 0.7378151888404448,
+      "garnet": 0.11411193300469462
+    },
+    "ms_esp": {
+      "marrakesh": 0.6071354442903393,
+      "heron_good": 0.7854870956406851,
+      "garnet": 0.21452913443488647
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1731037678809557,
+      "heron_good": 1.0646122599822887,
+      "garnet": 1.8799886110601653
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qft/grid3x3": {
+    "family": "qft",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.05,
+    "prod_makespan": 207,
+    "ms_makespan": 171,
+    "makespan_red_pct": 17.391304347826086,
+    "prod_2q": 116,
+    "ms_2q": 116,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.40934070837424696,
+      "heron_good": 0.6584491770366365,
+      "garnet": 0.039940825138916995
+    },
+    "ms_esp": {
+      "marrakesh": 0.4706718284935986,
+      "heron_good": 0.7004240855061453,
+      "garnet": 0.08275609250345264
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1498290271762528,
+      "heron_good": 1.0637481371886859,
+      "garnet": 2.071967522343896
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qft/ring12": {
+    "family": "qft",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "prod_makespan": 388,
+    "ms_makespan": 245,
+    "makespan_red_pct": 36.855670103092784,
+    "prod_2q": 338,
+    "ms_2q": 260,
+    "n2q_delta": -78,
+    "prod_esp": {
+      "marrakesh": 0.09996703029791838,
+      "heron_good": 0.3525408641873779,
+      "garnet": 0.00029165817646387116
+    },
+    "ms_esp": {
+      "marrakesh": 0.2269765980318386,
+      "heron_good": 0.5017002690593863,
+      "garnet": 0.009671990681595929
+    },
+    "esp_ratio": {
+      "marrakesh": 2.2705145622052645,
+      "heron_good": 1.423098199455054,
+      "garnet": 33.16207623205118
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qft/heavy_hex2": {
+    "family": "qft",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.02,
+    "prod_makespan": 367,
+    "ms_makespan": 321,
+    "makespan_red_pct": 12.534059945504087,
+    "prod_2q": 334,
+    "ms_2q": 327,
+    "n2q_delta": -7,
+    "prod_esp": {
+      "marrakesh": 0.08358908734863271,
+      "heron_good": 0.3154378022320364,
+      "garnet": 0.00013981886394099594
+    },
+    "ms_esp": {
+      "marrakesh": 0.11143382023367045,
+      "heron_good": 0.3566524199429951,
+      "garnet": 0.0006005049781594986
+    },
+    "esp_ratio": {
+      "marrakesh": 1.3331144503217645,
+      "heron_good": 1.1306584607783985,
+      "garnet": 4.2948781103879785
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qft/grid4x4": {
+    "family": "qft",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.01,
+    "prod_makespan": 492,
+    "ms_makespan": 425,
+    "makespan_red_pct": 13.617886178861788,
+    "prod_2q": 428,
+    "ms_2q": 472,
+    "n2q_delta": 44,
+    "prod_esp": {
+      "marrakesh": 0.024160737766124568,
+      "heron_good": 0.17649768136218363,
+      "garnet": 7.63106410547951e-07
+    },
+    "ms_esp": {
+      "marrakesh": 0.03624507038563169,
+      "heron_good": 0.21539700155654312,
+      "garnet": 8.837265324660355e-06
+    },
+    "esp_ratio": {
+      "marrakesh": 1.5001640569291885,
+      "heron_good": 1.2203956442608206,
+      "garnet": 11.58064616219739
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qpeexact/linear7": {
+    "family": "qpeexact",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "prod_makespan": 155,
+    "ms_makespan": 108,
+    "makespan_red_pct": 30.322580645161292,
+    "prod_2q": 78,
+    "ms_2q": 61,
+    "n2q_delta": -17,
+    "prod_esp": {
+      "marrakesh": 0.5877882418850948,
+      "heron_good": 0.7815741615062698,
+      "garnet": 0.15981593706492683
+    },
+    "ms_esp": {
+      "marrakesh": 0.6889076857824789,
+      "heron_good": 0.8372463627267716,
+      "garnet": 0.3071121967384728
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1720337983847449,
+      "heron_good": 1.0712308619737492,
+      "garnet": 1.9216618966712022
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qpeexact/ring8": {
+    "family": "qpeexact",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.05,
+    "prod_makespan": 224,
+    "ms_makespan": 161,
+    "makespan_red_pct": 28.125,
+    "prod_2q": 112,
+    "ms_2q": 121,
+    "n2q_delta": 9,
+    "prod_esp": {
+      "marrakesh": 0.42231036271154315,
+      "heron_good": 0.6702766917473012,
+      "garnet": 0.04364647560143835
+    },
+    "ms_esp": {
+      "marrakesh": 0.5188911989089219,
+      "heron_good": 0.7369235876173525,
+      "garnet": 0.13725740004598544
+    },
+    "esp_ratio": {
+      "marrakesh": 1.2286963445018462,
+      "heron_good": 1.0994319162379254,
+      "garnet": 3.1447533427295147
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qpeexact/grid3x3": {
+    "family": "qpeexact",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.1,
+    "prod_makespan": 239,
+    "ms_makespan": 191,
+    "makespan_red_pct": 20.0836820083682,
+    "prod_2q": 107,
+    "ms_2q": 153,
+    "n2q_delta": 46,
+    "prod_esp": {
+      "marrakesh": 0.3668757321097843,
+      "heron_good": 0.6223431142377421,
+      "garnet": 0.021698895662284192
+    },
+    "ms_esp": {
+      "marrakesh": 0.4174965640961964,
+      "heron_good": 0.6709319095414166,
+      "garnet": 0.061524110642826556
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1379781423407538,
+      "heron_good": 1.0780739662608574,
+      "garnet": 2.835356766554914
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qpeexact/ring12": {
+    "family": "qpeexact",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.25,
+    "prod_makespan": 421,
+    "ms_makespan": 281,
+    "makespan_red_pct": 33.2541567695962,
+    "prod_2q": 302,
+    "ms_2q": 302,
+    "n2q_delta": 0,
+    "prod_esp": {
+      "marrakesh": 0.08862036849613338,
+      "heron_good": 0.32720385422680553,
+      "garnet": 0.00012317407369323439
+    },
+    "ms_esp": {
+      "marrakesh": 0.18156767036500104,
+      "heron_good": 0.45331120808712805,
+      "garnet": 0.004875253687722172
+    },
+    "esp_ratio": {
+      "marrakesh": 2.0488254951560383,
+      "heron_good": 1.3854091332705072,
+      "garnet": 39.58019363607324
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qpeexact/heavy_hex2": {
+    "family": "qpeexact",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.02,
+    "prod_makespan": 516,
+    "ms_makespan": 383,
+    "makespan_red_pct": 25.775193798449614,
+    "prod_2q": 355,
+    "ms_2q": 365,
+    "n2q_delta": 10,
+    "prod_esp": {
+      "marrakesh": 0.033980125701960705,
+      "heron_good": 0.20688246605972577,
+      "garnet": 1.9160543720145836e-06
+    },
+    "ms_esp": {
+      "marrakesh": 0.07399573255973323,
+      "heron_good": 0.2975382181869622,
+      "garnet": 0.00010749211719621544
+    },
+    "esp_ratio": {
+      "marrakesh": 2.1776179761296044,
+      "heron_good": 1.4381993015351269,
+      "garnet": 56.10076559737486
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qpeexact/grid4x4": {
+    "family": "qpeexact",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.1,
+    "prod_makespan": 605,
+    "ms_makespan": 518,
+    "makespan_red_pct": 14.380165289256198,
+    "prod_2q": 399,
+    "ms_2q": 618,
+    "n2q_delta": 219,
+    "prod_esp": {
+      "marrakesh": 0.011770219514659942,
+      "heron_good": 0.1230905395866952,
+      "garnet": 1.791466250601001e-08
+    },
+    "ms_esp": {
+      "marrakesh": 0.016429848505129706,
+      "heron_good": 0.15450205003516246,
+      "garnet": 6.146533387223404e-07
+    },
+    "esp_ratio": {
+      "marrakesh": 1.3958829301922657,
+      "heron_good": 1.2551902896350817,
+      "garnet": 34.31007078788878
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qpeinexact/linear7": {
+    "family": "qpeinexact",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "prod_makespan": 180,
+    "ms_makespan": 144,
+    "makespan_red_pct": 20.0,
+    "prod_2q": 76,
+    "ms_2q": 81,
+    "n2q_delta": 5,
+    "prod_esp": {
+      "marrakesh": 0.5486301932183213,
+      "heron_good": 0.7536365572414309,
+      "garnet": 0.11408092833004911
+    },
+    "ms_esp": {
+      "marrakesh": 0.6074137602088556,
+      "heron_good": 0.7905326908263827,
+      "garnet": 0.20074129959714848
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1071460661793036,
+      "heron_good": 1.048957462626288,
+      "garnet": 1.7596394290935384
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qpeinexact/ring8": {
+    "family": "qpeinexact",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.05,
+    "prod_makespan": 227,
+    "ms_makespan": 164,
+    "makespan_red_pct": 27.75330396475771,
+    "prod_2q": 113,
+    "ms_2q": 122,
+    "n2q_delta": 9,
+    "prod_esp": {
+      "marrakesh": 0.41768169101631847,
+      "heron_good": 0.6667999057572765,
+      "garnet": 0.04176273248263908
+    },
+    "ms_esp": {
+      "marrakesh": 0.5132039669171001,
+      "heron_good": 0.7331010981339905,
+      "garnet": 0.13133349257629778
+    },
+    "esp_ratio": {
+      "marrakesh": 1.2286963445018462,
+      "heron_good": 1.0994319162379251,
+      "garnet": 3.144753342729516
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qpeinexact/grid3x3": {
+    "family": "qpeinexact",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.1,
+    "prod_makespan": 278,
+    "ms_makespan": 205,
+    "makespan_red_pct": 26.258992805755394,
+    "prod_2q": 130,
+    "ms_2q": 144,
+    "n2q_delta": 14,
+    "prod_esp": {
+      "marrakesh": 0.3080976515227005,
+      "heron_good": 0.5774836114673895,
+      "garnet": 0.011015048367377066
+    },
+    "ms_esp": {
+      "marrakesh": 0.4011913610013136,
+      "heron_good": 0.654107204025234,
+      "garnet": 0.048026721713595566
+    },
+    "esp_ratio": {
+      "marrakesh": 1.3021565046618149,
+      "heron_good": 1.1326853109530564,
+      "garnet": 4.360100846750237
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qpeinexact/ring12": {
+    "family": "qpeinexact",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.25,
+    "prod_makespan": 473,
+    "ms_makespan": 297,
+    "makespan_red_pct": 37.2093023255814,
+    "prod_2q": 317,
+    "ms_2q": 287,
+    "n2q_delta": -30,
+    "prod_esp": {
+      "marrakesh": 0.0670757208907016,
+      "heron_good": 0.28765890741516437,
+      "garnet": 3.538048463078293e-05
+    },
+    "ms_esp": {
+      "marrakesh": 0.1702247551913302,
+      "heron_good": 0.43816126095404506,
+      "garnet": 0.003078606901465245
+    },
+    "esp_ratio": {
+      "marrakesh": 2.5377998615729775,
+      "heron_good": 1.5231972647440666,
+      "garnet": 87.0142660167716
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qpeinexact/heavy_hex2": {
+    "family": "qpeinexact",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.1,
+    "prod_makespan": 655,
+    "ms_makespan": 444,
+    "makespan_red_pct": 32.213740458015266,
+    "prod_2q": 417,
+    "ms_2q": 486,
+    "n2q_delta": 69,
+    "prod_esp": {
+      "marrakesh": 0.013964984905794467,
+      "heron_good": 0.1383130182041495,
+      "garnet": 3.906534414916654e-08
+    },
+    "ms_esp": {
+      "marrakesh": 0.04530323141360304,
+      "heron_good": 0.2425184791170994,
+      "garnet": 2.838970371633964e-05
+    },
+    "esp_ratio": {
+      "marrakesh": 3.2440587454416403,
+      "heron_good": 1.7534031305653601,
+      "garnet": 726.7235022411887
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qpeinexact/grid4x4": {
+    "family": "qpeinexact",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.1,
+    "prod_makespan": 608,
+    "ms_makespan": 521,
+    "makespan_red_pct": 14.30921052631579,
+    "prod_2q": 400,
+    "ms_2q": 619,
+    "n2q_delta": 219,
+    "prod_esp": {
+      "marrakesh": 0.011524510810121909,
+      "heron_good": 0.12186569631027441,
+      "garnet": 1.6305481662819703e-08
+    },
+    "ms_esp": {
+      "marrakesh": 0.016086867918665444,
+      "heron_good": 0.1529646386482743,
+      "garnet": 5.594422300819695e-07
+    },
+    "esp_ratio": {
+      "marrakesh": 1.3958829301922684,
+      "heron_good": 1.2551902896350822,
+      "garnet": 34.31007078788897
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qftentangled/linear7": {
+    "family": "qftentangled",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "prod_makespan": 203,
+    "ms_makespan": 113,
+    "makespan_red_pct": 44.33497536945813,
+    "prod_2q": 120,
+    "ms_2q": 68,
+    "n2q_delta": -52,
+    "prod_esp": {
+      "marrakesh": 0.4852127822135749,
+      "heron_good": 0.7252303929719831,
+      "garnet": 0.08622821250914983
+    },
+    "ms_esp": {
+      "marrakesh": 0.6755137121744189,
+      "heron_good": 0.8279175770196627,
+      "garnet": 0.30503770013850307
+    },
+    "esp_ratio": {
+      "marrakesh": 1.3922009826136026,
+      "heron_good": 1.1415924994909123,
+      "garnet": 3.5375626058134393
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qftentangled/ring8": {
+    "family": "qftentangled",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "prod_makespan": 202,
+    "ms_makespan": 133,
+    "makespan_red_pct": 34.15841584158416,
+    "prod_2q": 131,
+    "ms_2q": 90,
+    "n2q_delta": -41,
+    "prod_esp": {
+      "marrakesh": 0.444041663109991,
+      "heron_good": 0.6923430319086823,
+      "garnet": 0.06464729601494615
+    },
+    "ms_esp": {
+      "marrakesh": 0.5908159911175548,
+      "heron_good": 0.7761145124800894,
+      "garnet": 0.20083531910622712
+    },
+    "esp_ratio": {
+      "marrakesh": 1.3305417941631463,
+      "heron_good": 1.1209970732867234,
+      "garnet": 3.1066313904265224
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qftentangled/grid3x3": {
+    "family": "qftentangled",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.25,
+    "prod_makespan": 240,
+    "ms_makespan": 179,
+    "makespan_red_pct": 25.416666666666668,
+    "prod_2q": 130,
+    "ms_2q": 163,
+    "n2q_delta": 33,
+    "prod_esp": {
+      "marrakesh": 0.3555813546505844,
+      "heron_good": 0.618489461942843,
+      "garnet": 0.022380628702390597
+    },
+    "ms_esp": {
+      "marrakesh": 0.43161261416960417,
+      "heron_good": 0.6843453873283725,
+      "garnet": 0.07857198212593315
+    },
+    "esp_ratio": {
+      "marrakesh": 1.2138224024533926,
+      "heron_good": 1.106478653942879,
+      "garnet": 3.5107138039218913
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qftentangled/ring12": {
+    "family": "qftentangled",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "prod_makespan": 532,
+    "ms_makespan": 213,
+    "makespan_red_pct": 59.962406015037594,
+    "prod_2q": 416,
+    "ms_2q": 208,
+    "n2q_delta": -208,
+    "prod_esp": {
+      "marrakesh": 0.04405968266929884,
+      "heron_good": 0.24594994912603338,
+      "garnet": 9.344364055193685e-06
+    },
+    "ms_esp": {
+      "marrakesh": 0.2847864708922822,
+      "heron_good": 0.5455679460121682,
+      "garnet": 0.02027669872064382
+    },
+    "esp_ratio": {
+      "marrakesh": 6.463652337894023,
+      "heron_good": 2.2182071919543276,
+      "garnet": 2169.938863776807
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    },
+    "routing": true
+  },
+  "qftentangled/heavy_hex2": {
+    "family": "qftentangled",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.1,
+    "prod_makespan": 384,
+    "ms_makespan": 356,
+    "makespan_red_pct": 7.291666666666667,
+    "prod_2q": 357,
+    "ms_2q": 389,
+    "n2q_delta": 32,
+    "prod_esp": {
+      "marrakesh": 0.07366032497954092,
+      "heron_good": 0.299211219734423,
+      "garnet": 9.078237471422185e-05
+    },
+    "ms_esp": {
+      "marrakesh": 0.08396742074107323,
+      "heron_good": 0.32038779245322724,
+      "garnet": 0.00023590249297276593
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1399273729025103,
+      "heron_good": 1.0707746612496696,
+      "garnet": 2.5985494840311745
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  },
+  "qftentangled/grid4x4": {
+    "family": "qftentangled",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.1,
+    "prod_makespan": 503,
+    "ms_makespan": 404,
+    "makespan_red_pct": 19.681908548707753,
+    "prod_2q": 432,
+    "ms_2q": 553,
+    "n2q_delta": 121,
+    "prod_esp": {
+      "marrakesh": 0.022424951901283203,
+      "heron_good": 0.16967828583886765,
+      "garnet": 5.671499128361806e-07
+    },
+    "ms_esp": {
+      "marrakesh": 0.037943878374703296,
+      "heron_good": 0.22652199473375484,
+      "garnet": 2.1697853702842758e-05
+    },
+    "esp_ratio": {
+      "marrakesh": 1.6920383393345013,
+      "heron_good": 1.3350087408878466,
+      "garnet": 38.257704377202494
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    },
+    "routing": true
+  }
+}

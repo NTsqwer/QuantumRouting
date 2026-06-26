@@ -1,0 +1,58 @@
+{
+  "qft": {
+    "topology": "linear5",
+    "family": "qft",
+    "lambda": 0.1,
+    "n_qubits": 5,
+    "n_circuits": 12,
+    "K": 20,
+    "sabre_mean": 83.33333333333333,
+    "ms_mean": 80.75,
+    "v19_det_mean": 77.83333333333333,
+    "v19_k20_mean": 70.25,
+    "v19_vs_ms_pct": 13.003095975232197,
+    "p_v19_less_than_ms": 0.000244140625
+  },
+  "qv": {
+    "topology": "linear5",
+    "family": "qv",
+    "lambda": 0.1,
+    "n_qubits": 5,
+    "n_circuits": 11,
+    "K": 20,
+    "sabre_mean": 56.18181818181818,
+    "ms_mean": 56.18181818181818,
+    "v19_det_mean": 63.45454545454545,
+    "v19_k20_mean": 54.0,
+    "v19_vs_ms_pct": 3.8834951456310645,
+    "p_v19_less_than_ms": 0.1796875
+  },
+  "vqe": {
+    "topology": "linear5",
+    "family": "vqe",
+    "lambda": 0.1,
+    "n_qubits": 5,
+    "n_circuits": 12,
+    "K": 20,
+    "sabre_mean": 95.16666666666667,
+    "ms_mean": 80.91666666666667,
+    "v19_det_mean": 98.66666666666667,
+    "v19_k20_mean": 92.33333333333333,
+    "v19_vs_ms_pct": -14.109165808444889,
+    "p_v19_less_than_ms": 1.0
+  },
+  "qaoa": {
+    "topology": "linear5",
+    "family": "qaoa",
+    "lambda": 0.005,
+    "n_qubits": 5,
+    "n_circuits": 12,
+    "K": 20,
+    "sabre_mean": 36.416666666666664,
+    "ms_mean": 36.666666666666664,
+    "v19_det_mean": 44.0,
+    "v19_k20_mean": 37.833333333333336,
+    "v19_vs_ms_pct": -3.181818181818195,
+    "p_v19_less_than_ms": 0.5
+  }
+}

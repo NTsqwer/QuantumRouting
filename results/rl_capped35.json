@@ -1,0 +1,554 @@
+{
+  "linear5": {
+    "topology": "linear5",
+    "n_qubits": 5,
+    "K": 20,
+    "max_cx_cap": 35,
+    "by_family": {
+      "qft": {
+        "n_kept": 6,
+        "mean_n_cx": 26.0,
+        "sabre_mean": 84.66666666666667,
+        "baseline_rl_mean": 78.16666666666667,
+        "v19_rl_mean": 73.0,
+        "v19_vs_baseline_pct": 6.609808102345422,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 26,
+            "sabre": 80.0,
+            "baseline_rl": 76.0,
+            "v19_rl": 76.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 26,
+            "sabre": 88.0,
+            "baseline_rl": 83.0,
+            "v19_rl": 76.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 26,
+            "sabre": 88.0,
+            "baseline_rl": 83.0,
+            "v19_rl": 76.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 26,
+            "sabre": 86.0,
+            "baseline_rl": 80.0,
+            "v19_rl": 76.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 26,
+            "sabre": 86.0,
+            "baseline_rl": 80.0,
+            "v19_rl": 67.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 26,
+            "sabre": 80.0,
+            "baseline_rl": 67.0,
+            "v19_rl": 67.0
+          }
+        ]
+      },
+      "qv": {
+        "n_kept": 6,
+        "mean_n_cx": 30.0,
+        "sabre_mean": 62.0,
+        "baseline_rl_mean": 61.333333333333336,
+        "v19_rl_mean": 61.0,
+        "v19_vs_baseline_pct": 0.5434782608695691,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 30,
+            "sabre": 66.0,
+            "baseline_rl": 72.0,
+            "v19_rl": 72.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 30,
+            "sabre": 46.0,
+            "baseline_rl": 46.0,
+            "v19_rl": 46.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 30,
+            "sabre": 46.0,
+            "baseline_rl": 52.0,
+            "v19_rl": 62.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 30,
+            "sabre": 82.0,
+            "baseline_rl": 76.0,
+            "v19_rl": 66.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 30,
+            "sabre": 66.0,
+            "baseline_rl": 56.0,
+            "v19_rl": 60.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 30,
+            "sabre": 66.0,
+            "baseline_rl": 66.0,
+            "v19_rl": 60.0
+          }
+        ]
+      },
+      "vqe": {
+        "n_kept": 6,
+        "mean_n_cx": 20.0,
+        "sabre_mean": 94.5,
+        "baseline_rl_mean": 92.33333333333333,
+        "v19_rl_mean": 86.83333333333333,
+        "v19_vs_baseline_pct": 5.956678700361011,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 20,
+            "sabre": 89.0,
+            "baseline_rl": 96.0,
+            "v19_rl": 87.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 20,
+            "sabre": 105.0,
+            "baseline_rl": 96.0,
+            "v19_rl": 86.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 20,
+            "sabre": 103.0,
+            "baseline_rl": 85.0,
+            "v19_rl": 87.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 20,
+            "sabre": 92.0,
+            "baseline_rl": 85.0,
+            "v19_rl": 87.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 20,
+            "sabre": 87.0,
+            "baseline_rl": 96.0,
+            "v19_rl": 87.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 20,
+            "sabre": 91.0,
+            "baseline_rl": 96.0,
+            "v19_rl": 87.0
+          }
+        ]
+      },
+      "qaoa": {
+        "n_kept": 6,
+        "mean_n_cx": 11.666666666666666,
+        "sabre_mean": 37.5,
+        "baseline_rl_mean": 42.333333333333336,
+        "v19_rl_mean": 40.833333333333336,
+        "v19_vs_baseline_pct": 3.543307086614173,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 10,
+            "sabre": 24.0,
+            "baseline_rl": 33.0,
+            "v19_rl": 24.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 14,
+            "sabre": 44.0,
+            "baseline_rl": 51.0,
+            "v19_rl": 38.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 10,
+            "sabre": 41.0,
+            "baseline_rl": 41.0,
+            "v19_rl": 44.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 12,
+            "sabre": 34.0,
+            "baseline_rl": 44.0,
+            "v19_rl": 57.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 14,
+            "sabre": 48.0,
+            "baseline_rl": 51.0,
+            "v19_rl": 48.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 10,
+            "sabre": 34.0,
+            "baseline_rl": 34.0,
+            "v19_rl": 34.0
+          }
+        ]
+      }
+    }
+  },
+  "ring5": {
+    "topology": "ring5",
+    "n_qubits": 5,
+    "K": 20,
+    "max_cx_cap": 35,
+    "by_family": {
+      "qft": {
+        "n_kept": 6,
+        "mean_n_cx": 26.0,
+        "sabre_mean": 82.0,
+        "baseline_rl_mean": 74.33333333333333,
+        "v19_rl_mean": 65.0,
+        "v19_vs_baseline_pct": 12.556053811659186,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 26,
+            "sabre": 82.0,
+            "baseline_rl": 80.0,
+            "v19_rl": 70.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 26,
+            "sabre": 82.0,
+            "baseline_rl": 74.0,
+            "v19_rl": 64.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 26,
+            "sabre": 82.0,
+            "baseline_rl": 73.0,
+            "v19_rl": 64.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 26,
+            "sabre": 82.0,
+            "baseline_rl": 73.0,
+            "v19_rl": 64.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 26,
+            "sabre": 82.0,
+            "baseline_rl": 73.0,
+            "v19_rl": 64.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 26,
+            "sabre": 82.0,
+            "baseline_rl": 73.0,
+            "v19_rl": 64.0
+          }
+        ]
+      },
+      "qv": {
+        "n_kept": 6,
+        "mean_n_cx": 30.0,
+        "sabre_mean": 50.0,
+        "baseline_rl_mean": 49.666666666666664,
+        "v19_rl_mean": 51.333333333333336,
+        "v19_vs_baseline_pct": -3.355704697986587,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 30,
+            "sabre": 56.0,
+            "baseline_rl": 56.0,
+            "v19_rl": 56.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 30,
+            "sabre": 36.0,
+            "baseline_rl": 36.0,
+            "v19_rl": 36.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 30,
+            "sabre": 40.0,
+            "baseline_rl": 40.0,
+            "v19_rl": 40.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 30,
+            "sabre": 62.0,
+            "baseline_rl": 56.0,
+            "v19_rl": 56.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 30,
+            "sabre": 50.0,
+            "baseline_rl": 50.0,
+            "v19_rl": 60.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 30,
+            "sabre": 56.0,
+            "baseline_rl": 60.0,
+            "v19_rl": 60.0
+          }
+        ]
+      },
+      "vqe": {
+        "n_kept": 6,
+        "mean_n_cx": 20.0,
+        "sabre_mean": 83.83333333333333,
+        "baseline_rl_mean": 82.0,
+        "v19_rl_mean": 75.66666666666667,
+        "v19_vs_baseline_pct": 7.723577235772352,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 20,
+            "sabre": 84.0,
+            "baseline_rl": 74.0,
+            "v19_rl": 79.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 20,
+            "sabre": 82.0,
+            "baseline_rl": 83.0,
+            "v19_rl": 76.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 20,
+            "sabre": 83.0,
+            "baseline_rl": 81.0,
+            "v19_rl": 77.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 20,
+            "sabre": 88.0,
+            "baseline_rl": 78.0,
+            "v19_rl": 78.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 20,
+            "sabre": 82.0,
+            "baseline_rl": 90.0,
+            "v19_rl": 76.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 20,
+            "sabre": 84.0,
+            "baseline_rl": 86.0,
+            "v19_rl": 68.0
+          }
+        ]
+      },
+      "qaoa": {
+        "n_kept": 6,
+        "mean_n_cx": 11.666666666666666,
+        "sabre_mean": 39.166666666666664,
+        "baseline_rl_mean": 37.166666666666664,
+        "v19_rl_mean": 36.166666666666664,
+        "v19_vs_baseline_pct": 2.690582959641256,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 10,
+            "sabre": 31.0,
+            "baseline_rl": 31.0,
+            "v19_rl": 31.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 14,
+            "sabre": 44.0,
+            "baseline_rl": 41.0,
+            "v19_rl": 38.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 10,
+            "sabre": 41.0,
+            "baseline_rl": 38.0,
+            "v19_rl": 38.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 12,
+            "sabre": 31.0,
+            "baseline_rl": 31.0,
+            "v19_rl": 31.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 14,
+            "sabre": 54.0,
+            "baseline_rl": 48.0,
+            "v19_rl": 45.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 10,
+            "sabre": 34.0,
+            "baseline_rl": 34.0,
+            "v19_rl": 34.0
+          }
+        ]
+      }
+    }
+  },
+  "ring8": {
+    "topology": "ring8",
+    "n_qubits": 8,
+    "K": 20,
+    "max_cx_cap": 35,
+    "by_family": {
+      "qaoa": {
+        "n_kept": 6,
+        "mean_n_cx": 27.666666666666668,
+        "sabre_mean": 77.0,
+        "baseline_rl_mean": 114.66666666666667,
+        "v19_rl_mean": 76.66666666666667,
+        "v19_vs_baseline_pct": 33.13953488372093,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 30,
+            "sabre": 80.0,
+            "baseline_rl": 125.0,
+            "v19_rl": 92.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 32,
+            "sabre": 87.0,
+            "baseline_rl": 139.0,
+            "v19_rl": 93.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 18,
+            "sabre": 58.0,
+            "baseline_rl": 64.0,
+            "v19_rl": 57.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 30,
+            "sabre": 84.0,
+            "baseline_rl": 111.0,
+            "v19_rl": 74.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 30,
+            "sabre": 93.0,
+            "baseline_rl": 141.0,
+            "v19_rl": 84.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 26,
+            "sabre": 60.0,
+            "baseline_rl": 108.0,
+            "v19_rl": 60.0
+          }
+        ]
+      }
+    }
+  },
+  "linear7": {
+    "topology": "linear7",
+    "n_qubits": 7,
+    "K": 20,
+    "max_cx_cap": 35,
+    "by_family": {
+      "qaoa": {
+        "n_kept": 6,
+        "mean_n_cx": 21.333333333333332,
+        "sabre_mean": 70.66666666666667,
+        "baseline_rl_mean": 81.66666666666667,
+        "v19_rl_mean": 67.5,
+        "v19_vs_baseline_pct": 17.34693877551021,
+        "per_circuit": [
+          {
+            "ci": 0,
+            "n_cx": 20,
+            "sabre": 87.0,
+            "baseline_rl": 68.0,
+            "v19_rl": 72.0
+          },
+          {
+            "ci": 1,
+            "n_cx": 26,
+            "sabre": 94.0,
+            "baseline_rl": 122.0,
+            "v19_rl": 88.0
+          },
+          {
+            "ci": 2,
+            "n_cx": 16,
+            "sabre": 58.0,
+            "baseline_rl": 61.0,
+            "v19_rl": 59.0
+          },
+          {
+            "ci": 3,
+            "n_cx": 22,
+            "sabre": 57.0,
+            "baseline_rl": 79.0,
+            "v19_rl": 57.0
+          },
+          {
+            "ci": 4,
+            "n_cx": 24,
+            "sabre": 71.0,
+            "baseline_rl": 98.0,
+            "v19_rl": 62.0
+          },
+          {
+            "ci": 5,
+            "n_cx": 20,
+            "sabre": 57.0,
+            "baseline_rl": 62.0,
+            "v19_rl": 67.0
+          }
+        ]
+      }
+    }
+  }
+}

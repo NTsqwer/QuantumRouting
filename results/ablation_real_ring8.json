@@ -1,0 +1,53 @@
+{
+  "qft": {
+    "topology": "ring8",
+    "family": "qft",
+    "n_qubits": 8,
+    "n_circuits": 10,
+    "K": 20,
+    "sabre_lookahead_K20_mean": 159.4,
+    "baseline_K20_mean": 198.3,
+    "baseline_vs_sabre_pct": -24.404015056461734,
+    "baseline_p_lt_sabre": 1.0,
+    "v14lite_K20_mean": 244.9,
+    "v14lite_vs_sabre_pct": -53.638644918444164,
+    "v14lite_p_lt_sabre": 1.0,
+    "v19_K20_mean": 113.7,
+    "v19_vs_sabre_pct": 28.670012547051442,
+    "v19_p_lt_sabre": 0.0009765625
+  },
+  "qv": {
+    "topology": "ring8",
+    "family": "qv",
+    "n_qubits": 8,
+    "n_circuits": 9,
+    "K": 20,
+    "sabre_lookahead_K20_mean": 118.88888888888889,
+    "baseline_K20_mean": 175.33333333333334,
+    "baseline_vs_sabre_pct": -47.4766355140187,
+    "baseline_p_lt_sabre": 1.0,
+    "v14lite_K20_mean": 217.22222222222223,
+    "v14lite_vs_sabre_pct": -82.71028037383178,
+    "v14lite_p_lt_sabre": 1.0,
+    "v19_K20_mean": 107.66666666666667,
+    "v19_vs_sabre_pct": 9.439252336448591,
+    "v19_p_lt_sabre": 0.013671875
+  },
+  "qaoa": {
+    "topology": "ring8",
+    "family": "qaoa",
+    "n_qubits": 8,
+    "n_circuits": 12,
+    "K": 20,
+    "sabre_lookahead_K20_mean": 87.25,
+    "baseline_K20_mean": 89.83333333333333,
+    "baseline_vs_sabre_pct": -2.9608404966571102,
+    "baseline_p_lt_sabre": 0.736328125,
+    "v14lite_K20_mean": 98.75,
+    "v14lite_vs_sabre_pct": -13.180515759312321,
+    "v14lite_p_lt_sabre": 0.951171875,
+    "v19_K20_mean": 61.333333333333336,
+    "v19_vs_sabre_pct": 29.703915950334288,
+    "v19_p_lt_sabre": 0.000244140625
+  }
+}

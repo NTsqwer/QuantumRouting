@@ -1,0 +1,35 @@
+{
+  "heavy_hex2/qft": {
+    "topology": "heavy_hex2",
+    "family": "qft",
+    "lambda": 0.05,
+    "n_qubits": 14,
+    "n_circuits": 40,
+    "sabre_lookahead_k20_mean": 187.85,
+    "ms_k20_mean": 164.3,
+    "gain_vs_sabre_pct": 12.536598349747129,
+    "p": 3.1043111982824e-07
+  },
+  "tshape5/qft": {
+    "topology": "tshape5",
+    "family": "qft",
+    "lambda": 0.05,
+    "n_qubits": 5,
+    "n_circuits": 40,
+    "sabre_lookahead_k20_mean": 30.2,
+    "ms_k20_mean": 30.6,
+    "gain_vs_sabre_pct": -1.3245033112582851,
+    "p": 0.8748502614062759
+  },
+  "grid3x3/qft": {
+    "topology": "grid3x3",
+    "family": "qft",
+    "lambda": 0.1,
+    "n_qubits": 9,
+    "n_circuits": 40,
+    "sabre_lookahead_k20_mean": 93.2,
+    "ms_k20_mean": 82.5,
+    "gain_vs_sabre_pct": 11.480686695278973,
+    "p": 6.749647454555637e-06
+  }
+}

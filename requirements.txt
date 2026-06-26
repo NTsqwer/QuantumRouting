@@ -1,0 +1,24 @@
+# Exact package versions for reproducing the SABRE-MS experiments.
+# Python 3.11. Install with:  pip install -r requirements.txt
+#
+# Versions below are the ones used to produce the released results.
+# (qiskit-ibm-runtime and sb3-contrib are only needed for, respectively, the
+#  on-device hardware runs and the RL-router ablation; the core makespan/ESP
+#  results need only qiskit + mqt.bench + the scientific stack.)
+
+# --- core routing pipeline ---
+qiskit==2.4.2
+mqt.bench==2.2.2
+qgym==0.3.1
+numpy==2.4.3
+scipy==1.17.1
+networkx==3.6.1
+matplotlib==3.10.8
+
+# --- hardware runs (Section 5.4) ---
+qiskit-ibm-runtime==0.42.0
+
+# --- RL-router ablation (Section 5.6) ---
+gymnasium==1.2.3
+stable-baselines3==2.8.0
+sb3-contrib==2.8.0

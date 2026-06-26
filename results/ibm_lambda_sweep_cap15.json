@@ -1,0 +1,183 @@
+{
+  "backend": "ibm_marrakesh",
+  "size": 8,
+  "cap2q": 15,
+  "shots": 4096,
+  "job_id": "d8rjveugbcrc73f4lg8g",
+  "meta": [
+    {
+      "family": "qftentangled",
+      "lam": 0.0,
+      "method": "sabre",
+      "n2q": 44,
+      "makespan": 73,
+      "depth": 431,
+      "fidelity": 0.141845703125,
+      "shots": 4096
+    },
+    {
+      "family": "qftentangled",
+      "lam": 0.005,
+      "method": "sabre_ms",
+      "n2q": 31,
+      "makespan": 58,
+      "depth": 397,
+      "fidelity": 0.086181640625,
+      "shots": 4096
+    },
+    {
+      "family": "qftentangled",
+      "lam": 0.01,
+      "method": "sabre_ms",
+      "n2q": 31,
+      "makespan": 58,
+      "depth": 397,
+      "fidelity": 0.107177734375,
+      "shots": 4096
+    },
+    {
+      "family": "qftentangled",
+      "lam": 0.02,
+      "method": "sabre_ms",
+      "n2q": 39,
+      "makespan": 69,
+      "depth": 473,
+      "fidelity": 0.036376953125,
+      "shots": 4096
+    },
+    {
+      "family": "qftentangled",
+      "lam": 0.05,
+      "method": "sabre_ms",
+      "n2q": 31,
+      "makespan": 58,
+      "depth": 397,
+      "fidelity": 0.104736328125,
+      "shots": 4096
+    },
+    {
+      "family": "qftentangled",
+      "lam": 0.1,
+      "method": "sabre_ms",
+      "n2q": 31,
+      "makespan": 58,
+      "depth": 397,
+      "fidelity": 0.0888671875,
+      "shots": 4096
+    },
+    {
+      "family": "qftentangled",
+      "lam": 0.25,
+      "method": "sabre_ms",
+      "n2q": 33,
+      "makespan": 53,
+      "depth": 397,
+      "fidelity": 0.0908203125,
+      "shots": 4096
+    },
+    {
+      "family": "qftentangled",
+      "lam": 0.5,
+      "method": "sabre_ms",
+      "n2q": 33,
+      "makespan": 53,
+      "depth": 397,
+      "fidelity": 0.07763671875,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "lam": 0.0,
+      "method": "sabre",
+      "n2q": 48,
+      "makespan": 111,
+      "depth": 697,
+      "fidelity": 0.40087890625,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "lam": 0.005,
+      "method": "sabre_ms",
+      "n2q": 46,
+      "makespan": 111,
+      "depth": 685,
+      "fidelity": 0.103271484375,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "lam": 0.01,
+      "method": "sabre_ms",
+      "n2q": 45,
+      "makespan": 111,
+      "depth": 703,
+      "fidelity": 0.40966796875,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "lam": 0.02,
+      "method": "sabre_ms",
+      "n2q": 45,
+      "makespan": 111,
+      "depth": 703,
+      "fidelity": 0.098388671875,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "lam": 0.05,
+      "method": "sabre_ms",
+      "n2q": 45,
+      "makespan": 111,
+      "depth": 703,
+      "fidelity": 0.0556640625,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "lam": 0.1,
+      "method": "sabre_ms",
+      "n2q": 52,
+      "makespan": 103,
+      "depth": 671,
+      "fidelity": 0.0263671875,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "lam": 0.25,
+      "method": "sabre_ms",
+      "n2q": 46,
+      "makespan": 111,
+      "depth": 685,
+      "fidelity": 0.102294921875,
+      "shots": 4096
+    },
+    {
+      "family": "qft",
+      "lam": 0.5,
+      "method": "sabre_ms",
+      "n2q": 44,
+      "makespan": 108,
+      "depth": 679,
+      "fidelity": 0.449951171875,
+      "shots": 4096
+    }
+  ],
+  "by_family": {
+    "qftentangled": {
+      "sabre_fid": 0.141845703125,
+      "best_lam": 0.01,
+      "best_fid": 0.107177734375,
+      "best_ratio": 0.7555938037865749
+    },
+    "qft": {
+      "sabre_fid": 0.40087890625,
+      "best_lam": 0.5,
+      "best_fid": 0.449951171875,
+      "best_ratio": 1.1224116930572472
+    }
+  }
+}

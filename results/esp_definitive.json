@@ -1,0 +1,226 @@
+{
+  "qft/linear7": {
+    "family": "qft",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.1,
+    "prod_makespan": 138,
+    "ms_makespan": 116,
+    "prod_n2q": 75,
+    "ms_n2q": 68,
+    "makespan_red_pct": 15.942028985507246,
+    "n2q_delta": -7,
+    "prod_esp": {
+      "marrakesh": 0.620544860741209,
+      "heron_good": 0.8003997358340319,
+      "garnet": 0.20555083451922357
+    },
+    "ms_esp": {
+      "marrakesh": 0.6683025640781912,
+      "heron_good": 0.8257683819291088,
+      "garnet": 0.2837667967932864
+    },
+    "esp_ratio": {
+      "marrakesh": 1.076960919924368,
+      "heron_good": 1.0316949705994622,
+      "garnet": 1.3805188261921064
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    }
+  },
+  "qft/ring8": {
+    "family": "qft",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.25,
+    "prod_makespan": 165,
+    "ms_makespan": 127,
+    "prod_n2q": 107,
+    "ms_n2q": 83,
+    "makespan_red_pct": 23.03030303030303,
+    "n2q_delta": -24,
+    "prod_esp": {
+      "marrakesh": 0.5175462400798888,
+      "heron_good": 0.7378151888404448,
+      "garnet": 0.11411193300469462
+    },
+    "ms_esp": {
+      "marrakesh": 0.6071354442903393,
+      "heron_good": 0.7854870956406851,
+      "garnet": 0.21452913443488647
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1731037678809557,
+      "heron_good": 1.0646122599822887,
+      "garnet": 1.8799886110601653
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    }
+  },
+  "qft/grid3x3": {
+    "family": "qft",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.25,
+    "prod_makespan": 207,
+    "ms_makespan": 173,
+    "prod_n2q": 116,
+    "ms_n2q": 156,
+    "makespan_red_pct": 16.42512077294686,
+    "n2q_delta": 40,
+    "prod_esp": {
+      "marrakesh": 0.40934070837424696,
+      "heron_good": 0.6584491770366365,
+      "garnet": 0.039940825138916995
+    },
+    "ms_esp": {
+      "marrakesh": 0.44507944732975485,
+      "heron_good": 0.6928865898341389,
+      "garnet": 0.08620617153862313
+    },
+    "esp_ratio": {
+      "marrakesh": 1.0873080498087992,
+      "heron_good": 1.0523007910078779,
+      "garnet": 2.158347285986006
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    }
+  },
+  "qft/ring12": {
+    "family": "qft",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "prod_makespan": 388,
+    "ms_makespan": 245,
+    "prod_n2q": 338,
+    "ms_n2q": 260,
+    "makespan_red_pct": 36.855670103092784,
+    "n2q_delta": -78,
+    "prod_esp": {
+      "marrakesh": 0.09996703029791838,
+      "heron_good": 0.3525408641873779,
+      "garnet": 0.00029165817646387116
+    },
+    "ms_esp": {
+      "marrakesh": 0.2269765980318386,
+      "heron_good": 0.5017002690593863,
+      "garnet": 0.009671990681595929
+    },
+    "esp_ratio": {
+      "marrakesh": 2.2705145622052645,
+      "heron_good": 1.423098199455054,
+      "garnet": 33.16207623205118
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": true
+    }
+  },
+  "qft/heavy_hex2": {
+    "family": "qft",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "lam": 0.01,
+    "prod_makespan": 367,
+    "ms_makespan": 341,
+    "prod_n2q": 334,
+    "ms_n2q": 376,
+    "makespan_red_pct": 7.084468664850136,
+    "n2q_delta": 42,
+    "prod_esp": {
+      "marrakesh": 0.08358908734863271,
+      "heron_good": 0.3154378022320364,
+      "garnet": 0.00013981886394099594
+    },
+    "ms_esp": {
+      "marrakesh": 0.09321895873429897,
+      "heron_good": 0.3347346933050599,
+      "garnet": 0.0003596338633915755
+    },
+    "esp_ratio": {
+      "marrakesh": 1.1152048872779536,
+      "heron_good": 1.0611749477598398,
+      "garnet": 2.572141220825126
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    }
+  },
+  "qft/grid4x4": {
+    "family": "qft",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.1,
+    "prod_makespan": 492,
+    "ms_makespan": 422,
+    "prod_n2q": 428,
+    "ms_n2q": 554,
+    "makespan_red_pct": 14.227642276422765,
+    "n2q_delta": 126,
+    "prod_esp": {
+      "marrakesh": 0.024160737766124568,
+      "heron_good": 0.17649768136218363,
+      "garnet": 7.63106410547951e-07
+    },
+    "ms_esp": {
+      "marrakesh": 0.03348648950576595,
+      "heron_good": 0.21431408524545,
+      "garnet": 1.1435581618338443e-05
+    },
+    "esp_ratio": {
+      "marrakesh": 1.3859878713106555,
+      "heron_good": 1.2142600604801423,
+      "garnet": 14.985566180904033
+    },
+    "esp_valid": {
+      "marrakesh": true,
+      "heron_good": true,
+      "garnet": false
+    }
+  },
+  "qft/grid5x5": {
+    "family": "qft",
+    "topology": "grid5x5",
+    "n_qubits": 25,
+    "lam": 0.1,
+    "prod_makespan": 1043,
+    "ms_makespan": 805,
+    "prod_n2q": 996,
+    "ms_n2q": 1539,
+    "makespan_red_pct": 22.818791946308725,
+    "n2q_delta": 543,
+    "prod_esp": {
+      "marrakesh": 6.620583797965249e-06,
+      "heron_good": 0.0037613624353327745,
+      "garnet": 5.152315907989141e-22
+    },
+    "ms_esp": {
+      "marrakesh": 4.302775668597114e-05,
+      "heron_good": 0.010931003660318617,
+      "garnet": 5.651754553732118e-16
+    },
+    "esp_ratio": {
+      "marrakesh": 6.499087995713484,
+      "heron_good": 2.9061287893017234,
+      "garnet": 1096934.7871252522
+    },
+    "esp_valid": {
+      "marrakesh": false,
+      "heron_good": true,
+      "garnet": false
+    }
+  }
+}

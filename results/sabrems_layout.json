@@ -1,0 +1,282 @@
+{
+  "linear7/qft": {
+    "topology": "linear7",
+    "family": "qft",
+    "lambda": 0.25,
+    "n_qubits": 7,
+    "n_circuits": 30,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 72.26666666666667,
+    "B_sabreLayout_msRoute_mean": 46.4,
+    "C_identityLayout_msRoute_mean": 75.46666666666667,
+    "D_msLayout_msRoute_mean": 40.8,
+    "B_vs_A": {
+      "gain": 35.79335793357934,
+      "p": 5.897095677184022e-07
+    },
+    "D_vs_A": {
+      "gain": 43.542435424354245,
+      "p": 6.451070284044748e-07
+    },
+    "D_vs_B": {
+      "gain": 12.068965517241383,
+      "p": 2.4003473972233617e-06
+    },
+    "C_vs_B": {
+      "gain": -62.64367816091955,
+      "p": 0.9999989504252343
+    }
+  },
+  "ring12/qft": {
+    "topology": "ring12",
+    "family": "qft",
+    "lambda": 0.25,
+    "n_qubits": 12,
+    "n_circuits": 25,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 211.6,
+    "B_sabreLayout_msRoute_mean": 91.92,
+    "C_identityLayout_msRoute_mean": 130.0,
+    "D_msLayout_msRoute_mean": 108.08,
+    "B_vs_A": {
+      "gain": 56.55954631379962,
+      "p": 6.001696098658608e-06
+    },
+    "D_vs_A": {
+      "gain": 48.92249527410208,
+      "p": 2.9632091623113027e-05
+    },
+    "D_vs_B": {
+      "gain": -17.5805047867711,
+      "p": 0.5482627230463967
+    },
+    "C_vs_B": {
+      "gain": -41.427328111401216,
+      "p": 0.9999909548924056
+    }
+  },
+  "ring5/qft": {
+    "topology": "ring5",
+    "family": "qft",
+    "lambda": 0.25,
+    "n_qubits": 5,
+    "n_circuits": 40,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 30.6,
+    "B_sabreLayout_msRoute_mean": 30.25,
+    "C_identityLayout_msRoute_mean": 31.65,
+    "D_msLayout_msRoute_mean": 27.3,
+    "B_vs_A": {
+      "gain": 1.1437908496732072,
+      "p": 0.24724956297075923
+    },
+    "D_vs_A": {
+      "gain": 10.784313725490197,
+      "p": 1.892655933127227e-05
+    },
+    "D_vs_B": {
+      "gain": 9.752066115702478,
+      "p": 0.00014063672788819075
+    },
+    "C_vs_B": {
+      "gain": -4.628099173553714,
+      "p": 0.9574601708264451
+    }
+  },
+  "tshape5/qft": {
+    "topology": "tshape5",
+    "family": "qft",
+    "lambda": 0.25,
+    "n_qubits": 5,
+    "n_circuits": 40,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 30.2,
+    "B_sabreLayout_msRoute_mean": 30.6,
+    "C_identityLayout_msRoute_mean": 33.2,
+    "D_msLayout_msRoute_mean": 27.45,
+    "B_vs_A": {
+      "gain": -1.3245033112582851,
+      "p": 0.8748502614062759
+    },
+    "D_vs_A": {
+      "gain": 9.105960264900663,
+      "p": 0.0009823491490400778
+    },
+    "D_vs_B": {
+      "gain": 10.294117647058831,
+      "p": 4.01685846868452e-06
+    },
+    "C_vs_B": {
+      "gain": -8.496732026143794,
+      "p": 0.9993114178539332
+    }
+  },
+  "ring12/parallel": {
+    "topology": "ring12",
+    "family": "parallel",
+    "lambda": 0.02,
+    "n_qubits": 12,
+    "n_circuits": 30,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 52.4,
+    "B_sabreLayout_msRoute_mean": 52.4,
+    "C_identityLayout_msRoute_mean": 74.46666666666667,
+    "D_msLayout_msRoute_mean": 53.93333333333333,
+    "B_vs_A": {
+      "gain": 0.0,
+      "p": 0.5557107521734237
+    },
+    "D_vs_A": {
+      "gain": -2.9262086513994876,
+      "p": 0.7426003424418379
+    },
+    "D_vs_B": {
+      "gain": -2.9262086513994876,
+      "p": 0.7696432046732813
+    },
+    "C_vs_B": {
+      "gain": -42.11195928753181,
+      "p": 0.9999987407338097
+    }
+  },
+  "grid3x3/qft": {
+    "topology": "grid3x3",
+    "family": "qft",
+    "lambda": 0.05,
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 93.33333333333333,
+    "B_sabreLayout_msRoute_mean": 85.6,
+    "C_identityLayout_msRoute_mean": 87.26666666666667,
+    "D_msLayout_msRoute_mean": 78.26666666666667,
+    "B_vs_A": {
+      "gain": 8.285714285714288,
+      "p": 9.51589828048712e-05
+    },
+    "D_vs_A": {
+      "gain": 16.14285714285714,
+      "p": 1.2533241740913273e-06
+    },
+    "D_vs_B": {
+      "gain": 8.566978193146412,
+      "p": 3.771213539223738e-05
+    },
+    "C_vs_B": {
+      "gain": -1.9470404984423733,
+      "p": 0.7460857236993135
+    }
+  },
+  "grid4x4/qft": {
+    "topology": "grid4x4",
+    "family": "qft",
+    "lambda": 0.05,
+    "n_qubits": 16,
+    "n_circuits": 20,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 229.0,
+    "B_sabreLayout_msRoute_mean": 180.3,
+    "C_identityLayout_msRoute_mean": 202.7,
+    "D_msLayout_msRoute_mean": 177.7,
+    "B_vs_A": {
+      "gain": 21.266375545851524,
+      "p": 4.4099351020972264e-05
+    },
+    "D_vs_A": {
+      "gain": 22.401746724890835,
+      "p": 6.99728965542622e-05
+    },
+    "D_vs_B": {
+      "gain": 1.4420410427066126,
+      "p": 0.32884210184068907
+    },
+    "C_vs_B": {
+      "gain": -12.423738214087619,
+      "p": 0.9997342004432861
+    }
+  },
+  "heavy_hex2/qft": {
+    "topology": "heavy_hex2",
+    "family": "qft",
+    "lambda": 0.1,
+    "n_qubits": 14,
+    "n_circuits": 20,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 185.0,
+    "B_sabreLayout_msRoute_mean": 161.4,
+    "C_identityLayout_msRoute_mean": 190.8,
+    "D_msLayout_msRoute_mean": 185.1,
+    "B_vs_A": {
+      "gain": 12.756756756756754,
+      "p": 5.0815954184402776e-05
+    },
+    "D_vs_A": {
+      "gain": -0.05405405405405098,
+      "p": 0.5966457604997755
+    },
+    "D_vs_B": {
+      "gain": -14.68401486988847,
+      "p": 0.9988324861269525
+    },
+    "C_vs_B": {
+      "gain": -18.21561338289963,
+      "p": 0.9997918073560678
+    }
+  },
+  "linear9/random": {
+    "topology": "linear9",
+    "family": "random",
+    "lambda": 0.1,
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 110.86666666666666,
+    "B_sabreLayout_msRoute_mean": 106.26666666666667,
+    "C_identityLayout_msRoute_mean": 132.06666666666666,
+    "D_msLayout_msRoute_mean": 104.4,
+    "B_vs_A": {
+      "gain": 4.149128081779911,
+      "p": 0.021597312682848507
+    },
+    "D_vs_A": {
+      "gain": 5.832832230907987,
+      "p": 0.015617462570284324
+    },
+    "D_vs_B": {
+      "gain": 1.756587202007522,
+      "p": 0.27207493473497496
+    },
+    "C_vs_B": {
+      "gain": -24.27854454203262,
+      "p": 0.9999990632640581
+    }
+  },
+  "grid4x4/parallel": {
+    "topology": "grid4x4",
+    "family": "parallel",
+    "lambda": 0.05,
+    "n_qubits": 16,
+    "n_circuits": 20,
+    "layout_iterations": 4,
+    "A_sabreLayout_sabreRoute_mean": 57.5,
+    "B_sabreLayout_msRoute_mean": 50.4,
+    "C_identityLayout_msRoute_mean": 68.5,
+    "D_msLayout_msRoute_mean": 53.6,
+    "B_vs_A": {
+      "gain": 12.347826086956523,
+      "p": 0.0022733585835673815
+    },
+    "D_vs_A": {
+      "gain": 6.782608695652172,
+      "p": 0.07037280533368145
+    },
+    "D_vs_B": {
+      "gain": -6.349206349206355,
+      "p": 0.8884265578709295
+    },
+    "C_vs_B": {
+      "gain": -35.91269841269842,
+      "p": 0.9999563988510346
+    }
+  }
+}

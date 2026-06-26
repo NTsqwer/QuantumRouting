@@ -1,0 +1,326 @@
+{
+  "ae/linear7": {
+    "family": "ae",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "esp_lambda": 0.5,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.0325847489209,
+    "mks_tuned_ratio": 1.0321806734317742
+  },
+  "ae/ring8": {
+    "family": "ae",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "esp_lambda": 0.02,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.1118953603815076,
+    "mks_tuned_ratio": 1.0995632761151812
+  },
+  "ae/grid3x3": {
+    "family": "ae",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.0187262301313944,
+    "mks_tuned_ratio": 0.9588300678496586
+  },
+  "ae/ring12": {
+    "family": "ae",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.005,
+    "esp_tuned_ratio": 2.220662894309561,
+    "mks_tuned_ratio": 2.220662894309561
+  },
+  "ae/heavy_hex2": {
+    "family": "ae",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.01,
+    "esp_tuned_ratio": 1.2431734058956794,
+    "mks_tuned_ratio": 1.115131776040558
+  },
+  "ae/grid4x4": {
+    "family": "ae",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.132529783813382,
+    "mks_tuned_ratio": 0.9810261145973295
+  },
+  "qaoa/linear7": {
+    "family": "qaoa",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "esp_lambda": 0.1,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 0.999039853281182,
+    "mks_tuned_ratio": 0.9826902513794546
+  },
+  "qaoa/ring8": {
+    "family": "qaoa",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 0.9784305887311942,
+    "mks_tuned_ratio": 0.9300476333030374
+  },
+  "qaoa/grid3x3": {
+    "family": "qaoa",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.005,
+    "esp_tuned_ratio": 0.9645427296703114,
+    "mks_tuned_ratio": 0.9645427296703114
+  },
+  "qaoa/ring12": {
+    "family": "qaoa",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "esp_lambda": 0.02,
+    "mks_lambda": 0.02,
+    "esp_tuned_ratio": 1.1908632882624177,
+    "mks_tuned_ratio": 1.1908632882624177
+  },
+  "qaoa/heavy_hex2": {
+    "family": "qaoa",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "esp_lambda": 0.02,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.0445908539124018,
+    "mks_tuned_ratio": 0.856431689196805
+  },
+  "qaoa/grid4x4": {
+    "family": "qaoa",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "esp_lambda": 0.01,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.9762769420803626,
+    "mks_tuned_ratio": 0.9418474639676419
+  },
+  "qft/linear7": {
+    "family": "qft",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "esp_lambda": 0.5,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.0370452694094092,
+    "mks_tuned_ratio": 1.0311561599498136
+  },
+  "qft/ring8": {
+    "family": "qft",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "esp_lambda": 0.05,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.1087505025942535,
+    "mks_tuned_ratio": 1.1050466768486489
+  },
+  "qft/grid3x3": {
+    "family": "qft",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "esp_lambda": 0.02,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 0.9918174049866131,
+    "mks_tuned_ratio": 0.9817847550564688
+  },
+  "qft/ring12": {
+    "family": "qft",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "esp_lambda": 0.01,
+    "mks_lambda": 0.005,
+    "esp_tuned_ratio": 1.8189222267676521,
+    "mks_tuned_ratio": 1.8189222267676521
+  },
+  "qft/heavy_hex2": {
+    "family": "qft",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "esp_lambda": 0.01,
+    "mks_lambda": 0.01,
+    "esp_tuned_ratio": 1.0030176385085081,
+    "mks_tuned_ratio": 1.0030176385085081
+  },
+  "qft/grid4x4": {
+    "family": "qft",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "esp_lambda": 0.01,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.9122564878101272,
+    "mks_tuned_ratio": 0.7128846077438147
+  },
+  "qpeexact/linear7": {
+    "family": "qpeexact",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "esp_lambda": 1.0,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.098668951570202,
+    "mks_tuned_ratio": 1.0202788574182762
+  },
+  "qpeexact/ring8": {
+    "family": "qpeexact",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "esp_lambda": 0.1,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.101805794845923,
+    "mks_tuned_ratio": 1.0921964955955725
+  },
+  "qpeexact/grid3x3": {
+    "family": "qpeexact",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "esp_lambda": 0.01,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.0079827005950963,
+    "mks_tuned_ratio": 0.9646467964005612
+  },
+  "qpeexact/ring12": {
+    "family": "qpeexact",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "esp_lambda": 1.0,
+    "mks_lambda": 0.005,
+    "esp_tuned_ratio": 1.7983893200259082,
+    "mks_tuned_ratio": 2.1035057214425876
+  },
+  "qpeexact/heavy_hex2": {
+    "family": "qpeexact",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "esp_lambda": 0.05,
+    "mks_lambda": 0.01,
+    "esp_tuned_ratio": 0.7975858257989951,
+    "mks_tuned_ratio": 0.8253840674938004
+  },
+  "qpeexact/grid4x4": {
+    "family": "qpeexact",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "esp_lambda": 0.05,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.9247506774698449,
+    "mks_tuned_ratio": 0.9243440404719641
+  },
+  "qpeinexact/linear7": {
+    "family": "qpeinexact",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "esp_lambda": 1.0,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.0473038011717872,
+    "mks_tuned_ratio": 1.0162508401687014
+  },
+  "qpeinexact/ring8": {
+    "family": "qpeinexact",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "esp_lambda": 0.1,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.101787715395227,
+    "mks_tuned_ratio": 1.0922296362246644
+  },
+  "qpeinexact/grid3x3": {
+    "family": "qpeinexact",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.0348246124622713,
+    "mks_tuned_ratio": 1.0067302390894752
+  },
+  "qpeinexact/ring12": {
+    "family": "qpeinexact",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "esp_lambda": 1.0,
+    "mks_lambda": 0.005,
+    "esp_tuned_ratio": 2.442568796692386,
+    "mks_tuned_ratio": 1.7435555841386825
+  },
+  "qpeinexact/heavy_hex2": {
+    "family": "qpeinexact",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "esp_lambda": 0.01,
+    "mks_lambda": 0.01,
+    "esp_tuned_ratio": 0.9862089917266474,
+    "mks_tuned_ratio": 0.9862089917266474
+  },
+  "qpeinexact/grid4x4": {
+    "family": "qpeinexact",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "esp_lambda": 0.05,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.9283473222911954,
+    "mks_tuned_ratio": 0.9275729139579381
+  },
+  "qftentangled/linear7": {
+    "family": "qftentangled",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.2839224385310366,
+    "mks_tuned_ratio": 1.2825202551104902
+  },
+  "qftentangled/ring8": {
+    "family": "qftentangled",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.1562054001101305,
+    "mks_tuned_ratio": 1.1228860773275626
+  },
+  "qftentangled/grid3x3": {
+    "family": "qftentangled",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "esp_lambda": 0.02,
+    "mks_lambda": 0.25,
+    "esp_tuned_ratio": 1.0121926362692337,
+    "mks_tuned_ratio": 0.9682143112051039
+  },
+  "qftentangled/ring12": {
+    "family": "qftentangled",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "esp_lambda": 0.05,
+    "mks_lambda": 0.005,
+    "esp_tuned_ratio": 2.4579713316818146,
+    "mks_tuned_ratio": 2.51816299457015
+  },
+  "qftentangled/heavy_hex2": {
+    "family": "qftentangled",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.01,
+    "esp_tuned_ratio": 1.0451157797288588,
+    "mks_tuned_ratio": 1.0064572715541167
+  },
+  "qftentangled/grid4x4": {
+    "family": "qftentangled",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.9862486285603068,
+    "mks_tuned_ratio": 0.6921161570877229
+  }
+}

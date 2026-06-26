@@ -1,0 +1,81 @@
+{
+  "topology": "ring8",
+  "n_qubits": 8,
+  "K": 20,
+  "selection_rule": "fewest_swaps_tiebreak_makespan",
+  "n_circuits_target": 12,
+  "by_family": {
+    "qft": {
+      "n_circuits": 12,
+      "sabre_production_mean": 160.0,
+      "per_circuit": [
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0
+      ]
+    },
+    "qv": {
+      "n_circuits": 12,
+      "sabre_production_mean": 122.66666666666667,
+      "per_circuit": [
+        106.0,
+        120.0,
+        126.0,
+        120.0,
+        132.0,
+        142.0,
+        100.0,
+        136.0,
+        130.0,
+        100.0,
+        130.0,
+        130.0
+      ]
+    },
+    "vqe": {
+      "n_circuits": 12,
+      "sabre_production_mean": 222.58333333333334,
+      "per_circuit": [
+        221.0,
+        215.0,
+        234.0,
+        235.0,
+        206.0,
+        241.0,
+        212.0,
+        245.0,
+        212.0,
+        210.0,
+        230.0,
+        210.0
+      ]
+    },
+    "qaoa": {
+      "n_circuits": 12,
+      "sabre_production_mean": 88.16666666666667,
+      "per_circuit": [
+        80.0,
+        87.0,
+        58.0,
+        84.0,
+        93.0,
+        60.0,
+        70.0,
+        136.0,
+        97.0,
+        113.0,
+        86.0,
+        94.0
+      ]
+    }
+  }
+}

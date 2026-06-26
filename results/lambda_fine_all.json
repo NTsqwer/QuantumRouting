@@ -1,0 +1,668 @@
+{
+  "linear5/random": {
+    "topology": "linear5",
+    "family": "random",
+    "oracle_lam": 0.1,
+    "n_qubits": 5,
+    "n_circuits": 40,
+    "by_lambda": {
+      "0.025": {
+        "mean_mk": 116.55,
+        "gain_vs_oracle_pct": -1.4360313315926818,
+        "p_better_than_oracle": 0.8648782315505432
+      },
+      "0.05": {
+        "mean_mk": 114.9,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 0.4622616929228137
+      },
+      "0.075": {
+        "mean_mk": 115.0,
+        "gain_vs_oracle_pct": -0.0870322019147035,
+        "p_better_than_oracle": 0.6213387602282351
+      },
+      "0.1": {
+        "mean_mk": 114.9,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.15": {
+        "mean_mk": 116.1,
+        "gain_vs_oracle_pct": -1.0443864229764914,
+        "p_better_than_oracle": 0.9636558355775653
+      }
+    },
+    "best_lam": 0.05,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 0.4622616929228137
+  },
+  "linear5/qft": {
+    "topology": "linear5",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 5,
+    "n_circuits": 40,
+    "by_lambda": {
+      "0.05": {
+        "mean_mk": 44.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.1": {
+        "mean_mk": 44.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.15": {
+        "mean_mk": 44.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.25": {
+        "mean_mk": 44.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.35": {
+        "mean_mk": 44.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      }
+    },
+    "best_lam": 0.05,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "linear5/parallel": {
+    "topology": "linear5",
+    "family": "parallel",
+    "oracle_lam": 0.02,
+    "n_qubits": 5,
+    "n_circuits": 40,
+    "by_lambda": {
+      "0.005": {
+        "mean_mk": 26.85,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.01": {
+        "mean_mk": 26.85,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.02": {
+        "mean_mk": 26.85,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.05": {
+        "mean_mk": 26.85,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.1": {
+        "mean_mk": 26.65,
+        "gain_vs_oracle_pct": 0.7448789571694705,
+        "p_better_than_oracle": 0.15865525393145707
+      }
+    },
+    "best_lam": 0.1,
+    "best_gain_vs_oracle_pct": 0.7448789571694705,
+    "best_p": 0.15865525393145707
+  },
+  "ring5/qft": {
+    "topology": "ring5",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 5,
+    "n_circuits": 40,
+    "by_lambda": {
+      "0.05": {
+        "mean_mk": 38.3,
+        "gain_vs_oracle_pct": -5.219780219780216,
+        "p_better_than_oracle": 0.9998769642639684
+      },
+      "0.1": {
+        "mean_mk": 37.85,
+        "gain_vs_oracle_pct": -3.9835164835164916,
+        "p_better_than_oracle": 0.9994915693653622
+      },
+      "0.15": {
+        "mean_mk": 37.6,
+        "gain_vs_oracle_pct": -3.2967032967033045,
+        "p_better_than_oracle": 0.9976611325094764
+      },
+      "0.25": {
+        "mean_mk": 36.4,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.35": {
+        "mean_mk": 37.6,
+        "gain_vs_oracle_pct": -3.2967032967033045,
+        "p_better_than_oracle": 0.9976611325094764
+      }
+    },
+    "best_lam": 0.25,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "tshape5/qft": {
+    "topology": "tshape5",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 5,
+    "n_circuits": 40,
+    "by_lambda": {
+      "0.05": {
+        "mean_mk": 39.2,
+        "gain_vs_oracle_pct": 1.507537688442197,
+        "p_better_than_oracle": 0.0002660027525696246
+      },
+      "0.1": {
+        "mean_mk": 39.2,
+        "gain_vs_oracle_pct": 1.507537688442197,
+        "p_better_than_oracle": 0.0002660027525696246
+      },
+      "0.15": {
+        "mean_mk": 39.8,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.25": {
+        "mean_mk": 39.8,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.35": {
+        "mean_mk": 41.8,
+        "gain_vs_oracle_pct": -5.025125628140704,
+        "p_better_than_oracle": 0.9999961278917845
+      }
+    },
+    "best_lam": 0.05,
+    "best_gain_vs_oracle_pct": 1.507537688442197,
+    "best_p": 0.0002660027525696246
+  },
+  "linear7/qft": {
+    "topology": "linear7",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 7,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.05": {
+        "mean_mk": 81.8,
+        "gain_vs_oracle_pct": -7.631578947368418,
+        "p_better_than_oracle": 0.9999999638108507
+      },
+      "0.1": {
+        "mean_mk": 81.8,
+        "gain_vs_oracle_pct": -7.631578947368418,
+        "p_better_than_oracle": 0.9999999638108507
+      },
+      "0.15": {
+        "mean_mk": 83.73333333333333,
+        "gain_vs_oracle_pct": -10.17543859649123,
+        "p_better_than_oracle": 0.9999999638108507
+      },
+      "0.25": {
+        "mean_mk": 76.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.35": {
+        "mean_mk": 78.66666666666667,
+        "gain_vs_oracle_pct": -3.5087719298245674,
+        "p_better_than_oracle": 0.9873263406612659
+      }
+    },
+    "best_lam": 0.25,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "linear9/qft": {
+    "topology": "linear9",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.05": {
+        "mean_mk": 114.0,
+        "gain_vs_oracle_pct": -5.555555555555555,
+        "p_better_than_oracle": 0.9999999783976847
+      },
+      "0.1": {
+        "mean_mk": 114.0,
+        "gain_vs_oracle_pct": -5.555555555555555,
+        "p_better_than_oracle": 0.9999999783976847
+      },
+      "0.15": {
+        "mean_mk": 116.0,
+        "gain_vs_oracle_pct": -7.407407407407407,
+        "p_better_than_oracle": 0.9999999783976847
+      },
+      "0.25": {
+        "mean_mk": 108.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.35": {
+        "mean_mk": 188.0,
+        "gain_vs_oracle_pct": -74.07407407407408,
+        "p_better_than_oracle": 0.9999999783976847
+      }
+    },
+    "best_lam": 0.25,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "linear9/random": {
+    "topology": "linear9",
+    "family": "random",
+    "oracle_lam": 0.1,
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.025": {
+        "mean_mk": 123.2,
+        "gain_vs_oracle_pct": -1.8181818181818206,
+        "p_better_than_oracle": 0.9360284439214672
+      },
+      "0.05": {
+        "mean_mk": 121.06666666666666,
+        "gain_vs_oracle_pct": -0.055096418732779234,
+        "p_better_than_oracle": 0.41842427790969755
+      },
+      "0.075": {
+        "mean_mk": 122.13333333333334,
+        "gain_vs_oracle_pct": -0.9366391184573057,
+        "p_better_than_oracle": 0.88024764357924
+      },
+      "0.1": {
+        "mean_mk": 121.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.15": {
+        "mean_mk": 121.53333333333333,
+        "gain_vs_oracle_pct": -0.4407713498622574,
+        "p_better_than_oracle": 0.7926743084276637
+      }
+    },
+    "best_lam": 0.1,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "ring8/qft": {
+    "topology": "ring8",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 8,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.05": {
+        "mean_mk": 94.6,
+        "gain_vs_oracle_pct": -1.93965517241379,
+        "p_better_than_oracle": 0.993842652932382
+      },
+      "0.1": {
+        "mean_mk": 97.8,
+        "gain_vs_oracle_pct": -5.387931034482759,
+        "p_better_than_oracle": 0.9992001225913416
+      },
+      "0.15": {
+        "mean_mk": 97.73333333333333,
+        "gain_vs_oracle_pct": -5.316091954022993,
+        "p_better_than_oracle": 0.999005191029711
+      },
+      "0.25": {
+        "mean_mk": 92.8,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.35": {
+        "mean_mk": 95.4,
+        "gain_vs_oracle_pct": -2.8017241379310436,
+        "p_better_than_oracle": 0.999970493716459
+      }
+    },
+    "best_lam": 0.25,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "ring12/qft": {
+    "topology": "ring12",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 12,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.05": {
+        "mean_mk": 167.6,
+        "gain_vs_oracle_pct": -4.7499999999999964,
+        "p_better_than_oracle": 0.9999990550417944
+      },
+      "0.1": {
+        "mean_mk": 162.0,
+        "gain_vs_oracle_pct": -1.25,
+        "p_better_than_oracle": 0.9992252549095217
+      },
+      "0.15": {
+        "mean_mk": 163.46666666666667,
+        "gain_vs_oracle_pct": -2.166666666666668,
+        "p_better_than_oracle": 0.9998245388296797
+      },
+      "0.25": {
+        "mean_mk": 160.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.35": {
+        "mean_mk": 755.1333333333333,
+        "gain_vs_oracle_pct": -371.95833333333337,
+        "p_better_than_oracle": 0.9999989500135089
+      }
+    },
+    "best_lam": 0.25,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "ring12/random": {
+    "topology": "ring12",
+    "family": "random",
+    "oracle_lam": 0.1,
+    "n_qubits": 12,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.025": {
+        "mean_mk": 97.06666666666666,
+        "gain_vs_oracle_pct": -3.2624113475177263,
+        "p_better_than_oracle": 0.9816919792757657
+      },
+      "0.05": {
+        "mean_mk": 95.33333333333333,
+        "gain_vs_oracle_pct": -1.4184397163120517,
+        "p_better_than_oracle": 0.8260014007835401
+      },
+      "0.075": {
+        "mean_mk": 95.33333333333333,
+        "gain_vs_oracle_pct": -1.4184397163120517,
+        "p_better_than_oracle": 0.8791985044559565
+      },
+      "0.1": {
+        "mean_mk": 94.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.15": {
+        "mean_mk": 99.0,
+        "gain_vs_oracle_pct": -5.319148936170213,
+        "p_better_than_oracle": 0.999541648079716
+      }
+    },
+    "best_lam": 0.1,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "ring12/parallel": {
+    "topology": "ring12",
+    "family": "parallel",
+    "oracle_lam": 0.02,
+    "n_qubits": 12,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.005": {
+        "mean_mk": 58.53333333333333,
+        "gain_vs_oracle_pct": -2.6900584795321603,
+        "p_better_than_oracle": 0.9746702414408714
+      },
+      "0.01": {
+        "mean_mk": 58.53333333333333,
+        "gain_vs_oracle_pct": -2.6900584795321603,
+        "p_better_than_oracle": 0.977399323511739
+      },
+      "0.02": {
+        "mean_mk": 57.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.05": {
+        "mean_mk": 57.46666666666667,
+        "gain_vs_oracle_pct": -0.818713450292401,
+        "p_better_than_oracle": 0.612591351647327
+      },
+      "0.1": {
+        "mean_mk": 60.4,
+        "gain_vs_oracle_pct": -5.9649122807017525,
+        "p_better_than_oracle": 0.962644826676058
+      }
+    },
+    "best_lam": 0.02,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "grid3x3/qft": {
+    "topology": "grid3x3",
+    "family": "qft",
+    "oracle_lam": 0.05,
+    "n_qubits": 9,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.01": {
+        "mean_mk": 103.33333333333333,
+        "gain_vs_oracle_pct": -2.3102310231023053,
+        "p_better_than_oracle": 0.9373864030072614
+      },
+      "0.025": {
+        "mean_mk": 103.13333333333334,
+        "gain_vs_oracle_pct": -2.1122112211221187,
+        "p_better_than_oracle": 0.9203932574146222
+      },
+      "0.05": {
+        "mean_mk": 101.0,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.075": {
+        "mean_mk": 101.6,
+        "gain_vs_oracle_pct": -0.5940594059405885,
+        "p_better_than_oracle": 0.732990785627857
+      },
+      "0.1": {
+        "mean_mk": 96.93333333333334,
+        "gain_vs_oracle_pct": 4.026402640264022,
+        "p_better_than_oracle": 0.01328297928487067
+      }
+    },
+    "best_lam": 0.1,
+    "best_gain_vs_oracle_pct": 4.026402640264022,
+    "best_p": 0.01328297928487067
+  },
+  "grid4x4/qft": {
+    "topology": "grid4x4",
+    "family": "qft",
+    "oracle_lam": 0.05,
+    "n_qubits": 16,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.01": {
+        "mean_mk": 242.8,
+        "gain_vs_oracle_pct": -9.996979764421637,
+        "p_better_than_oracle": 0.9999982620173373
+      },
+      "0.025": {
+        "mean_mk": 229.8,
+        "gain_vs_oracle_pct": -4.107520386590165,
+        "p_better_than_oracle": 0.9990144759377629
+      },
+      "0.05": {
+        "mean_mk": 220.73333333333332,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.075": {
+        "mean_mk": 228.8,
+        "gain_vs_oracle_pct": -3.6544850498338985,
+        "p_better_than_oracle": 0.9927859834819747
+      },
+      "0.1": {
+        "mean_mk": 225.2,
+        "gain_vs_oracle_pct": -2.023557837511327,
+        "p_better_than_oracle": 0.9083981366841953
+      }
+    },
+    "best_lam": 0.05,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  },
+  "grid4x4/random": {
+    "topology": "grid4x4",
+    "family": "random",
+    "oracle_lam": 0.05,
+    "n_qubits": 16,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.01": {
+        "mean_mk": 59.46666666666667,
+        "gain_vs_oracle_pct": -11.919698870765375,
+        "p_better_than_oracle": 0.9999748367618424
+      },
+      "0.025": {
+        "mean_mk": 56.46666666666667,
+        "gain_vs_oracle_pct": -6.273525721455463,
+        "p_better_than_oracle": 0.9998434039063798
+      },
+      "0.05": {
+        "mean_mk": 53.13333333333333,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.075": {
+        "mean_mk": 53.06666666666667,
+        "gain_vs_oracle_pct": 0.12547051442910204,
+        "p_better_than_oracle": 0.4431694958980177
+      },
+      "0.1": {
+        "mean_mk": 52.333333333333336,
+        "gain_vs_oracle_pct": 1.5056461731493045,
+        "p_better_than_oracle": 0.1432639998425706
+      }
+    },
+    "best_lam": 0.1,
+    "best_gain_vs_oracle_pct": 1.5056461731493045,
+    "best_p": 0.1432639998425706
+  },
+  "grid4x4/parallel": {
+    "topology": "grid4x4",
+    "family": "parallel",
+    "oracle_lam": 0.05,
+    "n_qubits": 16,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.01": {
+        "mean_mk": 57.333333333333336,
+        "gain_vs_oracle_pct": -10.53984575835476,
+        "p_better_than_oracle": 0.9999210473813364
+      },
+      "0.025": {
+        "mean_mk": 53.06666666666667,
+        "gain_vs_oracle_pct": -2.3136246786632446,
+        "p_better_than_oracle": 0.9351973405981399
+      },
+      "0.05": {
+        "mean_mk": 51.86666666666667,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.075": {
+        "mean_mk": 51.2,
+        "gain_vs_oracle_pct": 1.2853470437017949,
+        "p_better_than_oracle": 0.3000687135868391
+      },
+      "0.1": {
+        "mean_mk": 52.333333333333336,
+        "gain_vs_oracle_pct": -0.8997429305912633,
+        "p_better_than_oracle": 0.7549885668232333
+      }
+    },
+    "best_lam": 0.075,
+    "best_gain_vs_oracle_pct": 1.2853470437017949,
+    "best_p": 0.3000687135868391
+  },
+  "heavy_hex2/qft": {
+    "topology": "heavy_hex2",
+    "family": "qft",
+    "oracle_lam": 0.25,
+    "n_qubits": 14,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.05": {
+        "mean_mk": 220.46666666666667,
+        "gain_vs_oracle_pct": 48.92664092664092,
+        "p_better_than_oracle": 0.0007405404626540074
+      },
+      "0.1": {
+        "mean_mk": 222.2,
+        "gain_vs_oracle_pct": 48.52509652509654,
+        "p_better_than_oracle": 0.001414160536019609
+      },
+      "0.15": {
+        "mean_mk": 272.53333333333336,
+        "gain_vs_oracle_pct": 36.86486486486486,
+        "p_better_than_oracle": 0.0012188968721578966
+      },
+      "0.25": {
+        "mean_mk": 431.6666666666667,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.35": {
+        "mean_mk": 794.0666666666667,
+        "gain_vs_oracle_pct": -83.95366795366795,
+        "p_better_than_oracle": 0.999148424907109
+      }
+    },
+    "best_lam": 0.05,
+    "best_gain_vs_oracle_pct": 48.92664092664092,
+    "best_p": 0.0007405404626540074
+  },
+  "heavy_hex2/random": {
+    "topology": "heavy_hex2",
+    "family": "random",
+    "oracle_lam": 0.1,
+    "n_qubits": 14,
+    "n_circuits": 30,
+    "by_lambda": {
+      "0.025": {
+        "mean_mk": 79.2,
+        "gain_vs_oracle_pct": -3.6649214659685825,
+        "p_better_than_oracle": 0.901490526764092
+      },
+      "0.05": {
+        "mean_mk": 77.06666666666666,
+        "gain_vs_oracle_pct": -0.8726003490401272,
+        "p_better_than_oracle": 0.4784745014534132
+      },
+      "0.075": {
+        "mean_mk": 78.2,
+        "gain_vs_oracle_pct": -2.356020942408373,
+        "p_better_than_oracle": 0.7291343542672882
+      },
+      "0.1": {
+        "mean_mk": 76.4,
+        "gain_vs_oracle_pct": 0.0,
+        "p_better_than_oracle": 1.0
+      },
+      "0.15": {
+        "mean_mk": 78.73333333333333,
+        "gain_vs_oracle_pct": -3.054101221640482,
+        "p_better_than_oracle": 0.9811316668687071
+      }
+    },
+    "best_lam": 0.1,
+    "best_gain_vs_oracle_pct": 0.0,
+    "best_p": 1.0
+  }
+}

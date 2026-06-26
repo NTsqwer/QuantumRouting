@@ -1,0 +1,158 @@
+{
+  "qft/ring20": {
+    "family": "qft",
+    "topology": "ring20",
+    "n_qubits": 20,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 2.452673545098285,
+    "mks_tuned_ratio": 2.4515840299638403
+  },
+  "qft/grid5x5": {
+    "family": "qft",
+    "topology": "grid5x5",
+    "n_qubits": 25,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.8723548082239029,
+    "mks_tuned_ratio": 0.30547850717571545
+  },
+  "qft/heavy_hex4": {
+    "family": "qft",
+    "topology": "heavy_hex4",
+    "n_qubits": 28,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.5694543901857784,
+    "mks_tuned_ratio": 0.395738868942983
+  },
+  "qft/grid6x6": {
+    "family": "qft",
+    "topology": "grid6x6",
+    "n_qubits": 36,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.4052462634583327,
+    "mks_tuned_ratio": 0.03421719767349313
+  },
+  "qft/heavy_hex6": {
+    "family": "qft",
+    "topology": "heavy_hex6",
+    "n_qubits": 42,
+    "esp_lambda": 0.02,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.7441843773098092,
+    "mks_tuned_ratio": 0.11418889428069205
+  },
+  "qpeexact/ring20": {
+    "family": "qpeexact",
+    "topology": "ring20",
+    "n_qubits": 20,
+    "esp_lambda": 0.05,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.967121899083465,
+    "mks_tuned_ratio": 0.895780293181783
+  },
+  "qpeexact/grid5x5": {
+    "family": "qpeexact",
+    "topology": "grid5x5",
+    "n_qubits": 25,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.5612944139451176,
+    "mks_tuned_ratio": 0.16105387067900556
+  },
+  "qpeexact/heavy_hex4": {
+    "family": "qpeexact",
+    "topology": "heavy_hex4",
+    "n_qubits": 28,
+    "esp_lambda": 0.05,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.3279651962567221,
+    "mks_tuned_ratio": 0.5513365745015443
+  },
+  "qpeexact/grid6x6": {
+    "family": "qpeexact",
+    "topology": "grid6x6",
+    "n_qubits": 36,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.19350143416558255,
+    "mks_tuned_ratio": 0.06659921700148236
+  },
+  "qpeexact/heavy_hex6": {
+    "error": "no test"
+  },
+  "qaoa/ring20": {
+    "family": "qaoa",
+    "topology": "ring20",
+    "n_qubits": 20,
+    "esp_lambda": 0.02,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.2909823139129142,
+    "mks_tuned_ratio": 0.8128480352167963
+  },
+  "qaoa/grid5x5": {
+    "family": "qaoa",
+    "topology": "grid5x5",
+    "n_qubits": 25,
+    "esp_lambda": 0.05,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.2026951962166168,
+    "mks_tuned_ratio": 0.8431708518319264
+  },
+  "qaoa/heavy_hex4": {
+    "family": "qaoa",
+    "topology": "heavy_hex4",
+    "n_qubits": 28,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 1.370039770629099,
+    "mks_tuned_ratio": 0.5720697159114637
+  },
+  "qaoa/grid6x6": {
+    "error": "no test"
+  },
+  "qaoa/heavy_hex6": {
+    "error": "no test"
+  },
+  "qftentangled/ring20": {
+    "family": "qftentangled",
+    "topology": "ring20",
+    "n_qubits": 20,
+    "esp_lambda": 0.1,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 6.048113939234051,
+    "mks_tuned_ratio": 6.048113939234051
+  },
+  "qftentangled/grid5x5": {
+    "family": "qftentangled",
+    "topology": "grid5x5",
+    "n_qubits": 25,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.6076762684019253,
+    "mks_tuned_ratio": 0.1360720241201419
+  },
+  "qftentangled/heavy_hex4": {
+    "family": "qftentangled",
+    "topology": "heavy_hex4",
+    "n_qubits": 28,
+    "esp_lambda": 0.02,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.31549779611486045,
+    "mks_tuned_ratio": 0.2776427838344282
+  },
+  "qftentangled/grid6x6": {
+    "family": "qftentangled",
+    "topology": "grid6x6",
+    "n_qubits": 36,
+    "esp_lambda": 0.005,
+    "mks_lambda": 0.1,
+    "esp_tuned_ratio": 0.44860359969532354,
+    "mks_tuned_ratio": 0.02057673488000065
+  },
+  "qftentangled/heavy_hex6": {
+    "error": "no test"
+  }
+}

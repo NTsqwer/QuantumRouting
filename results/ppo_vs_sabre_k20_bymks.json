@@ -1,0 +1,46 @@
+{
+  "linear5/random": {
+    "topology": "linear5",
+    "family": "random",
+    "n_circuits": 100,
+    "K": 20,
+    "length": 10,
+    "sabre_K20_byswap_mks": 26.44,
+    "sabre_K20_bymks_mks": 25.06,
+    "ppo_K20_byswap_mks": 26.6,
+    "ppo_K20_bymks_mks": 24.1
+  },
+  "linear5/qft": {
+    "topology": "linear5",
+    "family": "qft",
+    "n_circuits": 100,
+    "K": 20,
+    "length": 10,
+    "sabre_K20_byswap_mks": 29.76,
+    "sabre_K20_bymks_mks": 29.76,
+    "ppo_K20_byswap_mks": 19.86,
+    "ppo_K20_bymks_mks": 19.58
+  },
+  "linear5/parallel": {
+    "topology": "linear5",
+    "family": "parallel",
+    "n_circuits": 100,
+    "K": 20,
+    "length": 10,
+    "sabre_K20_byswap_mks": 23.04,
+    "sabre_K20_bymks_mks": 22.04,
+    "ppo_K20_byswap_mks": 22.66,
+    "ppo_K20_bymks_mks": 21.28
+  },
+  "linear5/trotter": {
+    "topology": "linear5",
+    "family": "trotter",
+    "n_circuits": 100,
+    "K": 20,
+    "length": 10,
+    "sabre_K20_byswap_mks": 16.0,
+    "sabre_K20_bymks_mks": 16.0,
+    "ppo_K20_byswap_mks": 16.0,
+    "ppo_K20_bymks_mks": 16.0
+  }
+}

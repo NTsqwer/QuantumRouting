@@ -1,0 +1,249 @@
+{
+  "backend": "ibm_marrakesh",
+  "family": "qv",
+  "n_qubits": 8,
+  "physical_qubits": [
+    3,
+    16,
+    2,
+    1,
+    0,
+    4,
+    5,
+    6
+  ],
+  "edges": [
+    [
+      4,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "shots": 4096,
+  "k_routing_trials": 5,
+  "lambda": 0.1,
+  "job_id": "d8fbvuralsvc7391guq0",
+  "circuits": [
+    {
+      "ci": 0,
+      "method": "sabre",
+      "post_opt_2q_count": 150,
+      "isa_depth": 1279,
+      "fidelity_to_zeros": 0.01171875,
+      "shots": 4096,
+      "top3_counts": [
+        [
+          "00111001",
+          51
+        ],
+        [
+          "00000000",
+          48
+        ],
+        [
+          "00000110",
+          39
+        ]
+      ]
+    },
+    {
+      "ci": 0,
+      "method": "sabre_ms",
+      "post_opt_2q_count": 124,
+      "isa_depth": 1213,
+      "fidelity_to_zeros": 0.0126953125,
+      "shots": 4096,
+      "top3_counts": [
+        [
+          "11111111",
+          53
+        ],
+        [
+          "00000000",
+          52
+        ],
+        [
+          "00110000",
+          35
+        ]
+      ]
+    },
+    {
+      "ci": 1,
+      "method": "sabre",
+      "post_opt_2q_count": 120,
+      "isa_depth": 1221,
+      "fidelity_to_zeros": 0.01708984375,
+      "shots": 4096,
+      "top3_counts": [
+        [
+          "00010000",
+          73
+        ],
+        [
+          "00000000",
+          70
+        ],
+        [
+          "00001111",
+          54
+        ]
+      ]
+    },
+    {
+      "ci": 1,
+      "method": "sabre_ms",
+      "post_opt_2q_count": 105,
+      "isa_depth": 1129,
+      "fidelity_to_zeros": 0.02880859375,
+      "shots": 4096,
+      "top3_counts": [
+        [
+          "00000000",
+          118
+        ],
+        [
+          "00001100",
+          62
+        ],
+        [
+          "00000011",
+          60
+        ]
+      ]
+    },
+    {
+      "ci": 2,
+      "method": "sabre",
+      "post_opt_2q_count": 153,
+      "isa_depth": 1505,
+      "fidelity_to_zeros": 0.0107421875,
+      "shots": 4096,
+      "top3_counts": [
+        [
+          "00000000",
+          44
+        ],
+        [
+          "00000010",
+          30
+        ],
+        [
+          "00011000",
+          29
+        ]
+      ]
+    },
+    {
+      "ci": 2,
+      "method": "sabre_ms",
+      "post_opt_2q_count": 117,
+      "isa_depth": 1165,
+      "fidelity_to_zeros": 0.01708984375,
+      "shots": 4096,
+      "top3_counts": [
+        [
+          "00010000",
+          183
+        ],
+        [
+          "01101010",
+          77
+        ],
+        [
+          "00101011",
+          72
+        ]
+      ]
+    },
+    {
+      "ci": 3,
+      "method": "sabre",
+      "post_opt_2q_count": 102,
+      "isa_depth": 1127,
+      "fidelity_to_zeros": 0.029052734375,
+      "shots": 4096,
+      "top3_counts": [
+        [
+          "00001100",
+          127
+        ],
+        [
+          "00000100",
+          125
+        ],
+        [
+          "00000000",
+          119
+        ]
+      ]
+    },
+    {
+      "ci": 3,
+      "method": "sabre_ms",
+      "post_opt_2q_count": 81,
+      "isa_depth": 897,
+      "fidelity_to_zeros": 0.078125,
+      "shots": 4096,
+      "top3_counts": [
+        [
+          "00000000",
+          320
+        ],
+        [
+          "00001000",
+          100
+        ],
+        [
+          "00101100",
+          85
+        ]
+      ]
+    }
+  ],
+  "paired": [
+    {
+      "ci": 0,
+      "sabre": 0.01171875,
+      "sabre_ms": 0.0126953125
+    },
+    {
+      "ci": 1,
+      "sabre": 0.01708984375,
+      "sabre_ms": 0.02880859375
+    },
+    {
+      "ci": 2,
+      "sabre": 0.0107421875,
+      "sabre_ms": 0.01708984375
+    },
+    {
+      "ci": 3,
+      "sabre": 0.029052734375,
+      "sabre_ms": 0.078125
+    }
+  ]
+}

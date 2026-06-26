@@ -1,0 +1,475 @@
+{
+  "linear7/qft": {
+    "topology": "linear7",
+    "family": "qft",
+    "n_qubits": 7,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 122.0,
+      "0.01": 122.0,
+      "0.02": 122.0,
+      "0.05": 122.0,
+      "0.1": 116.5,
+      "0.25": 128.0
+    },
+    "best_lambda_from_train": 0.1,
+    "test_sabre_mean": 156.0,
+    "test_ms_mean": 116.5,
+    "test_gain_pct": 25.32051282051282,
+    "test_p_ms_less": 0.015625
+  },
+  "ring8/qft": {
+    "topology": "ring8",
+    "family": "qft",
+    "n_qubits": 8,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 142.0,
+      "0.01": 142.0,
+      "0.02": 142.0,
+      "0.05": 151.0,
+      "0.1": 151.0,
+      "0.25": 138.0
+    },
+    "best_lambda_from_train": 0.25,
+    "test_sabre_mean": 159.5,
+    "test_ms_mean": 138.0,
+    "test_gain_pct": 13.47962382445141,
+    "test_p_ms_less": 0.015625
+  },
+  "ring12/qft": {
+    "topology": "ring12",
+    "family": "qft",
+    "n_qubits": 12,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 225.5,
+      "0.01": 237.5,
+      "0.02": 229.5,
+      "0.05": 230.0,
+      "0.1": 233.16666666666666,
+      "0.25": 229.83333333333334
+    },
+    "best_lambda_from_train": 0.005,
+    "test_sabre_mean": 355.3333333333333,
+    "test_ms_mean": 225.5,
+    "test_gain_pct": 36.53846153846154,
+    "test_p_ms_less": 0.015625
+  },
+  "grid3x3/qft": {
+    "topology": "grid3x3",
+    "family": "qft",
+    "n_qubits": 9,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 130.16666666666666,
+      "0.01": 130.16666666666666,
+      "0.02": 132.5,
+      "0.05": 132.83333333333334,
+      "0.1": 135.0,
+      "0.25": 140.33333333333334
+    },
+    "best_lambda_from_train": 0.005,
+    "test_sabre_mean": 208.5,
+    "test_ms_mean": 130.16666666666666,
+    "test_gain_pct": 37.56994404476419,
+    "test_p_ms_less": 0.015625
+  },
+  "grid4x4/qft": {
+    "topology": "grid4x4",
+    "family": "qft",
+    "n_qubits": 16,
+    "n_train": 4,
+    "n_test": 4,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 313.5,
+      "0.01": 316.25,
+      "0.02": 322.5,
+      "0.05": 308.5,
+      "0.1": 328.5
+    },
+    "best_lambda_from_train": 0.05,
+    "test_sabre_mean": 516.5,
+    "test_ms_mean": 308.5,
+    "test_gain_pct": 40.27105517909003,
+    "test_p_ms_less": 0.0625
+  },
+  "heavy_hex2/qft": {
+    "topology": "heavy_hex2",
+    "family": "qft",
+    "n_qubits": 14,
+    "n_train": 4,
+    "n_test": 4,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 287.25,
+      "0.01": 277.0,
+      "0.02": 286.0,
+      "0.05": 290.75,
+      "0.1": 279.0
+    },
+    "best_lambda_from_train": 0.01,
+    "test_sabre_mean": 385.75,
+    "test_ms_mean": 277.0,
+    "test_gain_pct": 28.191834089436163,
+    "test_p_ms_less": 0.0625
+  },
+  "linear7/qv": {
+    "topology": "linear7",
+    "family": "qv",
+    "n_qubits": 7,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 96.5,
+      "0.01": 96.5,
+      "0.02": 96.5,
+      "0.05": 96.5,
+      "0.1": 100.16666666666667,
+      "0.25": 101.83333333333333
+    },
+    "best_lambda_from_train": 0.005,
+    "test_sabre_mean": 110.0,
+    "test_ms_mean": 95.33333333333333,
+    "test_gain_pct": 13.333333333333337,
+    "test_p_ms_less": 0.015625
+  },
+  "ring8/qv": {
+    "topology": "ring8",
+    "family": "qv",
+    "n_qubits": 8,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 88.83333333333333,
+      "0.01": 88.83333333333333,
+      "0.02": 88.83333333333333,
+      "0.05": 89.66666666666667,
+      "0.1": 90.0,
+      "0.25": 93.33333333333333
+    },
+    "best_lambda_from_train": 0.005,
+    "test_sabre_mean": 116.66666666666667,
+    "test_ms_mean": 88.83333333333333,
+    "test_gain_pct": 23.857142857142865,
+    "test_p_ms_less": 0.015625
+  },
+  "ring12/qv": {
+    "topology": "ring12",
+    "family": "qv",
+    "n_qubits": 12,
+    "n_train": 5,
+    "n_test": 5,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 200.4,
+      "0.01": 200.4,
+      "0.02": 200.4,
+      "0.05": 207.6,
+      "0.1": 211.0,
+      "0.25": 223.6
+    },
+    "best_lambda_from_train": 0.005,
+    "test_sabre_mean": 264.8,
+    "test_ms_mean": 209.2,
+    "test_gain_pct": 20.996978851963753,
+    "test_p_ms_less": 0.03125
+  },
+  "grid3x3/qv": {
+    "topology": "grid3x3",
+    "family": "qv",
+    "n_qubits": 9,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 104.33333333333333,
+      "0.01": 104.33333333333333,
+      "0.02": 104.33333333333333,
+      "0.05": 96.83333333333333,
+      "0.1": 96.66666666666667,
+      "0.25": 104.0
+    },
+    "best_lambda_from_train": 0.1,
+    "test_sabre_mean": 147.33333333333334,
+    "test_ms_mean": 97.16666666666667,
+    "test_gain_pct": 34.04977375565611,
+    "test_p_ms_less": 0.015625
+  },
+  "grid4x4/qv": {
+    "topology": "grid4x4",
+    "family": "qv",
+    "n_qubits": 16,
+    "n_train": 4,
+    "n_test": 2,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 368.5,
+      "0.01": 362.25,
+      "0.02": 340.75,
+      "0.05": 329.5,
+      "0.1": 308.0
+    },
+    "best_lambda_from_train": 0.1,
+    "test_sabre_mean": 511.0,
+    "test_ms_mean": 327.5,
+    "test_gain_pct": 35.90998043052838,
+    "test_p_ms_less": 0.25
+  },
+  "ring8/vqe": {
+    "topology": "ring8",
+    "family": "vqe",
+    "n_qubits": 8,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 213.66666666666666,
+      "0.01": 213.66666666666666,
+      "0.02": 180.33333333333334,
+      "0.05": 146.83333333333334,
+      "0.1": 144.66666666666666,
+      "0.25": 143.66666666666666
+    },
+    "best_lambda_from_train": 0.25,
+    "test_sabre_mean": 206.33333333333334,
+    "test_ms_mean": 143.66666666666666,
+    "test_gain_pct": 30.37156704361875,
+    "test_p_ms_less": 0.015625
+  },
+  "grid3x3/vqe": {
+    "topology": "grid3x3",
+    "family": "vqe",
+    "n_qubits": 9,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 209.33333333333334,
+      "0.01": 211.5,
+      "0.02": 208.16666666666666,
+      "0.05": 188.0,
+      "0.1": 188.66666666666666,
+      "0.25": 191.83333333333334
+    },
+    "best_lambda_from_train": 0.05,
+    "test_sabre_mean": 229.66666666666666,
+    "test_ms_mean": 187.66666666666666,
+    "test_gain_pct": 18.287373004354137,
+    "test_p_ms_less": 0.015625
+  },
+  "linear7/qaoa": {
+    "topology": "linear7",
+    "family": "qaoa",
+    "n_qubits": 7,
+    "n_train": 8,
+    "n_test": 8,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 65.875,
+      "0.01": 65.875,
+      "0.02": 65.875,
+      "0.05": 65.5,
+      "0.1": 65.25,
+      "0.25": 66.625
+    },
+    "best_lambda_from_train": 0.1,
+    "test_sabre_mean": 68.0,
+    "test_ms_mean": 52.625,
+    "test_gain_pct": 22.610294117647058,
+    "test_p_ms_less": 0.00390625
+  },
+  "ring8/qaoa": {
+    "topology": "ring8",
+    "family": "qaoa",
+    "n_qubits": 8,
+    "n_train": 8,
+    "n_test": 8,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 75.625,
+      "0.01": 75.625,
+      "0.02": 75.625,
+      "0.05": 73.5,
+      "0.1": 74.625,
+      "0.25": 75.375
+    },
+    "best_lambda_from_train": 0.05,
+    "test_sabre_mean": 72.875,
+    "test_ms_mean": 52.375,
+    "test_gain_pct": 28.130360205831902,
+    "test_p_ms_less": 0.00390625
+  },
+  "ring12/qaoa": {
+    "topology": "ring12",
+    "family": "qaoa",
+    "n_qubits": 12,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 160.5,
+      "0.01": 159.66666666666666,
+      "0.02": 158.0,
+      "0.05": 160.66666666666666,
+      "0.1": 160.33333333333334,
+      "0.25": 167.33333333333334
+    },
+    "best_lambda_from_train": 0.02,
+    "test_sabre_mean": 177.16666666666666,
+    "test_ms_mean": 132.5,
+    "test_gain_pct": 25.211665098777043,
+    "test_p_ms_less": 0.015625
+  },
+  "grid3x3/qaoa": {
+    "topology": "grid3x3",
+    "family": "qaoa",
+    "n_qubits": 9,
+    "n_train": 6,
+    "n_test": 6,
+    "lambda_grid": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "train_means_per_lambda": {
+      "0.005": 58.333333333333336,
+      "0.01": 58.333333333333336,
+      "0.02": 58.333333333333336,
+      "0.05": 57.833333333333336,
+      "0.1": 58.333333333333336,
+      "0.25": 60.666666666666664
+    },
+    "best_lambda_from_train": 0.05,
+    "test_sabre_mean": 87.16666666666667,
+    "test_ms_mean": 70.33333333333333,
+    "test_gain_pct": 19.311663479923528,
+    "test_p_ms_less": 0.015625
+  }
+}

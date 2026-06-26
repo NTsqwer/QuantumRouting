@@ -1,0 +1,90 @@
+# ============================================================
+# Only the paper-necessary code + results are published.
+# Everything below is excluded.
+# ============================================================
+
+# Python environment / caches (regenerate from requirements.txt)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Trained RL model weights (large; regenerate via train_rl.py)
+models/
+
+# Development archive (superseded scripts, not part of the paper)
+archive/
+
+# Scratch / superseded result files
+results/_scratch/
+
+# Reproducibility backups (local only)
+_repro_backup/
+
+# Thesis / presentation / poster sources and build artifacts (not code)
+*.tex
+*.pdf
+*.pptx
+*.zip
+*.aux
+*.bcf
+*.nav
+*.snm
+*.toc
+*.out
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.run.xml
+presentation.*
+slides_defense.*
+poster_*.tex
+beamer*.sty
+_style/
+
+# Rendered slide/poster images
+_slides_png/
+_pptx_png/
+figs_poster/
+*.png
+
+# Personal defense-prep notes (not for release)
+defense_questions.md
+my_questions_answered.md
+talk_script.md
+poster_script.md
+MEMORY.md
+
+# Editor / OS
+.vscode/
+.claude/
+.DS_Store
+
+# Misc scratch (underscore-prefixed throwaway files)
+_*.py
+_*.txt
+_*.sh
+_*.png
+
+# Poster / slide plotting scripts (not paper-necessary)
+make_poster_plots.py
+make_poster_plots2.py
+make_sabre_vs_ms_plot.py
+make_slide_plots.py
+make_mechanism_figs.py
+make_hero_figure.py
+find_hero_disjoint.py
+figures/make_fig_topologies_slides.py
+figures/estimate_pages*.py
+figures/check_v19_plateau.py
+
+# Dev logs and shell launch scripts (not needed to reproduce)
+logs/
+rl/
+
+# Spot-check / one-off dev scripts
+spot_check_headline.py
+
+# qgym is installed via requirements.txt (pip), not bundled
+qgym/

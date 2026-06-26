@@ -1,0 +1,362 @@
+{
+  "ae/linear7": {
+    "family": "ae",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "our_ratio": 1.1749570400788811,
+    "pz_ratio": 1.029149357024869,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "ae/ring8": {
+    "family": "ae",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "our_ratio": 1.2339970619447276,
+    "pz_ratio": 1.0448840160688926,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "ae/grid3x3": {
+    "family": "ae",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "our_ratio": 1.039685090985953,
+    "pz_ratio": 0.8466963867255248,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "ae/ring12": {
+    "family": "ae",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "our_ratio": 2.9122893804790624,
+    "pz_ratio": 1.5012297747215149,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "ae/heavy_hex2": {
+    "family": "ae",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "our_ratio": 2.812978666803987,
+    "pz_ratio": 1.4594722475051147,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "ae/grid4x4": {
+    "family": "ae",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "our_ratio": 1.976232149777982,
+    "pz_ratio": 0.9023364752400737,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qaoa/linear7": {
+    "family": "qaoa",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "our_ratio": 1.0343841281236374,
+    "pz_ratio": 1.0026630263515526,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qaoa/ring8": {
+    "family": "qaoa",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "our_ratio": 0.9520058696734971,
+    "pz_ratio": 0.896068466255079,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qaoa/grid3x3": {
+    "family": "qaoa",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "our_ratio": 1.128151169159572,
+    "pz_ratio": 0.9889136280173496,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qaoa/ring12": {
+    "family": "qaoa",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "our_ratio": 1.4896860847205977,
+    "pz_ratio": 1.2032445402043337,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qaoa/heavy_hex2": {
+    "family": "qaoa",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "our_ratio": 1.1650382067887475,
+    "pz_ratio": 0.8817843675196043,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qaoa/grid4x4": {
+    "family": "qaoa",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "our_ratio": 1.9264501250718093,
+    "pz_ratio": 0.9489222335426074,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qft/linear7": {
+    "family": "qft",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "our_ratio": 1.076960919924368,
+    "pz_ratio": 1.0291017402463922,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qft/ring8": {
+    "family": "qft",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "our_ratio": 1.1731037678809557,
+    "pz_ratio": 1.1076717935805491,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qft/grid3x3": {
+    "family": "qft",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "our_ratio": 1.0873080498087992,
+    "pz_ratio": 0.9282068128494044,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qft/ring12": {
+    "family": "qft",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "our_ratio": 2.2705145622052645,
+    "pz_ratio": 1.4811748979037676,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qft/heavy_hex2": {
+    "family": "qft",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "our_ratio": 1.1152048872779536,
+    "pz_ratio": 0.8919302059678452,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qft/grid4x4": {
+    "family": "qft",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "our_ratio": 1.3859878713106555,
+    "pz_ratio": 0.7909181314928629,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeexact/linear7": {
+    "family": "qpeexact",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "our_ratio": 1.1720337983847449,
+    "pz_ratio": 1.0826366453118241,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeexact/ring8": {
+    "family": "qpeexact",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "our_ratio": 1.229874199065367,
+    "pz_ratio": 1.0640397302235645,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeexact/grid3x3": {
+    "family": "qpeexact",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "our_ratio": 1.147138207732098,
+    "pz_ratio": 0.9049542514164435,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeexact/ring12": {
+    "family": "qpeexact",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "our_ratio": 1.9159461346249544,
+    "pz_ratio": 1.3097075685522803,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeexact/heavy_hex2": {
+    "family": "qpeexact",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "our_ratio": 2.5772441972652405,
+    "pz_ratio": 1.4029682106837833,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeexact/grid4x4": {
+    "family": "qpeexact",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "our_ratio": 1.3958829301922657,
+    "pz_ratio": 0.6957980007711273,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeinexact/linear7": {
+    "family": "qpeinexact",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "our_ratio": 1.1071460661793036,
+    "pz_ratio": 1.0221464130821118,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeinexact/ring8": {
+    "family": "qpeinexact",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "our_ratio": 1.229874199065367,
+    "pz_ratio": 1.0640171330596158,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeinexact/grid3x3": {
+    "family": "qpeinexact",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "our_ratio": 1.2387311742301548,
+    "pz_ratio": 0.9842005463837918,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeinexact/ring12": {
+    "family": "qpeinexact",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "our_ratio": 2.645385417676046,
+    "pz_ratio": 1.655837632012935,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeinexact/heavy_hex2": {
+    "family": "qpeinexact",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "our_ratio": 3.825368804595779,
+    "pz_ratio": 1.4189823948261353,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qpeinexact/grid4x4": {
+    "family": "qpeinexact",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "our_ratio": 1.3958829301922684,
+    "pz_ratio": 0.6957032457605389,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qftentangled/linear7": {
+    "family": "qftentangled",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "our_ratio": 1.3928681195701849,
+    "pz_ratio": 1.2325524270455719,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qftentangled/ring8": {
+    "family": "qftentangled",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "our_ratio": 1.3305417941631463,
+    "pz_ratio": 1.197693296589392,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qftentangled/grid3x3": {
+    "family": "qftentangled",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "our_ratio": 1.2138224024533926,
+    "pz_ratio": 0.9935374859575302,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qftentangled/ring12": {
+    "family": "qftentangled",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "our_ratio": 6.463652337894023,
+    "pz_ratio": 2.8817773310515804,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qftentangled/heavy_hex2": {
+    "family": "qftentangled",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "our_ratio": 0.8611784846734603,
+    "pz_ratio": 0.8744393518487796,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  },
+  "qftentangled/grid4x4": {
+    "family": "qftentangled",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "our_ratio": 1.6920383393345013,
+    "pz_ratio": 0.7405996274501753,
+    "our_valid": true,
+    "pz_valid": true,
+    "routing": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "qft": {
+    "topology": "ring8",
+    "family": "qft",
+    "lambda": 0.1,
+    "n_qubits": 8,
+    "n_circuits": 10,
+    "K": 20,
+    "sabre_mean": 159.4,
+    "ms_mean": 148.4,
+    "v19_det_mean": 141.9,
+    "v19_k20_mean": 109.4,
+    "v19_vs_ms_pct": 26.28032345013477,
+    "p_v19_less_than_ms": 0.0009765625
+  },
+  "qv": {
+    "topology": "ring8",
+    "family": "qv",
+    "lambda": 0.1,
+    "n_qubits": 8,
+    "n_circuits": 9,
+    "K": 20,
+    "sabre_mean": 117.33333333333333,
+    "ms_mean": 93.66666666666667,
+    "v19_det_mean": 144.0,
+    "v19_k20_mean": 102.11111111111111,
+    "v19_vs_ms_pct": -9.01542111506524,
+    "p_v19_less_than_ms": 0.970703125
+  },
+  "vqe": {
+    "topology": "ring8",
+    "family": "vqe",
+    "lambda": 0.1,
+    "n_qubits": 8,
+    "n_circuits": 1,
+    "K": 20,
+    "sabre_mean": 197.0,
+    "ms_mean": 147.0,
+    "v19_det_mean": 198.0,
+    "v19_k20_mean": 179.0,
+    "v19_vs_ms_pct": -21.768707482993197,
+    "p_v19_less_than_ms": 1.0
+  },
+  "qaoa": {
+    "topology": "ring8",
+    "family": "qaoa",
+    "lambda": 0.005,
+    "n_qubits": 8,
+    "n_circuits": 12,
+    "K": 20,
+    "sabre_mean": 87.25,
+    "ms_mean": 68.41666666666667,
+    "v19_det_mean": 87.08333333333333,
+    "v19_k20_mean": 61.5,
+    "v19_vs_ms_pct": 10.109622411693064,
+    "p_v19_less_than_ms": 0.0673828125
+  }
+}

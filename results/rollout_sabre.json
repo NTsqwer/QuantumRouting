@@ -1,0 +1,71 @@
+{
+  "linear5/qft": {
+    "topology": "linear5",
+    "family": "qft",
+    "lambda": 0.25,
+    "n_qubits": 5,
+    "n_circuits": 30,
+    "rollout_horizon": 5,
+    "look_k1": 44.0,
+    "ms_k1": 44.0,
+    "rollout_k1": 44.0,
+    "rollout_vs_look": {
+      "gain": 0.0,
+      "p": 1.0
+    },
+    "rollout_vs_ms": {
+      "gain": 0.0,
+      "p": 1.0
+    },
+    "ms_vs_look": {
+      "gain": 0.0,
+      "p": 1.0
+    }
+  },
+  "ring8/qft": {
+    "topology": "ring8",
+    "family": "qft",
+    "lambda": 0.25,
+    "n_qubits": 8,
+    "n_circuits": 25,
+    "rollout_horizon": 5,
+    "look_k1": 121.6,
+    "ms_k1": 100.0,
+    "rollout_k1": 110.48,
+    "rollout_vs_look": {
+      "gain": 9.144736842105257,
+      "p": 0.006297214833786678
+    },
+    "rollout_vs_ms": {
+      "gain": -10.480000000000004,
+      "p": 0.9994737660739608
+    },
+    "ms_vs_look": {
+      "gain": 17.76315789473684,
+      "p": 6.040053280686041e-06
+    }
+  },
+  "grid4x4/parallel": {
+    "topology": "grid4x4",
+    "family": "parallel",
+    "lambda": 0.05,
+    "n_qubits": 16,
+    "n_circuits": 20,
+    "rollout_horizon": 5,
+    "look_k1": 72.9,
+    "ms_k1": 57.0,
+    "rollout_k1": 75.3,
+    "rollout_vs_look": {
+      "gain": -3.292181069958836,
+      "p": 0.823031179441015
+    },
+    "rollout_vs_ms": {
+      "gain": -32.10526315789473,
+      "p": 0.9999345989501501
+    },
+    "ms_vs_look": {
+      "gain": 21.81069958847737,
+      "p": 9.808052538462182e-05
+    }
+  }
+}

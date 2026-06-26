@@ -1,0 +1,407 @@
+{
+  "ae/linear7": {
+    "benchmark": "ae",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "sabre_esp": 0.18248829678071482,
+    "ms_esp": 0.2563492351158298,
+    "esp_ratio": 1.4047434254037081
+  },
+  "ae/ring8": {
+    "benchmark": "ae",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.25,
+    "sabre_esp": 0.08954975521626157,
+    "ms_esp": 0.18519760137728866,
+    "esp_ratio": 2.068097237452394
+  },
+  "ae/grid3x3": {
+    "benchmark": "ae",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.05,
+    "sabre_esp": 0.08535698408188726,
+    "ms_esp": 0.10912921316851046,
+    "esp_ratio": 1.278503620322589
+  },
+  "ae/ring12": {
+    "benchmark": "ae",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "sabre_esp": 0.0006747219837485592,
+    "ms_esp": 0.012506007702271166,
+    "esp_ratio": 18.535052960319188
+  },
+  "ae/grid4x4": {
+    "benchmark": "ae",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.02,
+    "sabre_esp": 1.3600837006618893e-05,
+    "ms_esp": 0.00011898853496638114,
+    "esp_ratio": 8.748618552554888
+  },
+  "ghz/linear7": {
+    "benchmark": "ghz",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "sabre_esp": 0.8928400141368097,
+    "ms_esp": 0.8928400141368097,
+    "esp_ratio": 1.0
+  },
+  "ghz/ring8": {
+    "benchmark": "ghz",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "sabre_esp": 0.8638358776940037,
+    "ms_esp": 0.8638358776940037,
+    "esp_ratio": 1.0
+  },
+  "ghz/grid3x3": {
+    "benchmark": "ghz",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.005,
+    "sabre_esp": 0.8324375295425115,
+    "ms_esp": 0.8324375295425115,
+    "esp_ratio": 1.0
+  },
+  "ghz/ring12": {
+    "benchmark": "ghz",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "sabre_esp": 0.7272602086720467,
+    "ms_esp": 0.7272602086720467,
+    "esp_ratio": 1.0
+  },
+  "ghz/grid4x4": {
+    "benchmark": "ghz",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.005,
+    "sabre_esp": 0.5743195075917019,
+    "ms_esp": 0.5743195075917019,
+    "esp_ratio": 1.0
+  },
+  "graphstate/linear7": {
+    "benchmark": "graphstate",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "sabre_esp": 0.8694479408165531,
+    "ms_esp": 0.8945381927072575,
+    "esp_ratio": 1.0288576816538788
+  },
+  "graphstate/ring8": {
+    "benchmark": "graphstate",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "sabre_esp": 0.8782725081254573,
+    "ms_esp": 0.8782725081254573,
+    "esp_ratio": 1.0
+  },
+  "graphstate/grid3x3": {
+    "benchmark": "graphstate",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.005,
+    "sabre_esp": 0.8260524575337059,
+    "ms_esp": 0.8322288135276938,
+    "esp_ratio": 1.0074769537184458
+  },
+  "graphstate/ring12": {
+    "benchmark": "graphstate",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "sabre_esp": 0.8230835705347415,
+    "ms_esp": 0.8230835705347415,
+    "esp_ratio": 1.0
+  },
+  "graphstate/grid4x4": {
+    "benchmark": "graphstate",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.005,
+    "sabre_esp": 0.6366108506635606,
+    "ms_esp": 0.6333730908716815,
+    "esp_ratio": 0.9949140675366995
+  },
+  "qaoa/linear7": {
+    "benchmark": "qaoa",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.25,
+    "sabre_esp": 0.22732176928798042,
+    "ms_esp": 0.2800493085095018,
+    "esp_ratio": 1.231951121032865
+  },
+  "qaoa/ring8": {
+    "benchmark": "qaoa",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.05,
+    "sabre_esp": 0.2117732442276053,
+    "ms_esp": 0.20129062835583952,
+    "esp_ratio": 0.9505007541911221
+  },
+  "qaoa/grid3x3": {
+    "benchmark": "qaoa",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.25,
+    "sabre_esp": 0.15881087504586044,
+    "ms_esp": 0.15824635955772245,
+    "esp_ratio": 0.9964453600046284
+  },
+  "qaoa/ring12": {
+    "benchmark": "qaoa",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "sabre_esp": 0.004298230959730752,
+    "ms_esp": 0.011078787443984535,
+    "esp_ratio": 2.5775226012234875
+  },
+  "qaoa/grid4x4": {
+    "benchmark": "qaoa",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.005,
+    "sabre_esp": 0.00035871915631162745,
+    "ms_esp": 0.0006208872096806776,
+    "esp_ratio": 1.7308448650043626
+  },
+  "qft/linear7": {
+    "benchmark": "qft",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "sabre_esp": 0.33552708298916506,
+    "ms_esp": 0.4025722290770297,
+    "esp_ratio": 1.1998203706555328
+  },
+  "qft/ring8": {
+    "benchmark": "qft",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "sabre_esp": 0.21630477403996046,
+    "ms_esp": 0.3375544910255323,
+    "esp_ratio": 1.560550350882094
+  },
+  "qft/grid3x3": {
+    "benchmark": "qft",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.1,
+    "sabre_esp": 0.09908359513383566,
+    "ms_esp": 0.21435613928622818,
+    "esp_ratio": 2.163386774538105
+  },
+  "qft/ring12": {
+    "benchmark": "qft",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "sabre_esp": 0.0052039086434186275,
+    "ms_esp": 0.057019175442308626,
+    "esp_ratio": 10.956990091365393
+  },
+  "qft/grid4x4": {
+    "benchmark": "qft",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.05,
+    "sabre_esp": 0.0006178052696654782,
+    "ms_esp": 0.0012524299434156754,
+    "esp_ratio": 2.0272244425720523
+  },
+  "qftentangled/linear7": {
+    "benchmark": "qftentangled",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "sabre_esp": 0.18397421931542254,
+    "ms_esp": 0.4157457151633781,
+    "esp_ratio": 2.25980420903749
+  },
+  "qftentangled/ring8": {
+    "benchmark": "qftentangled",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "sabre_esp": 0.15185445520915924,
+    "ms_esp": 0.30788605481369063,
+    "esp_ratio": 2.027507552475946
+  },
+  "qftentangled/grid3x3": {
+    "benchmark": "qftentangled",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.005,
+    "sabre_esp": 0.11228810896121902,
+    "ms_esp": 0.18544695418746768,
+    "esp_ratio": 1.6515279837112187
+  },
+  "qftentangled/ring12": {
+    "benchmark": "qftentangled",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.01,
+    "sabre_esp": 0.0013784460637744904,
+    "ms_esp": 0.0512905567153582,
+    "esp_ratio": 37.20896889858229
+  },
+  "qftentangled/grid4x4": {
+    "benchmark": "qftentangled",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.02,
+    "sabre_esp": 0.00029780324201774273,
+    "ms_esp": 0.0006684137618181067,
+    "esp_ratio": 2.2444811456360285
+  },
+  "qpeexact/linear7": {
+    "benchmark": "qpeexact",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "sabre_esp": 0.29395570792018777,
+    "ms_esp": 0.4312324951430179,
+    "esp_ratio": 1.4669982025322752
+  },
+  "qpeexact/ring8": {
+    "benchmark": "qpeexact",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "sabre_esp": 0.09877233444201301,
+    "ms_esp": 0.22738399228506936,
+    "esp_ratio": 2.3021020366645413
+  },
+  "qpeexact/grid3x3": {
+    "benchmark": "qpeexact",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.1,
+    "sabre_esp": 0.08516483331242677,
+    "ms_esp": 0.14475544252040795,
+    "esp_ratio": 1.699709103983957
+  },
+  "qpeexact/ring12": {
+    "benchmark": "qpeexact",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.1,
+    "sabre_esp": 0.003769991732040039,
+    "ms_esp": 0.01992549531929788,
+    "esp_ratio": 5.285288864152411
+  },
+  "qpeexact/grid4x4": {
+    "benchmark": "qpeexact",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.02,
+    "sabre_esp": 2.658179840641096e-06,
+    "ms_esp": 0.00017365405681313173,
+    "esp_ratio": 65.32818214859763
+  },
+  "vqe_su2/linear7": {
+    "benchmark": "vqe_su2",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "sabre_esp": 0.7527317852562663,
+    "ms_esp": 0.7527317852562663,
+    "esp_ratio": 1.0
+  },
+  "vqe_su2/ring8": {
+    "benchmark": "vqe_su2",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "sabre_esp": 0.6994782007391847,
+    "ms_esp": 0.6994782007391847,
+    "esp_ratio": 1.0
+  },
+  "vqe_su2/grid3x3": {
+    "benchmark": "vqe_su2",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.005,
+    "sabre_esp": 0.6457162718439766,
+    "ms_esp": 0.6457162718439766,
+    "esp_ratio": 1.0
+  },
+  "vqe_su2/ring12": {
+    "benchmark": "vqe_su2",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "sabre_esp": 0.4831547737527238,
+    "ms_esp": 0.4831547737527238,
+    "esp_ratio": 1.0
+  },
+  "vqe_su2/grid4x4": {
+    "benchmark": "vqe_su2",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.005,
+    "sabre_esp": 0.29343011597173563,
+    "ms_esp": 0.29343011597173563,
+    "esp_ratio": 1.0
+  },
+  "wstate/linear7": {
+    "benchmark": "wstate",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "lam": 0.005,
+    "sabre_esp": 0.8061411244282666,
+    "ms_esp": 0.8061411244282666,
+    "esp_ratio": 1.0
+  },
+  "wstate/ring8": {
+    "benchmark": "wstate",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "lam": 0.005,
+    "sabre_esp": 0.756732187609248,
+    "ms_esp": 0.756732187609248,
+    "esp_ratio": 1.0
+  },
+  "wstate/grid3x3": {
+    "benchmark": "wstate",
+    "topology": "grid3x3",
+    "n_qubits": 9,
+    "lam": 0.005,
+    "sabre_esp": 0.7046914163620801,
+    "ms_esp": 0.7046914163620801,
+    "esp_ratio": 1.0
+  },
+  "wstate/ring12": {
+    "benchmark": "wstate",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "lam": 0.005,
+    "sabre_esp": 0.5424043573047223,
+    "ms_esp": 0.5424043573047223,
+    "esp_ratio": 1.0
+  },
+  "wstate/grid4x4": {
+    "benchmark": "wstate",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "lam": 0.005,
+    "sabre_esp": 0.35269872432487986,
+    "ms_esp": 0.35269872432487986,
+    "esp_ratio": 1.0
+  }
+}

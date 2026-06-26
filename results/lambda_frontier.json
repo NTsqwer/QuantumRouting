@@ -1,0 +1,1552 @@
+{
+  "qft/ring8": {
+    "family": "qft",
+    "topology": "ring8",
+    "n_qubits": 8,
+    "prod_makespan": 165,
+    "prod_2q": 107,
+    "prod_esp": {
+      "marrakesh": 0.5175462400798888,
+      "heron_good": 0.7378151888404448,
+      "garnet": 0.11411193300469462
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 165,
+        "makespan_red_pct": 0.0,
+        "n2q": 107,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.5175462400798888,
+          "heron_good": 0.7378151888404448,
+          "garnet": 0.11411193300469462
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 127,
+        "makespan_red_pct": 23.03030303030303,
+        "n2q": 83,
+        "n2q_delta": -24,
+        "esp": {
+          "marrakesh": 0.6071354442903393,
+          "heron_good": 0.7854870956406851,
+          "garnet": 0.21452913443488647
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1731037678809557,
+          "heron_good": 1.0646122599822887,
+          "garnet": 1.8799886110601653
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 127,
+        "makespan_red_pct": 23.03030303030303,
+        "n2q": 83,
+        "n2q_delta": -24,
+        "esp": {
+          "marrakesh": 0.6071354442903393,
+          "heron_good": 0.7854870956406851,
+          "garnet": 0.21452913443488647
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1731037678809557,
+          "heron_good": 1.0646122599822887,
+          "garnet": 1.8799886110601653
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 127,
+        "makespan_red_pct": 23.03030303030303,
+        "n2q": 83,
+        "n2q_delta": -24,
+        "esp": {
+          "marrakesh": 0.6071354442903393,
+          "heron_good": 0.7854870956406851,
+          "garnet": 0.21452913443488647
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1731037678809557,
+          "heron_good": 1.0646122599822887,
+          "garnet": 1.8799886110601653
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 127,
+        "makespan_red_pct": 23.03030303030303,
+        "n2q": 83,
+        "n2q_delta": -24,
+        "esp": {
+          "marrakesh": 0.6071354442903393,
+          "heron_good": 0.7854870956406851,
+          "garnet": 0.21452913443488647
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1731037678809557,
+          "heron_good": 1.0646122599822887,
+          "garnet": 1.8799886110601653
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 127,
+        "makespan_red_pct": 23.03030303030303,
+        "n2q": 83,
+        "n2q_delta": -24,
+        "esp": {
+          "marrakesh": 0.6071354442903393,
+          "heron_good": 0.7854870956406851,
+          "garnet": 0.21452913443488647
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1731037678809557,
+          "heron_good": 1.0646122599822887,
+          "garnet": 1.8799886110601653
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 127,
+        "makespan_red_pct": 23.03030303030303,
+        "n2q": 83,
+        "n2q_delta": -24,
+        "esp": {
+          "marrakesh": 0.6071354442903393,
+          "heron_good": 0.7854870956406851,
+          "garnet": 0.21452913443488647
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1731037678809557,
+          "heron_good": 1.0646122599822887,
+          "garnet": 1.8799886110601653
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 127,
+        "makespan_red_pct": 23.03030303030303,
+        "n2q": 83,
+        "n2q_delta": -24,
+        "esp": {
+          "marrakesh": 0.6071354442903393,
+          "heron_good": 0.7854870956406851,
+          "garnet": 0.21452913443488647
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1731037678809557,
+          "heron_good": 1.0646122599822887,
+          "garnet": 1.8799886110601653
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.5,
+      "heron_good": 0.5,
+      "garnet": 0.5
+    }
+  },
+  "qft/ring12": {
+    "family": "qft",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "prod_makespan": 388,
+    "prod_2q": 338,
+    "prod_esp": {
+      "marrakesh": 0.09996703029791838,
+      "heron_good": 0.3525408641873779,
+      "garnet": 0.00029165817646387116
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 388,
+        "makespan_red_pct": 0.0,
+        "n2q": 338,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.09996703029791838,
+          "heron_good": 0.3525408641873779,
+          "garnet": 0.00029165817646387116
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 245,
+        "makespan_red_pct": 36.855670103092784,
+        "n2q": 260,
+        "n2q_delta": -78,
+        "esp": {
+          "marrakesh": 0.2269765980318386,
+          "heron_good": 0.5017002690593863,
+          "garnet": 0.009671990681595929
+        },
+        "esp_ratio": {
+          "marrakesh": 2.2705145622052645,
+          "heron_good": 1.423098199455054,
+          "garnet": 33.16207623205118
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 245,
+        "makespan_red_pct": 36.855670103092784,
+        "n2q": 260,
+        "n2q_delta": -78,
+        "esp": {
+          "marrakesh": 0.2269765980318386,
+          "heron_good": 0.5017002690593863,
+          "garnet": 0.009671990681595929
+        },
+        "esp_ratio": {
+          "marrakesh": 2.2705145622052645,
+          "heron_good": 1.423098199455054,
+          "garnet": 33.16207623205118
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 245,
+        "makespan_red_pct": 36.855670103092784,
+        "n2q": 260,
+        "n2q_delta": -78,
+        "esp": {
+          "marrakesh": 0.22741197584429357,
+          "heron_good": 0.500897829744166,
+          "garnet": 0.009951932595961457
+        },
+        "esp_ratio": {
+          "marrakesh": 2.274869776230904,
+          "heron_good": 1.4208220397336273,
+          "garnet": 34.12190502121665
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 245,
+        "makespan_red_pct": 36.855670103092784,
+        "n2q": 260,
+        "n2q_delta": -78,
+        "esp": {
+          "marrakesh": 0.22719418264743582,
+          "heron_good": 0.5012988888416877,
+          "garnet": 0.009810963221417652
+        },
+        "esp_ratio": {
+          "marrakesh": 2.272691125967825,
+          "heron_good": 1.4219596641575256,
+          "garnet": 33.63856738174791
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 245,
+        "makespan_red_pct": 36.855670103092784,
+        "n2q": 260,
+        "n2q_delta": -78,
+        "esp": {
+          "marrakesh": 0.2269765980318386,
+          "heron_good": 0.5017002690593863,
+          "garnet": 0.009671990681595929
+        },
+        "esp_ratio": {
+          "marrakesh": 2.2705145622052645,
+          "heron_good": 1.423098199455054,
+          "garnet": 33.16207623205118
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 288,
+        "makespan_red_pct": 25.77319587628866,
+        "n2q": 336,
+        "n2q_delta": -2,
+        "esp": {
+          "marrakesh": 0.16687023914411891,
+          "heron_good": 0.4460206281933546,
+          "garnet": 0.003880359018387127
+        },
+        "esp_ratio": {
+          "marrakesh": 1.6692527390962584,
+          "heron_good": 1.2651600807227033,
+          "garnet": 13.30447534656311
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 293,
+        "makespan_red_pct": 24.484536082474225,
+        "n2q": 364,
+        "n2q_delta": 26,
+        "esp": {
+          "marrakesh": 0.15782504457398439,
+          "heron_good": 0.43726971563946176,
+          "garnet": 0.003799947805409682
+        },
+        "esp_ratio": {
+          "marrakesh": 1.5787709618225079,
+          "heron_good": 1.240337674463321,
+          "garnet": 13.028771733681864
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.02,
+      "heron_good": 0.1,
+      "garnet": 0.02
+    }
+  },
+  "qft/grid4x4": {
+    "family": "qft",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "prod_makespan": 492,
+    "prod_2q": 428,
+    "prod_esp": {
+      "marrakesh": 0.024160737766124568,
+      "heron_good": 0.17649768136218363,
+      "garnet": 7.63106410547951e-07
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 492,
+        "makespan_red_pct": 0.0,
+        "n2q": 428,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.024160737766124568,
+          "heron_good": 0.17649768136218363,
+          "garnet": 7.63106410547951e-07
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 413,
+        "makespan_red_pct": 16.056910569105693,
+        "n2q": 449,
+        "n2q_delta": 21,
+        "esp": {
+          "marrakesh": 0.040319760467569105,
+          "heron_good": 0.22511127759752578,
+          "garnet": 1.2257160558814368e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 1.6688132977504055,
+          "heron_good": 1.275434758463394,
+          "garnet": 16.0621905272858
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 425,
+        "makespan_red_pct": 13.617886178861788,
+        "n2q": 472,
+        "n2q_delta": 44,
+        "esp": {
+          "marrakesh": 0.03624507038563169,
+          "heron_good": 0.21539700155654312,
+          "garnet": 8.837265324660355e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.5001640569291885,
+          "heron_good": 1.2203956442608206,
+          "garnet": 11.58064616219739
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 422,
+        "makespan_red_pct": 14.227642276422765,
+        "n2q": 465,
+        "n2q_delta": 37,
+        "esp": {
+          "marrakesh": 0.03714821505013247,
+          "heron_good": 0.21847853831530922,
+          "garnet": 9.076652188720333e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.5375447310312462,
+          "heron_good": 1.2378550053979371,
+          "garnet": 11.89434666418647
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 401,
+        "makespan_red_pct": 18.495934959349594,
+        "n2q": 524,
+        "n2q_delta": 96,
+        "esp": {
+          "marrakesh": 0.03990682594666543,
+          "heron_good": 0.23082459363804755,
+          "garnet": 2.110350152358367e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 1.6517221590235638,
+          "heron_good": 1.3078052462591954,
+          "garnet": 27.65472970988441
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 422,
+        "makespan_red_pct": 14.227642276422765,
+        "n2q": 554,
+        "n2q_delta": 126,
+        "esp": {
+          "marrakesh": 0.03348648950576595,
+          "heron_good": 0.21431408524545,
+          "garnet": 1.1435581618338443e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 1.3859878713106555,
+          "heron_good": 1.2142600604801423,
+          "garnet": 14.985566180904033
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 451,
+        "makespan_red_pct": 8.333333333333334,
+        "n2q": 601,
+        "n2q_delta": 173,
+        "esp": {
+          "marrakesh": 0.026119875769622478,
+          "heron_good": 0.1931599005702331,
+          "garnet": 4.998791540828472e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0810876730032968,
+          "heron_good": 1.0944047484332535,
+          "garnet": 6.5505825553726815
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 486,
+        "makespan_red_pct": 1.2195121951219512,
+        "n2q": 778,
+        "n2q_delta": 350,
+        "esp": {
+          "marrakesh": 0.016839927026037597,
+          "heron_good": 0.16585726710472817,
+          "garnet": 2.559243868481288e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 0.6969955631755841,
+          "heron_good": 0.9397135748450955,
+          "garnet": 3.3537182142705557
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.005,
+      "heron_good": 0.05,
+      "garnet": 0.05
+    }
+  },
+  "qftentangled/ring12": {
+    "family": "qftentangled",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "prod_makespan": 532,
+    "prod_2q": 416,
+    "prod_esp": {
+      "marrakesh": 0.04405968266929884,
+      "heron_good": 0.24594994912603338,
+      "garnet": 9.344364055193685e-06
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 532,
+        "makespan_red_pct": 0.0,
+        "n2q": 416,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.04405968266929884,
+          "heron_good": 0.24594994912603338,
+          "garnet": 9.344364055193685e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 213,
+        "makespan_red_pct": 59.962406015037594,
+        "n2q": 208,
+        "n2q_delta": -208,
+        "esp": {
+          "marrakesh": 0.2847864708922822,
+          "heron_good": 0.5455679460121682,
+          "garnet": 0.02027669872064382
+        },
+        "esp_ratio": {
+          "marrakesh": 6.463652337894023,
+          "heron_good": 2.2182071919543276,
+          "garnet": 2169.938863776807
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 213,
+        "makespan_red_pct": 59.962406015037594,
+        "n2q": 208,
+        "n2q_delta": -208,
+        "esp": {
+          "marrakesh": 0.2847864708922822,
+          "heron_good": 0.5455679460121682,
+          "garnet": 0.02027669872064382
+        },
+        "esp_ratio": {
+          "marrakesh": 6.463652337894023,
+          "heron_good": 2.2182071919543276,
+          "garnet": 2169.938863776807
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 213,
+        "makespan_red_pct": 59.962406015037594,
+        "n2q": 208,
+        "n2q_delta": -208,
+        "esp": {
+          "marrakesh": 0.28492293939204594,
+          "heron_good": 0.5453496642907948,
+          "garnet": 0.020421852607972215
+        },
+        "esp_ratio": {
+          "marrakesh": 6.466749693378583,
+          "heron_good": 2.2173196873130414,
+          "garnet": 2185.4727071149973
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 213,
+        "makespan_red_pct": 59.962406015037594,
+        "n2q": 208,
+        "n2q_delta": -208,
+        "esp": {
+          "marrakesh": 0.2847864708922822,
+          "heron_good": 0.5455679460121682,
+          "garnet": 0.02027669872064382
+        },
+        "esp_ratio": {
+          "marrakesh": 6.463652337894023,
+          "heron_good": 2.2182071919543276,
+          "garnet": 2169.938863776807
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 213,
+        "makespan_red_pct": 59.962406015037594,
+        "n2q": 208,
+        "n2q_delta": -208,
+        "esp": {
+          "marrakesh": 0.2847864708922822,
+          "heron_good": 0.5455679460121682,
+          "garnet": 0.02027669872064382
+        },
+        "esp_ratio": {
+          "marrakesh": 6.463652337894023,
+          "heron_good": 2.2182071919543276,
+          "garnet": 2169.938863776807
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 213,
+        "makespan_red_pct": 59.962406015037594,
+        "n2q": 208,
+        "n2q_delta": -208,
+        "esp": {
+          "marrakesh": 0.2847864708922822,
+          "heron_good": 0.5455679460121682,
+          "garnet": 0.02027669872064382
+        },
+        "esp_ratio": {
+          "marrakesh": 6.463652337894023,
+          "heron_good": 2.2182071919543276,
+          "garnet": 2169.938863776807
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 213,
+        "makespan_red_pct": 59.962406015037594,
+        "n2q": 208,
+        "n2q_delta": -208,
+        "esp": {
+          "marrakesh": 0.2847864708922822,
+          "heron_good": 0.5455679460121682,
+          "garnet": 0.02027669872064382
+        },
+        "esp_ratio": {
+          "marrakesh": 6.463652337894023,
+          "heron_good": 2.2182071919543276,
+          "garnet": 2169.938863776807
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.02,
+      "heron_good": 0.5,
+      "garnet": 0.02
+    }
+  },
+  "qpeexact/ring12": {
+    "family": "qpeexact",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "prod_makespan": 421,
+    "prod_2q": 302,
+    "prod_esp": {
+      "marrakesh": 0.08862036849613338,
+      "heron_good": 0.32720385422680553,
+      "garnet": 0.00012317407369323439
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 421,
+        "makespan_red_pct": 0.0,
+        "n2q": 302,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.08862036849613338,
+          "heron_good": 0.32720385422680553,
+          "garnet": 0.00012317407369323439
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 300,
+        "makespan_red_pct": 28.741092636579573,
+        "n2q": 277,
+        "n2q_delta": -25,
+        "esp": {
+          "marrakesh": 0.16979185246920583,
+          "heron_good": 0.43562934323670927,
+          "garnet": 0.0028208106546121457
+        },
+        "esp_ratio": {
+          "marrakesh": 1.9159461346249544,
+          "heron_good": 1.3313698405726824,
+          "garnet": 22.901009685182515
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 300,
+        "makespan_red_pct": 28.741092636579573,
+        "n2q": 277,
+        "n2q_delta": -25,
+        "esp": {
+          "marrakesh": 0.16979185246920583,
+          "heron_good": 0.43562934323670927,
+          "garnet": 0.0028208106546121457
+        },
+        "esp_ratio": {
+          "marrakesh": 1.9159461346249544,
+          "heron_good": 1.3313698405726824,
+          "garnet": 22.901009685182515
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 300,
+        "makespan_red_pct": 28.741092636579573,
+        "n2q": 277,
+        "n2q_delta": -25,
+        "esp": {
+          "marrakesh": 0.16979185246920583,
+          "heron_good": 0.43562934323670927,
+          "garnet": 0.0028208106546121457
+        },
+        "esp_ratio": {
+          "marrakesh": 1.9159461346249544,
+          "heron_good": 1.3313698405726824,
+          "garnet": 22.901009685182515
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 295,
+        "makespan_red_pct": 29.928741092636578,
+        "n2q": 319,
+        "n2q_delta": 17,
+        "esp": {
+          "marrakesh": 0.16586874397807394,
+          "heron_good": 0.4367540785991807,
+          "garnet": 0.003586217964423912
+        },
+        "esp_ratio": {
+          "marrakesh": 1.87167743480226,
+          "heron_good": 1.334807255346201,
+          "garnet": 29.11503904105181
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 286,
+        "makespan_red_pct": 32.066508313539195,
+        "n2q": 287,
+        "n2q_delta": -15,
+        "esp": {
+          "marrakesh": 0.1801397562195918,
+          "heron_good": 0.449432901090419,
+          "garnet": 0.004126006843141817
+        },
+        "esp_ratio": {
+          "marrakesh": 2.032712786874177,
+          "heron_good": 1.3735562563969337,
+          "garnet": 33.497364497480675
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 281,
+        "makespan_red_pct": 33.2541567695962,
+        "n2q": 302,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.18156767036500104,
+          "heron_good": 0.45331120808712805,
+          "garnet": 0.004875253687722172
+        },
+        "esp_ratio": {
+          "marrakesh": 2.0488254951560383,
+          "heron_good": 1.3854091332705072,
+          "garnet": 39.58019363607324
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 279,
+        "makespan_red_pct": 33.729216152019,
+        "n2q": 282,
+        "n2q_delta": -20,
+        "esp": {
+          "marrakesh": 0.18784934041476753,
+          "heron_good": 0.45723103026315864,
+          "garnet": 0.00491078348388611
+        },
+        "esp_ratio": {
+          "marrakesh": 2.1197084101829664,
+          "heron_good": 1.3973888887819246,
+          "garnet": 39.868645540752674
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.5,
+      "heron_good": 0.5,
+      "garnet": 0.5
+    }
+  },
+  "qpeexact/heavy_hex2": {
+    "family": "qpeexact",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "prod_makespan": 516,
+    "prod_2q": 355,
+    "prod_esp": {
+      "marrakesh": 0.033980125701960705,
+      "heron_good": 0.20688246605972577,
+      "garnet": 1.9160543720145836e-06
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 516,
+        "makespan_red_pct": 0.0,
+        "n2q": 355,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.033980125701960705,
+          "heron_good": 0.20688246605972577,
+          "garnet": 1.9160543720145836e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 385,
+        "makespan_red_pct": 25.387596899224807,
+        "n2q": 340,
+        "n2q_delta": -15,
+        "esp": {
+          "marrakesh": 0.07523945832187091,
+          "heron_good": 0.2976611144760766,
+          "garnet": 9.40070495528281e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 2.2142195406160456,
+          "heron_good": 1.438793340708456,
+          "garnet": 49.06282980580918
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 358,
+        "makespan_red_pct": 30.62015503875969,
+        "n2q": 346,
+        "n2q_delta": -9,
+        "esp": {
+          "marrakesh": 0.08757508178772168,
+          "heron_good": 0.32058663365142914,
+          "garnet": 0.00021025643764723817
+        },
+        "esp_ratio": {
+          "marrakesh": 2.5772441972652405,
+          "heron_good": 1.5496075610336046,
+          "garnet": 109.73406638047004
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 383,
+        "makespan_red_pct": 25.775193798449614,
+        "n2q": 365,
+        "n2q_delta": 10,
+        "esp": {
+          "marrakesh": 0.07399573255973323,
+          "heron_good": 0.2975382181869622,
+          "garnet": 0.00010749211719621544
+        },
+        "esp_ratio": {
+          "marrakesh": 2.1776179761296044,
+          "heron_good": 1.4381993015351269,
+          "garnet": 56.10076559737486
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 390,
+        "makespan_red_pct": 24.41860465116279,
+        "n2q": 367,
+        "n2q_delta": 12,
+        "esp": {
+          "marrakesh": 0.07115122792807044,
+          "heron_good": 0.29059776503346,
+          "garnet": 9.388585646529265e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 2.093907143020513,
+          "heron_good": 1.404651494001266,
+          "garnet": 48.99957842353863
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 381,
+        "makespan_red_pct": 26.162790697674417,
+        "n2q": 452,
+        "n2q_delta": 97,
+        "esp": {
+          "marrakesh": 0.06781298297844583,
+          "heron_good": 0.2930366310646145,
+          "garnet": 0.00014808854331380274
+        },
+        "esp_ratio": {
+          "marrakesh": 1.9956660423576043,
+          "heron_good": 1.4164401490652017,
+          "garnet": 77.28827818080082
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 384,
+        "makespan_red_pct": 25.58139534883721,
+        "n2q": 419,
+        "n2q_delta": 64,
+        "esp": {
+          "marrakesh": 0.06890381839011213,
+          "heron_good": 0.29386374376366975,
+          "garnet": 0.00011580126444954794
+        },
+        "esp_ratio": {
+          "marrakesh": 2.0277682017561305,
+          "heron_good": 1.4204381326295337,
+          "garnet": 60.4373582195331
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 334,
+        "makespan_red_pct": 35.27131782945737,
+        "n2q": 443,
+        "n2q_delta": 88,
+        "esp": {
+          "marrakesh": 0.09121663404011279,
+          "heron_good": 0.3321871530791018,
+          "garnet": 0.0006588325537031413
+        },
+        "esp_ratio": {
+          "marrakesh": 2.6844113185505214,
+          "heron_good": 1.6056805557567226,
+          "garnet": 343.8485688746033
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.5,
+      "heron_good": 0.5,
+      "garnet": 0.5
+    }
+  },
+  "ae/ring12": {
+    "family": "ae",
+    "topology": "ring12",
+    "n_qubits": 12,
+    "prod_makespan": 514,
+    "prod_2q": 389,
+    "prod_esp": {
+      "marrakesh": 0.05024139480863241,
+      "heron_good": 0.2563486225129863,
+      "garnet": 1.5652929670433476e-05
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 514,
+        "makespan_red_pct": 0.0,
+        "n2q": 389,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.05024139480863241,
+          "heron_good": 0.2563486225129863,
+          "garnet": 1.5652929670433476e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 316,
+        "makespan_red_pct": 38.521400778210115,
+        "n2q": 339,
+        "n2q_delta": -50,
+        "esp": {
+          "marrakesh": 0.14631748056163607,
+          "heron_good": 0.41222064434116407,
+          "garnet": 0.0023608817651737924
+        },
+        "esp_ratio": {
+          "marrakesh": 2.9122893804790624,
+          "heron_good": 1.6080470427348659,
+          "garnet": 150.8268301769232
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 323,
+        "makespan_red_pct": 37.159533073929964,
+        "n2q": 375,
+        "n2q_delta": -14,
+        "esp": {
+          "marrakesh": 0.1351550914675437,
+          "heron_good": 0.40292130850040236,
+          "garnet": 0.002108517544373684
+        },
+        "esp_ratio": {
+          "marrakesh": 2.6901142371214886,
+          "heron_good": 1.5717709131828508,
+          "garnet": 134.70433898111887
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 316,
+        "makespan_red_pct": 38.521400778210115,
+        "n2q": 383,
+        "n2q_delta": -6,
+        "esp": {
+          "marrakesh": 0.13878519221800012,
+          "heron_good": 0.4088453658270035,
+          "garnet": 0.0025862447832407905
+        },
+        "esp_ratio": {
+          "marrakesh": 2.7623674212594556,
+          "heron_good": 1.594880291608713,
+          "garnet": 165.22432782189648
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 316,
+        "makespan_red_pct": 38.521400778210115,
+        "n2q": 383,
+        "n2q_delta": -6,
+        "esp": {
+          "marrakesh": 0.13878519221800006,
+          "heron_good": 0.4088453658270035,
+          "garnet": 0.002586244783240788
+        },
+        "esp_ratio": {
+          "marrakesh": 2.7623674212594547,
+          "heron_good": 1.594880291608713,
+          "garnet": 165.2243278218963
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 325,
+        "makespan_red_pct": 36.7704280155642,
+        "n2q": 372,
+        "n2q_delta": -17,
+        "esp": {
+          "marrakesh": 0.13453416905588336,
+          "heron_good": 0.4005914417684183,
+          "garnet": 0.0020494509850677114
+        },
+        "esp_ratio": {
+          "marrakesh": 2.677755455801316,
+          "heron_good": 1.5626822482657377,
+          "garnet": 130.93082433883805
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 311,
+        "makespan_red_pct": 39.494163424124515,
+        "n2q": 391,
+        "n2q_delta": 2,
+        "esp": {
+          "marrakesh": 0.14176163431810665,
+          "heron_good": 0.4112210616551354,
+          "garnet": 0.003240605788037413
+        },
+        "esp_ratio": {
+          "marrakesh": 2.821610245059306,
+          "heron_good": 1.6041477329736908,
+          "garnet": 207.02870684703402
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 306,
+        "makespan_red_pct": 40.46692607003891,
+        "n2q": 331,
+        "n2q_delta": -58,
+        "esp": {
+          "marrakesh": 0.15508270063342985,
+          "heron_good": 0.4235041796339045,
+          "garnet": 0.002902426333666978
+        },
+        "esp_ratio": {
+          "marrakesh": 3.0867514969306495,
+          "heron_good": 1.652063410687726,
+          "garnet": 185.42384044242635
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.5,
+      "heron_good": 0.5,
+      "garnet": 0.25
+    }
+  },
+  "qaoa/grid4x4": {
+    "family": "qaoa",
+    "topology": "grid4x4",
+    "n_qubits": 16,
+    "prod_makespan": 514,
+    "prod_2q": 435,
+    "prod_esp": {
+      "marrakesh": 0.020629946844854263,
+      "heron_good": 0.16453197979141213,
+      "garnet": 3.620340852193575e-07
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 514,
+        "makespan_red_pct": 0.0,
+        "n2q": 435,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.020629946844854263,
+          "heron_good": 0.16453197979141213,
+          "garnet": 3.620340852193575e-07
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 457,
+        "makespan_red_pct": 11.089494163424124,
+        "n2q": 559,
+        "n2q_delta": 124,
+        "esp": {
+          "marrakesh": 0.026283033487494757,
+          "heron_good": 0.1916058841203364,
+          "garnet": 3.5388663802907387e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.274023325661188,
+          "heron_good": 1.1645510153299536,
+          "garnet": 9.774953587993046
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 413,
+        "makespan_red_pct": 19.64980544747082,
+        "n2q": 556,
+        "n2q_delta": 121,
+        "esp": {
+          "marrakesh": 0.03547210828591798,
+          "heron_good": 0.22057588965663485,
+          "garnet": 1.5397837198388765e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 1.7194473913424457,
+          "heron_good": 1.340626241392544,
+          "garnet": 42.53145719431133
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 458,
+        "makespan_red_pct": 10.894941634241246,
+        "n2q": 593,
+        "n2q_delta": 158,
+        "esp": {
+          "marrakesh": 0.02508228128270314,
+          "heron_good": 0.18965819419693214,
+          "garnet": 3.716411536090758e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.2158189970789686,
+          "heron_good": 1.152713256337,
+          "garnet": 10.26536364342317
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 427,
+        "makespan_red_pct": 16.926070038910506,
+        "n2q": 547,
+        "n2q_delta": 112,
+        "esp": {
+          "marrakesh": 0.03253308540277383,
+          "heron_good": 0.21184343330594335,
+          "garnet": 9.028240931366804e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.5769834817043444,
+          "heron_good": 1.2875517183620535,
+          "garnet": 24.937544004721452
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 388,
+        "makespan_red_pct": 24.513618677042803,
+        "n2q": 603,
+        "n2q_delta": 168,
+        "esp": {
+          "marrakesh": 0.039742563679494275,
+          "heron_good": 0.2364218597682282,
+          "garnet": 4.035749464999353e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 1.9264501250718093,
+          "heron_good": 1.4369356040567647,
+          "garnet": 111.47429564688863
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 426,
+        "makespan_red_pct": 17.120622568093385,
+        "n2q": 643,
+        "n2q_delta": 208,
+        "esp": {
+          "marrakesh": 0.029406591180280252,
+          "heron_good": 0.20743067702280416,
+          "garnet": 1.2744761851604801e-05
+        },
+        "esp_ratio": {
+          "marrakesh": 1.4254322321540616,
+          "heron_good": 1.260731666182936,
+          "garnet": 35.203209785848514
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 439,
+        "makespan_red_pct": 14.591439688715953,
+        "n2q": 715,
+        "n2q_delta": 280,
+        "esp": {
+          "marrakesh": 0.02476786868143903,
+          "heron_good": 0.19596984848257948,
+          "garnet": 9.902152104818017e-06
+        },
+        "esp_ratio": {
+          "marrakesh": 1.2005784051555561,
+          "heron_good": 1.191074517738273,
+          "garnet": 27.35143598100238
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.1,
+      "heron_good": 0.1,
+      "garnet": 0.1
+    }
+  },
+  "qft/linear7": {
+    "family": "qft",
+    "topology": "linear7",
+    "n_qubits": 7,
+    "prod_makespan": 138,
+    "prod_2q": 75,
+    "prod_esp": {
+      "marrakesh": 0.620544860741209,
+      "heron_good": 0.8003997358340319,
+      "garnet": 0.20555083451922357
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 138,
+        "makespan_red_pct": 0.0,
+        "n2q": 75,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.620544860741209,
+          "heron_good": 0.8003997358340319,
+          "garnet": 0.20555083451922357
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 116,
+        "makespan_red_pct": 15.942028985507246,
+        "n2q": 68,
+        "n2q_delta": -7,
+        "esp": {
+          "marrakesh": 0.6683025640781912,
+          "heron_good": 0.8257683819291088,
+          "garnet": 0.2837667967932864
+        },
+        "esp_ratio": {
+          "marrakesh": 1.076960919924368,
+          "heron_good": 1.0316949705994622,
+          "garnet": 1.3805188261921064
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 116,
+        "makespan_red_pct": 15.942028985507246,
+        "n2q": 68,
+        "n2q_delta": -7,
+        "esp": {
+          "marrakesh": 0.6683025640781912,
+          "heron_good": 0.8257683819291088,
+          "garnet": 0.2837667967932864
+        },
+        "esp_ratio": {
+          "marrakesh": 1.076960919924368,
+          "heron_good": 1.0316949705994622,
+          "garnet": 1.3805188261921064
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 116,
+        "makespan_red_pct": 15.942028985507246,
+        "n2q": 68,
+        "n2q_delta": -7,
+        "esp": {
+          "marrakesh": 0.6683025640781912,
+          "heron_good": 0.8257683819291088,
+          "garnet": 0.2837667967932864
+        },
+        "esp_ratio": {
+          "marrakesh": 1.076960919924368,
+          "heron_good": 1.0316949705994622,
+          "garnet": 1.3805188261921064
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 116,
+        "makespan_red_pct": 15.942028985507246,
+        "n2q": 68,
+        "n2q_delta": -7,
+        "esp": {
+          "marrakesh": 0.6683025640781912,
+          "heron_good": 0.8257683819291088,
+          "garnet": 0.2837667967932864
+        },
+        "esp_ratio": {
+          "marrakesh": 1.076960919924368,
+          "heron_good": 1.0316949705994622,
+          "garnet": 1.3805188261921064
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 116,
+        "makespan_red_pct": 15.942028985507246,
+        "n2q": 68,
+        "n2q_delta": -7,
+        "esp": {
+          "marrakesh": 0.6683025640781912,
+          "heron_good": 0.8257683819291088,
+          "garnet": 0.2837667967932864
+        },
+        "esp_ratio": {
+          "marrakesh": 1.076960919924368,
+          "heron_good": 1.0316949705994622,
+          "garnet": 1.3805188261921064
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 116,
+        "makespan_red_pct": 15.942028985507246,
+        "n2q": 68,
+        "n2q_delta": -7,
+        "esp": {
+          "marrakesh": 0.6683025640781912,
+          "heron_good": 0.8257683819291088,
+          "garnet": 0.2837667967932864
+        },
+        "esp_ratio": {
+          "marrakesh": 1.076960919924368,
+          "heron_good": 1.0316949705994622,
+          "garnet": 1.3805188261921064
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 114,
+        "makespan_red_pct": 17.391304347826086,
+        "n2q": 68,
+        "n2q_delta": -7,
+        "esp": {
+          "marrakesh": 0.6722420204505386,
+          "heron_good": 0.8280837734338947,
+          "garnet": 0.29216520985845407
+        },
+        "esp_ratio": {
+          "marrakesh": 1.083309302807826,
+          "heron_good": 1.0345877645386972,
+          "garnet": 1.4213769092293815
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.5,
+      "heron_good": 0.5,
+      "garnet": 0.5
+    }
+  },
+  "qft/heavy_hex2": {
+    "family": "qft",
+    "topology": "heavy_hex2",
+    "n_qubits": 14,
+    "prod_makespan": 367,
+    "prod_2q": 334,
+    "prod_esp": {
+      "marrakesh": 0.08358908734863271,
+      "heron_good": 0.3154378022320364,
+      "garnet": 0.00013981886394099594
+    },
+    "sweep": [
+      {
+        "lam": 0.0,
+        "makespan": 367,
+        "makespan_red_pct": 0.0,
+        "n2q": 334,
+        "n2q_delta": 0,
+        "esp": {
+          "marrakesh": 0.08358908734863271,
+          "heron_good": 0.3154378022320364,
+          "garnet": 0.00013981886394099594
+        },
+        "esp_ratio": {
+          "marrakesh": 1.0,
+          "heron_good": 1.0,
+          "garnet": 1.0
+        }
+      },
+      {
+        "lam": 0.005,
+        "makespan": 339,
+        "makespan_red_pct": 7.629427792915531,
+        "n2q": 336,
+        "n2q_delta": 2,
+        "esp": {
+          "marrakesh": 0.09870968665268932,
+          "heron_good": 0.3398685724502036,
+          "garnet": 0.000337740127970558
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1808920253069846,
+          "heron_good": 1.0774503564420472,
+          "garnet": 2.415554800338569
+        }
+      },
+      {
+        "lam": 0.01,
+        "makespan": 341,
+        "makespan_red_pct": 7.084468664850136,
+        "n2q": 376,
+        "n2q_delta": 42,
+        "esp": {
+          "marrakesh": 0.09321895873429897,
+          "heron_good": 0.3347346933050599,
+          "garnet": 0.0003596338633915755
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1152048872779536,
+          "heron_good": 1.0611749477598398,
+          "garnet": 2.572141220825126
+        }
+      },
+      {
+        "lam": 0.02,
+        "makespan": 321,
+        "makespan_red_pct": 12.534059945504087,
+        "n2q": 327,
+        "n2q_delta": -7,
+        "esp": {
+          "marrakesh": 0.11143382023367045,
+          "heron_good": 0.3566524199429951,
+          "garnet": 0.0006005049781594986
+        },
+        "esp_ratio": {
+          "marrakesh": 1.3331144503217645,
+          "heron_good": 1.1306584607783985,
+          "garnet": 4.2948781103879785
+        }
+      },
+      {
+        "lam": 0.05,
+        "makespan": 332,
+        "makespan_red_pct": 9.536784741144414,
+        "n2q": 358,
+        "n2q_delta": 24,
+        "esp": {
+          "marrakesh": 0.10078681584212668,
+          "heron_good": 0.34341712751190523,
+          "garnet": 0.00047483956828833914
+        },
+        "esp_ratio": {
+          "marrakesh": 1.2057413119222826,
+          "heron_good": 1.0886999753418496,
+          "garnet": 3.3961051814061594
+        }
+      },
+      {
+        "lam": 0.1,
+        "makespan": 338,
+        "makespan_red_pct": 7.901907356948229,
+        "n2q": 378,
+        "n2q_delta": 44,
+        "esp": {
+          "marrakesh": 0.09442617235889515,
+          "heron_good": 0.3380987989270651,
+          "garnet": 0.0003805247508081363
+        },
+        "esp_ratio": {
+          "marrakesh": 1.1296471268440007,
+          "heron_good": 1.0718398255842503,
+          "garnet": 2.7215551613172817
+        }
+      },
+      {
+        "lam": 0.25,
+        "makespan": 352,
+        "makespan_red_pct": 4.087193460490464,
+        "n2q": 433,
+        "n2q_delta": 99,
+        "esp": {
+          "marrakesh": 0.08144186079031401,
+          "heron_good": 0.3216650603658878,
+          "garnet": 0.00028526657446401705
+        },
+        "esp_ratio": {
+          "marrakesh": 0.9743121186457862,
+          "heron_good": 1.0197416355610753,
+          "garnet": 2.0402581341556356
+        }
+      },
+      {
+        "lam": 0.5,
+        "makespan": 351,
+        "makespan_red_pct": 4.359673024523161,
+        "n2q": 390,
+        "n2q_delta": 56,
+        "esp": {
+          "marrakesh": 0.08678396932212465,
+          "heron_good": 0.32354228384963485,
+          "garnet": 0.0002937998289656224
+        },
+        "esp_ratio": {
+          "marrakesh": 1.038221280729705,
+          "heron_good": 1.0256928039703903,
+          "garnet": 2.1012889154185017
+        }
+      }
+    ],
+    "esp_argmax_lambda": {
+      "marrakesh": 0.02,
+      "heron_good": 0.02,
+      "garnet": 0.02
+    }
+  }
+}

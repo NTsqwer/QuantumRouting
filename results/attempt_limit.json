@@ -1,0 +1,107 @@
+{
+  "grid5x5/qft/lam0.1/mult10": {
+    "mean_sabre": 513.6,
+    "mean_ms": 513.6,
+    "pct": 0.0,
+    "success_rate": 0.0,
+    "attempt_limit": 250
+  },
+  "grid5x5/qft/lam0.1/mult20": {
+    "mean_sabre": 513.6,
+    "mean_ms": 408.0,
+    "pct": 20.560747663551403,
+    "success_rate": 0.33,
+    "attempt_limit": 500
+  },
+  "grid5x5/qft/lam0.1/mult50": {
+    "mean_sabre": 513.6,
+    "mean_ms": 407.4,
+    "pct": 20.677570093457952,
+    "success_rate": 1.0,
+    "attempt_limit": 1250
+  },
+  "grid5x5/qft/lam0.1/mult100": {
+    "mean_sabre": 513.6,
+    "mean_ms": 407.4,
+    "pct": 20.677570093457952,
+    "success_rate": 1.0,
+    "attempt_limit": 2500
+  },
+  "grid5x5/qft/lam0.1/mult200": {
+    "mean_sabre": 513.6,
+    "mean_ms": 407.4,
+    "pct": 20.677570093457952,
+    "success_rate": 1.0,
+    "attempt_limit": 5000
+  },
+  "grid5x5/qft/lam0.25/mult10": {
+    "mean_sabre": 513.6,
+    "mean_ms": 513.6,
+    "pct": 0.0,
+    "success_rate": 0.0,
+    "attempt_limit": 250
+  },
+  "grid5x5/qft/lam0.25/mult20": {
+    "mean_sabre": 513.6,
+    "mean_ms": 513.6,
+    "pct": 0.0,
+    "success_rate": 0.0,
+    "attempt_limit": 500
+  },
+  "grid5x5/qft/lam0.25/mult50": {
+    "mean_sabre": 513.6,
+    "mean_ms": 513.7,
+    "pct": -0.0194704049844281,
+    "success_rate": 1.0,
+    "attempt_limit": 1250
+  },
+  "grid5x5/qft/lam0.25/mult100": {
+    "mean_sabre": 513.6,
+    "mean_ms": 513.7,
+    "pct": -0.0194704049844281,
+    "success_rate": 1.0,
+    "attempt_limit": 2500
+  },
+  "grid5x5/qft/lam0.25/mult200": {
+    "mean_sabre": 513.6,
+    "mean_ms": 513.7,
+    "pct": -0.0194704049844281,
+    "success_rate": 1.0,
+    "attempt_limit": 5000
+  },
+  "grid5x5/random/lam0.1/mult10": {
+    "mean_sabre": 48.6,
+    "mean_ms": 39.4,
+    "pct": 18.930041152263378,
+    "success_rate": 1.0,
+    "attempt_limit": 250
+  },
+  "grid5x5/random/lam0.1/mult20": {
+    "mean_sabre": 48.6,
+    "mean_ms": 39.4,
+    "pct": 18.930041152263378,
+    "success_rate": 1.0,
+    "attempt_limit": 500
+  },
+  "grid5x5/random/lam0.1/mult50": {
+    "mean_sabre": 48.6,
+    "mean_ms": 39.4,
+    "pct": 18.930041152263378,
+    "success_rate": 1.0,
+    "attempt_limit": 1250
+  },
+  "grid5x5/random/lam0.1/mult100": {
+    "mean_sabre": 48.6,
+    "mean_ms": 39.4,
+    "pct": 18.930041152263378,
+    "success_rate": 1.0,
+    "attempt_limit": 2500
+  },
+  "grid5x5/random/lam0.1/mult200": {
+    "mean_sabre": 48.6,
+    "mean_ms": 39.4,
+    "pct": 18.930041152263378,
+    "success_rate": 1.0,
+    "attempt_limit": 5000
+  }
+}

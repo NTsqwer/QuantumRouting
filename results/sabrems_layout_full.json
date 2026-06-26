@@ -1,0 +1,410 @@
+{
+  "linear5/random": {
+    "topology": "linear5",
+    "family": "random",
+    "routing_lambda": 0.1,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 5,
+    "n_circuits": 30,
+    "A_mean": 100.66666666666667,
+    "B_mean": 85.6,
+    "D_mean": 84.46666666666667,
+    "B_vs_A": {
+      "gain": 14.966887417218553,
+      "p": 4.0559301658428025e-06
+    },
+    "D_vs_A": {
+      "gain": 16.09271523178808,
+      "p": 3.917675202106156e-06
+    },
+    "D_vs_B": {
+      "gain": 1.3239875389408011,
+      "p": 0.12573907540771312
+    }
+  },
+  "linear5/qft": {
+    "topology": "linear5",
+    "family": "qft",
+    "routing_lambda": 0.25,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 5,
+    "n_circuits": 30,
+    "A_mean": 30.133333333333333,
+    "B_mean": 25.866666666666667,
+    "D_mean": 25.466666666666665,
+    "B_vs_A": {
+      "gain": 14.159292035398227,
+      "p": 3.167124183311986e-05
+    },
+    "D_vs_A": {
+      "gain": 15.486725663716818,
+      "p": 3.044451752046364e-06
+    },
+    "D_vs_B": {
+      "gain": 1.5463917525773279,
+      "p": 0.2192890130404999
+    }
+  },
+  "linear5/parallel": {
+    "topology": "linear5",
+    "family": "parallel",
+    "routing_lambda": 0.02,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 5,
+    "n_circuits": 30,
+    "A_mean": 22.466666666666665,
+    "B_mean": 23.0,
+    "D_mean": 22.333333333333332,
+    "B_vs_A": {
+      "gain": -2.3738872403560904,
+      "p": 0.8503477971051834
+    },
+    "D_vs_A": {
+      "gain": 0.5934718100890187,
+      "p": 0.7432073759940787
+    },
+    "D_vs_B": {
+      "gain": 2.8985507246376865,
+      "p": 0.4649556262533128
+    }
+  },
+  "ring5/qft": {
+    "topology": "ring5",
+    "family": "qft",
+    "routing_lambda": 0.25,
+    "layout_lambda": 0.25,
+    "n_iterations": 8,
+    "n_qubits": 5,
+    "n_circuits": 30,
+    "A_mean": 30.4,
+    "B_mean": 30.533333333333335,
+    "D_mean": 26.066666666666666,
+    "B_vs_A": {
+      "gain": -0.4385964912280803,
+      "p": 0.6052518602663252
+    },
+    "D_vs_A": {
+      "gain": 14.254385964912277,
+      "p": 1.3862157180352635e-05
+    },
+    "D_vs_B": {
+      "gain": 14.628820960698695,
+      "p": 1.3895417449256445e-05
+    }
+  },
+  "tshape5/qft": {
+    "topology": "tshape5",
+    "family": "qft",
+    "routing_lambda": 0.25,
+    "layout_lambda": 0.25,
+    "n_iterations": 8,
+    "n_qubits": 5,
+    "n_circuits": 30,
+    "A_mean": 30.333333333333332,
+    "B_mean": 30.666666666666668,
+    "D_mean": 26.666666666666668,
+    "B_vs_A": {
+      "gain": -1.0989010989011068,
+      "p": 0.7970211277559485
+    },
+    "D_vs_A": {
+      "gain": 12.08791208791208,
+      "p": 0.0004461986023073444
+    },
+    "D_vs_B": {
+      "gain": 13.043478260869565,
+      "p": 3.044451752046364e-06
+    }
+  },
+  "linear7/qft": {
+    "topology": "linear7",
+    "family": "qft",
+    "routing_lambda": 0.25,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 7,
+    "n_circuits": 25,
+    "A_mean": 72.88,
+    "B_mean": 46.16,
+    "D_mean": 41.6,
+    "B_vs_A": {
+      "gain": 36.66300768386389,
+      "p": 4.178675358074668e-06
+    },
+    "D_vs_A": {
+      "gain": 42.9198682766191,
+      "p": 4.515497126379737e-06
+    },
+    "D_vs_B": {
+      "gain": 9.878682842287686,
+      "p": 3.059315836725597e-05
+    }
+  },
+  "linear9/qft": {
+    "topology": "linear9",
+    "family": "qft",
+    "routing_lambda": 0.25,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 9,
+    "n_circuits": 20,
+    "A_mean": 95.4,
+    "B_mean": 63.0,
+    "D_mean": 58.4,
+    "B_vs_A": {
+      "gain": 33.9622641509434,
+      "p": 3.252976410834965e-05
+    },
+    "D_vs_A": {
+      "gain": 38.784067085953886,
+      "p": 4.076013494703052e-05
+    },
+    "D_vs_B": {
+      "gain": 7.301587301587303,
+      "p": 0.0004168743852437731
+    }
+  },
+  "linear9/random": {
+    "topology": "linear9",
+    "family": "random",
+    "routing_lambda": 0.1,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 9,
+    "n_circuits": 20,
+    "A_mean": 109.4,
+    "B_mean": 103.1,
+    "D_mean": 101.5,
+    "B_vs_A": {
+      "gain": 5.758683729433282,
+      "p": 0.010910389761146201
+    },
+    "D_vs_A": {
+      "gain": 7.221206581352838,
+      "p": 0.013688875621851069
+    },
+    "D_vs_B": {
+      "gain": 1.5518913676042623,
+      "p": 0.3214224787120301
+    }
+  },
+  "ring8/qft": {
+    "topology": "ring8",
+    "family": "qft",
+    "routing_lambda": 0.25,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 8,
+    "n_circuits": 20,
+    "A_mean": 85.5,
+    "B_mean": 53.1,
+    "D_mean": 59.0,
+    "B_vs_A": {
+      "gain": 37.89473684210526,
+      "p": 3.6575816752783707e-05
+    },
+    "D_vs_A": {
+      "gain": 30.994152046783626,
+      "p": 4.378747036907218e-05
+    },
+    "D_vs_B": {
+      "gain": -11.111111111111109,
+      "p": 0.9316899392153593
+    }
+  },
+  "ring12/qft": {
+    "topology": "ring12",
+    "family": "qft",
+    "routing_lambda": 0.25,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 12,
+    "n_circuits": 15,
+    "A_mean": 209.2,
+    "B_mean": 91.06666666666666,
+    "D_mean": 82.13333333333334,
+    "B_vs_A": {
+      "gain": 56.469088591459524,
+      "p": 0.00031768796891783294
+    },
+    "D_vs_A": {
+      "gain": 60.73932441045251,
+      "p": 0.00031930560209858576
+    },
+    "D_vs_B": {
+      "gain": 9.809663250366022,
+      "p": 0.0015806110104534784
+    }
+  },
+  "ring12/random": {
+    "topology": "ring12",
+    "family": "random",
+    "routing_lambda": 0.1,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 12,
+    "n_circuits": 15,
+    "A_mean": 86.93333333333334,
+    "B_mean": 79.73333333333333,
+    "D_mean": 82.26666666666667,
+    "B_vs_A": {
+      "gain": 8.282208588957058,
+      "p": 0.020488510785701575
+    },
+    "D_vs_A": {
+      "gain": 5.368098159509207,
+      "p": 0.16395029672759615
+    },
+    "D_vs_B": {
+      "gain": -3.1772575250836095,
+      "p": 0.8113853192682143
+    }
+  },
+  "ring12/parallel": {
+    "topology": "ring12",
+    "family": "parallel",
+    "routing_lambda": 0.02,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 12,
+    "n_circuits": 15,
+    "A_mean": 51.86666666666667,
+    "B_mean": 52.4,
+    "D_mean": 57.333333333333336,
+    "B_vs_A": {
+      "gain": -1.028277634961436,
+      "p": 0.7799509355740033
+    },
+    "D_vs_A": {
+      "gain": -10.53984575835476,
+      "p": 0.94251253815346
+    },
+    "D_vs_B": {
+      "gain": -9.414758269720108,
+      "p": 0.9231825908475983
+    }
+  },
+  "grid3x3/qft": {
+    "topology": "grid3x3",
+    "family": "qft",
+    "routing_lambda": 0.05,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 9,
+    "n_circuits": 20,
+    "A_mean": 93.9,
+    "B_mean": 85.7,
+    "D_mean": 75.1,
+    "B_vs_A": {
+      "gain": 8.732694355697552,
+      "p": 0.0011440609589629528
+    },
+    "D_vs_A": {
+      "gain": 20.021299254526102,
+      "p": 4.243508135080653e-05
+    },
+    "D_vs_B": {
+      "gain": 12.36872812135357,
+      "p": 0.0001854842840713172
+    }
+  },
+  "grid4x4/qft": {
+    "topology": "grid4x4",
+    "family": "qft",
+    "routing_lambda": 0.05,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 16,
+    "n_circuits": 12,
+    "A_mean": 230.66666666666666,
+    "B_mean": 179.0,
+    "D_mean": 171.66666666666666,
+    "B_vs_A": {
+      "gain": 22.398843930635838,
+      "p": 0.000244140625
+    },
+    "D_vs_A": {
+      "gain": 25.578034682080926,
+      "p": 0.000244140625
+    },
+    "D_vs_B": {
+      "gain": 4.096834264432035,
+      "p": 0.18896484375
+    }
+  },
+  "grid4x4/random": {
+    "topology": "grid4x4",
+    "family": "random",
+    "routing_lambda": 0.05,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 16,
+    "n_circuits": 12,
+    "A_mean": 50.333333333333336,
+    "B_mean": 48.0,
+    "D_mean": 43.166666666666664,
+    "B_vs_A": {
+      "gain": 4.635761589403978,
+      "p": 0.1845703125
+    },
+    "D_vs_A": {
+      "gain": 14.2384105960265,
+      "p": 0.00341796875
+    },
+    "D_vs_B": {
+      "gain": 10.06944444444445,
+      "p": 0.026611328125
+    }
+  },
+  "grid4x4/parallel": {
+    "topology": "grid4x4",
+    "family": "parallel",
+    "routing_lambda": 0.05,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 16,
+    "n_circuits": 12,
+    "A_mean": 60.333333333333336,
+    "B_mean": 52.5,
+    "D_mean": 51.833333333333336,
+    "B_vs_A": {
+      "gain": 12.983425414364644,
+      "p": 0.0078125
+    },
+    "D_vs_A": {
+      "gain": 14.088397790055248,
+      "p": 0.0205078125
+    },
+    "D_vs_B": {
+      "gain": 1.2698412698412653,
+      "p": 0.404052734375
+    }
+  },
+  "heavy_hex2/qft": {
+    "topology": "heavy_hex2",
+    "family": "qft",
+    "routing_lambda": 0.1,
+    "layout_lambda": 0.05,
+    "n_iterations": 8,
+    "n_qubits": 14,
+    "n_circuits": 12,
+    "A_mean": 190.16666666666666,
+    "B_mean": 160.33333333333334,
+    "D_mean": 172.83333333333334,
+    "B_vs_A": {
+      "gain": 15.687992988606474,
+      "p": 0.000244140625
+    },
+    "D_vs_A": {
+      "gain": 9.11481156879929,
+      "p": 0.030517578125
+    },
+    "D_vs_B": {
+      "gain": -7.7962577962577955,
+      "p": 0.8876953125
+    }
+  }
+}
