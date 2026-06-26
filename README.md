@@ -29,7 +29,7 @@ Every number in the paper is read from a released result file in `results/`.
 To print the headline tables straight from those files:
 
 ```bash
-python _paper_numbers.py
+python paper_numbers.py
 ```
 
 This reproduces: the 20.0% mean makespan reduction (Table 2), the
@@ -64,7 +64,7 @@ python exp_mqt_qubit_sweep.py # scaling sweep (9 -> 49 qubits)
 | `exp_mapping_routing_misalignment.py` | `mapping_routing_misalignment.json` | initial-mapping gap (§5.1) |
 | `exp_ibm_hardware.py` | `ibm_hw_*.json` | §5.4 hardware (1.7× / 3.6×) |
 | `eval_rl_capped35.py` | `rl_capped35.json` | §5.6 RL ablation (8/9) |
-| `_paper_numbers.py` | (reads the above) | prints all headline tables |
+| `paper_numbers.py` | (reads the above) | prints all headline tables |
 
 ## 5. Core source files
 
@@ -102,5 +102,5 @@ training); the result file is released.
 - **MQT-Bench** circuits are a deterministic `get_benchmark(...)` library call.
 - Cost model: 1 single-qubit gate = 1 cycle, CNOT = 2, SWAP = 6; 1 cycle = 34 ns
   (half the measured median 2-qubit gate time on `ibm_marrakesh`).
-- `results/_scratch/` holds superseded/exploratory result files, kept for
-  transparency but not used by any paper claim.
+- `results/` holds the released result files. Each `exp_*.py` writes the file
+  named in the table above; the remaining files are supplementary diagnostics.
